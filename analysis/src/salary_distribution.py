@@ -11,36 +11,29 @@ def analyze_salary_distribution(input_path, result_path):
         print("Required columns 'Salary', 'Job Title', or 'Gender' missing.")
         return
 
-    # Filtern der Daten, um nur Männer und Frauen zu berücksichtigen
     filtered_data = data[data['Gender'].isin(['Male', 'Female'])]
 
     total_count = len(filtered_data)
     overall_median = filtered_data['Salary'].median()
 
-    # Bestimmung der untersten 10% der Gehälter innerhalb der gefilterten Daten
     lower_decile_threshold = filtered_data['Salary'].quantile(0.1)
     lower_decile_data = filtered_data[filtered_data['Salary'] <= lower_decile_threshold]
 
-    # Analyse der Geschlechterverteilung in den untersten 10% der Gehälter im Verhältnis zur Gesamtzahl der gefilterten Daten
     lower_decile_gender_distribution = lower_decile_data['Gender'].value_counts(normalize=False)
     lower_decile_gender_distribution_percentage = (lower_decile_gender_distribution / total_count) * 100
 
-    # Analyse der Geschlechterverteilung oberhalb und unterhalb des Medians im Verhältnis zur Gesamtzahl der gefilterten Daten
     above_median_data = filtered_data[filtered_data['Salary'] > overall_median]
     below_median_data = filtered_data[filtered_data['Salary'] <= overall_median]
     above_median_gender_distribution_percentage = (above_median_data['Gender'].value_counts(normalize=False) / total_count) * 100
     below_median_gender_distribution_percentage = (below_median_data['Gender'].value_counts(normalize=False) / total_count) * 100
 
-    # Formatierung der Ergebnisse
     median_info = f"Overall median salary (excluding 'Other'): {overall_median}\n\n"
     below_median_info = "Gender distribution below or equal to median salary (% of total, excluding 'Other'):\n" + below_median_gender_distribution_percentage.to_string() + "\n\n"
     above_median_info = "Gender distribution above median salary (% of total, excluding 'Other'):\n" + above_median_gender_distribution_percentage.to_string() + "\n\n"
     lower_decile_info = "Gender distribution in the lowest 10% of salaries (% of total, excluding 'Other'):\n" + lower_decile_gender_distribution_percentage.to_string() + "\n"
 
-    # Zusammenführen der Ausgabe
     output = median_info + below_median_info + above_median_info + lower_decile_info
 
-    # Sicherstellen, dass der result_path existiert
     os.makedirs(os.path.dirname(result_path), exist_ok=True)
     result_file_path = os.path.join(result_path, 'salary_distribution/salary_distribution.txt')
     with open(result_file_path, 'w') as file:
