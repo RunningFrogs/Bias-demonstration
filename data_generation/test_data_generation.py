@@ -5,6 +5,8 @@ from time import time
 from config import paths
 from data_generation import job_titles
 
+#TODO: rename file
+#TODO: add file/script for generation of ethical test data or change this script
 def generate_test_data(num_rows):
     if not os.path.exists(paths.path_prepared_training_data):
         print(f'{paths.path_prepared_training_data} does not exist.')

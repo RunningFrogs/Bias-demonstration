@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 
+#TODO: add analysis for ethical data
 
 def generate_average_values(input_path, result_path):
     if not os.path.exists(input_path):

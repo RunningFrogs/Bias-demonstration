@@ -1,0 +1,301 @@
+Age,Gender,Education Level,Job Title,Years of Experience
+29,Male,PhD,Junior Financial Advisor,10
+29,Female,PhD,Junior Financial Advisor,10
+29,Other,PhD,Junior Financial Advisor,10
+58,Male,High School,Senior Operations Analyst,42
+58,Female,High School,Senior Operations Analyst,42
+58,Other,High School,Senior Operations Analyst,42
+21,Male,Master's,Digital Marketing Manager,30
+21,Female,Master's,Digital Marketing Manager,30
+21,Other,Master's,Digital Marketing Manager,30
+62,Male,Bachelor's,Project Manager,26
+62,Female,Bachelor's,Project Manager,26
+62,Other,Bachelor's,Project Manager,26
+68,Male,Bachelor's,Data Scientist,50
+68,Female,Bachelor's,Data Scientist,50
+68,Other,Bachelor's,Data Scientist,50
+40,Male,High School,HR Manager,49
+40,Female,High School,HR Manager,49
+40,Other,High School,HR Manager,49
+27,Male,Bachelor's,Recruiter,39
+27,Female,Bachelor's,Recruiter,39
+27,Other,Bachelor's,Recruiter,39
+41,Male,Master's,Senior Product Development Manager,3
+41,Female,Master's,Senior Product Development Manager,3
+41,Other,Master's,Senior Product Development Manager,3
+58,Male,Bachelor's,Director of Sales,44
+58,Female,Bachelor's,Director of Sales,44
+58,Other,Bachelor's,Director of Sales,44
+46,Male,Master's,Sales Director,11
+46,Female,Master's,Sales Director,11
+46,Other,Master's,Sales Director,11
+62,Male,High School,UX Researcher,24
+62,Female,High School,UX Researcher,24
+62,Other,High School,UX Researcher,24
+46,Male,PhD,Product Manager,24
+46,Female,PhD,Product Manager,24
+46,Other,PhD,Product Manager,24
+34,Male,High School,Full Stack Engineer,3
+34,Female,High School,Full Stack Engineer,3
+34,Other,High School,Full Stack Engineer,3
+59,Male,High School,Senior Graphic Designer,12
+59,Female,High School,Senior Graphic Designer,12
+59,Other,High School,Senior Graphic Designer,12
+47,Male,Bachelor's,Senior Sales Representative,19
+47,Female,Bachelor's,Senior Sales Representative,19
+47,Other,Bachelor's,Senior Sales Representative,19
+34,Male,Master's,Web Developer,4
+34,Female,Master's,Web Developer,4
+34,Other,Master's,Web Developer,4
+68,Male,Master's,Senior Marketing Manager,28
+68,Female,Master's,Senior Marketing Manager,28
+68,Other,Master's,Senior Marketing Manager,28
+29,Male,Bachelor's,Director of Sales and Marketing,16
+29,Female,Bachelor's,Director of Sales and Marketing,16
+29,Other,Bachelor's,Director of Sales and Marketing,16
+30,Male,High School,Senior UX Designer,27
+30,Female,High School,Senior UX Designer,27
+30,Other,High School,Senior UX Designer,27
+52,Male,High School,Junior Marketing Specialist,20
+52,Female,High School,Junior Marketing Specialist,20
+52,Other,High School,Junior Marketing Specialist,20
+21,Male,High School,Senior Graphic Designer,49
+21,Female,High School,Senior Graphic Designer,49
+21,Other,High School,Senior Graphic Designer,49
+60,Male,Bachelor's,Operations Analyst,25
+60,Female,Bachelor's,Operations Analyst,25
+60,Other,Bachelor's,Operations Analyst,25
+37,Male,Master's,Marketing Analyst,47
+37,Female,Master's,Marketing Analyst,47
+37,Other,Master's,Marketing Analyst,47
+31,Male,Master's,Senior Human Resources Coordinator,28
+31,Female,Master's,Senior Human Resources Coordinator,28
+31,Other,Master's,Senior Human Resources Coordinator,28
+63,Male,PhD,Senior HR Specialist,17
+63,Female,PhD,Senior HR Specialist,17
+63,Other,PhD,Senior HR Specialist,17
+39,Male,Master's,Senior Project Engineer,17
+39,Female,Master's,Senior Project Engineer,17
+39,Other,Master's,Senior Project Engineer,17
+68,Male,High School,Customer Success Rep,31
+68,Female,High School,Customer Success Rep,31
+68,Other,High School,Customer Success Rep,31
+53,Male,PhD,Sales Executive,44
+53,Female,PhD,Sales Executive,44
+53,Other,PhD,Sales Executive,44
+54,Male,Master's,Director of Engineering,37
+54,Female,Master's,Director of Engineering,37
+54,Other,Master's,Director of Engineering,37
+28,Male,Bachelor's,Senior Manager,11
+28,Female,Bachelor's,Senior Manager,11
+28,Other,Bachelor's,Senior Manager,11
+27,Male,High School,Digital Content Producer,29
+27,Female,High School,Digital Content Producer,29
+27,Other,High School,Digital Content Producer,29
+35,Male,PhD,IT Support,16
+35,Female,PhD,IT Support,16
+35,Other,PhD,IT Support,16
+50,Male,High School,Public Relations Manager,1
+50,Female,High School,Public Relations Manager,1
+50,Other,High School,Public Relations Manager,1
+57,Male,High School,Director,26
+57,Female,High School,Director,26
+57,Other,High School,Director,26
+54,Male,Bachelor's,Front End Developer,38
+54,Female,Bachelor's,Front End Developer,38
+54,Other,Bachelor's,Front End Developer,38
+50,Male,Master's,Junior Accountant,12
+50,Female,Master's,Junior Accountant,12
+50,Other,Master's,Junior Accountant,12
+54,Male,Master's,Social Media Specialist,13
+54,Female,Master's,Social Media Specialist,13
+54,Other,Master's,Social Media Specialist,13
+54,Male,Bachelor's,Director of Product Management,31
+54,Female,Bachelor's,Director of Product Management,31
+54,Other,Bachelor's,Director of Product Management,31
+60,Male,High School,Director of Human Resources,25
+60,Female,High School,Director of Human Resources,25
+60,Other,High School,Director of Human Resources,25
+30,Male,Master's,HR Manager,4
+30,Female,Master's,HR Manager,4
+30,Other,Master's,HR Manager,4
+32,Male,Bachelor's,Junior Social Media Manager,18
+32,Female,Bachelor's,Junior Social Media Manager,18
+32,Other,Bachelor's,Junior Social Media Manager,18
+45,Male,PhD,Senior Product Designer,1
+45,Female,PhD,Senior Product Designer,1
+45,Other,PhD,Senior Product Designer,1
+26,Male,High School,Project Engineer,23
+26,Female,High School,Project Engineer,23
+26,Other,High School,Project Engineer,23
+48,Male,Bachelor's,Senior IT Project Manager,35
+48,Female,Bachelor's,Senior IT Project Manager,35
+48,Other,Bachelor's,Senior IT Project Manager,35
+61,Male,PhD,Junior Marketing Analyst,48
+61,Female,PhD,Junior Marketing Analyst,48
+61,Other,PhD,Junior Marketing Analyst,48
+33,Male,Bachelor's,Senior Marketing Coordinator,29
+33,Female,Bachelor's,Senior Marketing Coordinator,29
+33,Other,Bachelor's,Senior Marketing Coordinator,29
+40,Male,High School,Supply Chain Analyst,49
+40,Female,High School,Supply Chain Analyst,49
+40,Other,High School,Supply Chain Analyst,49
+28,Male,Bachelor's,Junior Copywriter,32
+28,Female,Bachelor's,Junior Copywriter,32
+28,Other,Bachelor's,Junior Copywriter,32
+46,Male,Master's,Financial Manager,47
+46,Female,Master's,Financial Manager,47
+46,Other,Master's,Financial Manager,47
+20,Male,High School,Chief Technology Officer,4
+20,Female,High School,Chief Technology Officer,4
+20,Other,High School,Chief Technology Officer,4
+20,Male,High School,Sales Associate,13
+20,Female,High School,Sales Associate,13
+20,Other,High School,Sales Associate,13
+63,Male,High School,Senior Researcher,46
+63,Female,High School,Senior Researcher,46
+63,Other,High School,Senior Researcher,46
+29,Male,High School,Junior HR Generalist,33
+29,Female,High School,Junior HR Generalist,33
+29,Other,High School,Junior HR Generalist,33
+36,Male,Bachelor's,Junior Business Operations Analyst,5
+36,Female,Bachelor's,Junior Business Operations Analyst,5
+36,Other,Bachelor's,Junior Business Operations Analyst,5
+67,Male,Bachelor's,Senior Operations Manager,29
+67,Female,Bachelor's,Senior Operations Manager,29
+67,Other,Bachelor's,Senior Operations Manager,29
+23,Male,Master's,Marketing Coordinator,14
+23,Female,Master's,Marketing Coordinator,14
+23,Other,Master's,Marketing Coordinator,14
+58,Male,High School,Junior Marketing Manager,8
+58,Female,High School,Junior Marketing Manager,8
+58,Other,High School,Junior Marketing Manager,8
+23,Male,Master's,Junior Software Engineer,7
+23,Female,Master's,Junior Software Engineer,7
+23,Other,Master's,Junior Software Engineer,7
+55,Male,Bachelor's,Senior Business Development Manager,41
+55,Female,Bachelor's,Senior Business Development Manager,41
+55,Other,Bachelor's,Senior Business Development Manager,41
+69,Male,PhD,Junior Financial Advisor,27
+69,Female,PhD,Junior Financial Advisor,27
+69,Other,PhD,Junior Financial Advisor,27
+37,Male,Master's,Junior Marketing Analyst,41
+37,Female,Master's,Junior Marketing Analyst,41
+37,Other,Master's,Junior Marketing Analyst,41
+67,Male,High School,Senior Quality Assurance Analyst,0
+67,Female,High School,Senior Quality Assurance Analyst,0
+67,Other,High School,Senior Quality Assurance Analyst,0
+22,Male,PhD,Senior Operations Analyst,41
+22,Female,PhD,Senior Operations Analyst,41
+22,Other,PhD,Senior Operations Analyst,41
+56,Male,High School,Junior Advertising Coordinator,32
+56,Female,High School,Junior Advertising Coordinator,32
+56,Other,High School,Junior Advertising Coordinator,32
+50,Male,Master's,Technical Recruiter,2
+50,Female,Master's,Technical Recruiter,2
+50,Other,Master's,Technical Recruiter,2
+51,Male,PhD,Senior Sales Manager,42
+51,Female,PhD,Senior Sales Manager,42
+51,Other,PhD,Senior Sales Manager,42
+63,Male,Master's,Customer Service Representative,14
+63,Female,Master's,Customer Service Representative,14
+63,Other,Master's,Customer Service Representative,14
+46,Male,PhD,Senior HR Manager,31
+46,Female,PhD,Senior HR Manager,31
+46,Other,PhD,Senior HR Manager,31
+70,Male,PhD,Project Manager,40
+70,Female,PhD,Project Manager,40
+70,Other,PhD,Project Manager,40
+31,Male,High School,Principal Engineer,46
+31,Female,High School,Principal Engineer,46
+31,Other,High School,Principal Engineer,46
+18,Male,High School,Sales Director,28
+18,Female,High School,Sales Director,28
+18,Other,High School,Sales Director,28
+42,Male,Master's,Content Marketing Manager,13
+42,Female,Master's,Content Marketing Manager,13
+42,Other,Master's,Content Marketing Manager,13
+35,Male,Bachelor's,Junior Marketing Analyst,42
+35,Female,Bachelor's,Junior Marketing Analyst,42
+35,Other,Bachelor's,Junior Marketing Analyst,42
+58,Male,PhD,Senior Business Development Manager,7
+58,Female,PhD,Senior Business Development Manager,7
+58,Other,PhD,Senior Business Development Manager,7
+35,Male,High School,Senior Business Analyst,47
+35,Female,High School,Senior Business Analyst,47
+35,Other,High School,Senior Business Analyst,47
+51,Male,High School,UX Designer,11
+51,Female,High School,UX Designer,11
+51,Other,High School,UX Designer,11
+59,Male,High School,Strategy Consultant,1
+59,Female,High School,Strategy Consultant,1
+59,Other,High School,Strategy Consultant,1
+29,Male,Bachelor's,Copywriter,1
+29,Female,Bachelor's,Copywriter,1
+29,Other,Bachelor's,Copywriter,1
+21,Male,Master's,Senior Account Manager,3
+21,Female,Master's,Senior Account Manager,3
+21,Other,Master's,Senior Account Manager,3
+22,Male,High School,Operations Director,35
+22,Female,High School,Operations Director,35
+22,Other,High School,Operations Director,35
+61,Male,High School,Senior Business Analyst,47
+61,Female,High School,Senior Business Analyst,47
+61,Other,High School,Senior Business Analyst,47
+57,Male,High School,Digital Marketing Specialist,19
+57,Female,High School,Digital Marketing Specialist,19
+57,Other,High School,Digital Marketing Specialist,19
+26,Male,Master's,Content Marketing Manager,32
+26,Female,Master's,Content Marketing Manager,32
+26,Other,Master's,Content Marketing Manager,32
+70,Male,High School,Product Manager,22
+70,Female,High School,Product Manager,22
+70,Other,High School,Product Manager,22
+42,Male,PhD,Administrative Assistant,48
+42,Female,PhD,Administrative Assistant,48
+42,Other,PhD,Administrative Assistant,48
+57,Male,High School,Junior Data Analyst,49
+57,Female,High School,Junior Data Analyst,49
+57,Other,High School,Junior Data Analyst,49
+46,Male,PhD,CEO,9
+46,Female,PhD,CEO,9
+46,Other,PhD,CEO,9
+64,Male,High School,Senior Product Marketing Manager,7
+64,Female,High School,Senior Product Marketing Manager,7
+64,Other,High School,Senior Product Marketing Manager,7
+45,Male,PhD,Business Development Manager,0
+45,Female,PhD,Business Development Manager,0
+45,Other,PhD,Business Development Manager,0
+31,Male,Bachelor's,Junior Research Scientist,46
+31,Female,Bachelor's,Junior Research Scientist,46
+31,Other,Bachelor's,Junior Research Scientist,46
+36,Male,PhD,Senior Human Resources Coordinator,21
+36,Female,PhD,Senior Human Resources Coordinator,21
+36,Other,PhD,Senior Human Resources Coordinator,21
+41,Male,Master's,Senior HR Specialist,45
+41,Female,Master's,Senior HR Specialist,45
+41,Other,Master's,Senior HR Specialist,45
+42,Male,Bachelor's,Product Manager,10
+42,Female,Bachelor's,Product Manager,10
+42,Other,Bachelor's,Product Manager,10
+43,Male,PhD,Receptionist,20
+43,Female,PhD,Receptionist,20
+43,Other,PhD,Receptionist,20
+36,Male,High School,Graphic Designer,38
+36,Female,High School,Graphic Designer,38
+36,Other,High School,Graphic Designer,38
+44,Male,Bachelor's,Junior Web Designer,21
+44,Female,Bachelor's,Junior Web Designer,21
+44,Other,Bachelor's,Junior Web Designer,21
+30,Male,Master's,Operations Manager,26
+30,Female,Master's,Operations Manager,26
+30,Other,Master's,Operations Manager,26
+27,Male,Bachelor's,HR Generalist,16
+27,Female,Bachelor's,HR Generalist,16
+27,Other,Bachelor's,HR Generalist,16
+39,Male,Master's,Technical Recruiter,16
+39,Female,Master's,Technical Recruiter,16
+39,Other,Master's,Technical Recruiter,16
+59,Male,PhD,Software Project Manager,29
+59,Female,PhD,Software Project Manager,29
+59,Other,PhD,Software Project Manager,29
