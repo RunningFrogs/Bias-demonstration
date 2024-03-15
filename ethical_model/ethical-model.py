@@ -1,13 +1,11 @@
 import argparse
 
-from data_preparation.src import preparation
+from data_preparation.src import ethical_training_data_preparation
 from prognosis.original_prognosis.src import interactive_prognosis, model_training, model_evaluation, \
     automated_prognosis
 from analysis.src import average_values, frequency_distribution, heatmaps, top_paid_jobs, frequency_distribution_gender, salary_distribution, lowest_paying_jobs
-from data_generation import test_data_generation
+from data_generation import test_data_adaption
 from config import paths
-
-#TODO: add ethical files and command line arguments
 
 def call_prepare_data():
     preparation.prepare_data()

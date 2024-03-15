@@ -1,6 +1,6 @@
 import argparse
 
-from data_preparation.src import preparation
+from general.data_preparation.src import training_data_preparation
 from prognosis.src import interactive_prognosis, model_training, model_evaluation, \
     automated_prognosis
 from analysis.src import average_values, frequency_distribution, heatmaps, top_paid_jobs, frequency_distribution_gender, salary_distribution, lowest_paying_jobs

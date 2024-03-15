@@ -3,16 +3,17 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from config import paths
 
-#TODO: rename file to "prepare original data"
-#TODO: add file/script for preparation of ethical data
-
-def prepare_data():
+def prepare_etical_data():
     if not os.path.exists(paths.path_unprepared_training_data):
         print(f'{paths.path_unprepared_training_data} does not exist.')
         return
 
     # Read the CSV file into a pandas DataFrame
     df = pd.read_csv(paths.path_unprepared_training_data)
+
+    # Remove the 'Gender' and 'Age' columns
+    df = df.drop(columns=['Gender', 'Age'])
+    print("Removed Attributes 'Gender' and 'Age'.")
 
     # Format education strings in the DataFrame
     df = df.replace({
@@ -29,10 +30,9 @@ def prepare_data():
     # Clean the DataFrame by removing rows with any missing values
     df = df.dropna(how='any')
 
-    # Remove decimal places
+    # Remove decimal places from 'Salary' and convert 'Years of Experience' to integers
     df['Salary'] = df['Salary'].astype(int)
     df['Years of Experience'] = df['Years of Experience'].astype(int)
-    df['Age'] = df['Age'].astype(int)
 
     # Split the data into training and evaluation datasets (80% training, 20% evaluation)
     train_data, eval_data = train_test_split(df, test_size=0.2, random_state=42)
