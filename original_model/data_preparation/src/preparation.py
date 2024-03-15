@@ -3,9 +3,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from config import paths
 
-#TODO: rename file to "prepare original data"
-#TODO: add file/script for preparation of ethical data
-
 def prepare_data():
     if not os.path.exists(paths.path_unprepared_training_data):
         print(f'{paths.path_unprepared_training_data} does not exist.')
