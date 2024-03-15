@@ -1,3 +1,6 @@
+# Logging
+logging_path = 'log.txt'
+
 ## General dataset paths
 path_unprepared_training_data = 'general/datasets/training_data/training_data_unprepared.csv'
 path_test_data_basic = 'general/datasets/test_data/test_data_basic.csv'
