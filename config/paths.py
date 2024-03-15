@@ -1,6 +1,7 @@
 ## General dataset paths
 path_unprepared_training_data = 'general/datasets/training_data/training_data_unprepared.csv'
-path_test_data_basic = 'datasets/test_data/test_data.csv'
+path_test_data_basic = 'general/datasets/test_data/test_data_basic.csv'
+path_test_data_expanded = 'general/datasets/test_data/test_data_expanded.csv'
 
 ## Original model paths
 # Datasets

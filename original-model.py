@@ -5,7 +5,7 @@ from models.original.prognosis.src import interactive_prognosis, model_training,
 from models.original.analysis.src import average_values, frequency_distribution, heatmaps, top_paid_jobs, \
                                          frequency_distribution_gender, salary_distribution, lowest_paying_jobs
 from config import paths
-from models.original.data_preparation.src.training_data_preparation import prepare_data_basic
+from general.datasets.src.training_data_preparation import prepare_data_basic
 
 # TODO: Abhängigkeiten ausarbeiten, dass Parameter nur in bestimmten Kombinationen funktionieren
 # TODO: Paths in zentrale Datei außerhalb der Modelle verwalten?
@@ -51,10 +51,6 @@ def analyze_data(args):
     frequency_distribution.generate_text_frequency_distribution(input_path, result_path)
     frequency_distribution.generate_graphic_frequency_distribution(input_path, result_path)
     frequency_distribution_gender.generate_graphic_frequency_distribution(input_path, result_path)
-
-
-def generate(num_rows):
-    test_data_generation.generate_test_data(num_rows)
 
 
 def prognose(args):
@@ -106,9 +102,6 @@ if args.analyze:
 
 if args.prognose:
     prognose(args)
-
-if args.generate:
-    generate(args.generate)
 
 if args.evaluate:
     evaluate_model()

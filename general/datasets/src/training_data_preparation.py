@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from config import paths
 
-def prepare_data_basic():
+def prepare_training_data_basic():
     if not os.path.exists(paths.path_unprepared_training_data):
         print(f'{paths.path_unprepared_training_data} does not exist.')
         return
