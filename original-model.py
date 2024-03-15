@@ -1,17 +1,17 @@
 import argparse
 
-from general.data_preparation.src import training_data_preparation
-from prognosis.src import interactive_prognosis, model_training, model_evaluation, \
+from models.original.prognosis.src import interactive_prognosis, model_training, model_evaluation, \
     automated_prognosis
-from analysis.src import average_values, frequency_distribution, heatmaps, top_paid_jobs, frequency_distribution_gender, salary_distribution, lowest_paying_jobs
-from data_generation import test_data_generation
+from models.original.analysis.src import average_values, frequency_distribution, heatmaps, top_paid_jobs, \
+                                         frequency_distribution_gender, salary_distribution, lowest_paying_jobs
 from config import paths
+from models.original.data_preparation.src.training_data_preparation import prepare_data_basic
 
 # TODO: Abhängigkeiten ausarbeiten, dass Parameter nur in bestimmten Kombinationen funktionieren
 # TODO: Paths in zentrale Datei außerhalb der Modelle verwalten?
 
 def call_prepare_data():
-    preparation.prepare_data()
+    prepare_data_basic()
 
 
 def train_model():

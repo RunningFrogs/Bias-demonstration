@@ -5,7 +5,7 @@ import pandas as pd
 from random import choice, randint, seed
 from time import time
 from config import paths
-from data_generation import job_titles
+from general.src.data_generation import job_titles
 
 def generate_base_test_data(num_rows):
     if not os.path.exists(paths.path_prepared_training_data):
