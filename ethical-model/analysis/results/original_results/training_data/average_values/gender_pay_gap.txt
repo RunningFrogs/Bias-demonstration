@@ -1,0 +1,147 @@
+Gender pay gap analysis (percentage difference):
+Senior HR Generalist Female: -23.68%
+
+Back end Developer Female: -22.23%
+Back end Developer Other: 4.13%
+
+Research Director Female: -5.88%
+
+Junior Sales Associate Female: -16.67%
+
+Software Engineer Female: 5.88%
+
+Sales Director Female: -46.43%
+
+Full Stack Engineer Female: -12.58%
+Full Stack Engineer Other: 22.69%
+
+Marketing Analyst Female: -14.29%
+
+Senior Project Engineer Female: -7.83%
+Senior Project Engineer Other: -10.21%
+
+Senior Software Engineer Female: -10.07%
+Senior Software Engineer Other: 2.56%
+
+Junior Marketing Manager Female: -18.57%
+
+Marketing Manager Female: -15.38%
+
+Data Scientist Female: 12.50%
+
+Financial Manager Female: 33.33%
+
+Software Engineer Manager Female: -10.81%
+
+Junior Marketing Specialist Female: -42.86%
+
+Data Analyst Female: -8.33%
+
+Senior Product Marketing Manager Female: 100.00%
+
+Director of Marketing Female: -38.24%
+
+Sales Associate Female: -40.00%
+
+Financial Analyst Female: 66.67%
+
+Junior Web Developer Female: -8.16%
+
+Product Manager Female: 62.50%
+
+Senior Data Scientist Female: -3.03%
+
+Digital Marketing Manager Female: 47.37%
+
+Front end Developer Female: 12.35%
+Front end Developer Other: -16.92%
+
+Sales Manager Female: 14.29%
+
+Senior Research Scientist Female: 9.43%
+
+Project Manager Female: 8.33%
+
+Senior Human Resources Manager Female: 25.00%
+
+Marketing Coordinator Female: -29.17%
+
+Software Developer Female: -8.33%
+
+Operations Manager Female: 30.73%
+
+Sales Representative Female: 14.29%
+
+Marketing Director Female: -15.79%
+
+Content Marketing Manager Female: -25.00%
+
+Junior Software Developer Female: -17.65%
+
+Director of HR Female: 8.33%
+
+Junior Software Engineer Female: -18.18%
+
+Director of Data Science Female: -4.76%
+
+Senior Financial Analyst Female: 11.11%
+
+Junior Financial Analyst Female: 0.00%
+
+Junior HR Generalist Female: -8.57%
+
+Junior Sales Representative Female: -41.18%
+
+Research Scientist Female: 13.33%
+
+Web Developer Female: -3.85%
+
+Junior HR Coordinator Female: 15.15%
+
+Senior Business Analyst Female: 44.44%
+
+Senior Marketing Specialist Female: -20.93%
+
+Graphic Designer Female: 0.00%
+
+Sales Executive Female: 0.00%
+
+Junior Operations Analyst Female: 40.00%
+
+Senior Accountant Female: -11.11%
+
+Senior Product Manager Female: 0.00%
+
+Junior Account Manager Female: 22.22%
+
+Senior Marketing Coordinator Female: 25.00%
+
+Senior Data Engineer Female: 6.67%
+
+Senior Operations Coordinator Female: 33.33%
+
+Senior Financial Manager Female: -10.00%
+
+Junior Business Development Associate Female: 33.33%
+
+Director of Operations Female: 0.00%
+
+Director of Finance Female: 5.88%
+
+Senior Project Manager Female: -14.29%
+
+Senior Project Coordinator Female: -15.79%
+
+Junior Operations Manager Female: 16.67%
+
+Junior Project Manager Female: -30.43%
+
+Junior Marketing Coordinator Female: 12.50%
+
+Business Analyst Female: 6.67%
+
+Senior Operations Manager Female: 17.07%
+
+Overall average gender pay gap across all jobs:
+Female: 1.95%
+Other: 0.45%
