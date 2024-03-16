@@ -26,7 +26,7 @@ def prognose(args):
 def call_prepare_training_data():
     training_data_adjustment.prepare_training_data_basic()
     training_data_adjustment.balance_gender()
-    training_data_adjustment.adjust_salary()
+    training_data_adjustment.adjust_salaries()
 
 
 # Initialize the parser
