@@ -38,6 +38,7 @@ def analyze_data(args):
             lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
             analyze_default(input_path, result_path)
 
+
     else:
         raise Exception("Invalid analyze arguments")
 

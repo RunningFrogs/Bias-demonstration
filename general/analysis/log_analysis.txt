@@ -460,3 +460,63 @@
 2024-03-16 16:14:02,955 - INFO - Starting to generate average values.
 2024-03-16 16:14:02,956 - INFO - Processing column: Age
 2024-03-16 16:14:02,956 - INFO - Processing column: Years of Experience
+2024-03-16 16:16:39,176 - INFO - Starting to generate average values.
+2024-03-16 16:16:39,177 - INFO - Processing column: Age
+2024-03-16 16:16:39,177 - INFO - Processing column: Years of Experience
+2024-03-16 16:20:46,027 - INFO - Starting to generate average values.
+2024-03-16 16:20:46,028 - INFO - Processing column: Age
+2024-03-16 16:20:46,028 - INFO - Processing column: Years of Experience
+2024-03-16 16:20:46,029 - INFO - Processing column: Salary
+2024-03-16 16:20:46,030 - INFO - Finished generating average values.
+2024-03-16 16:20:46,030 - INFO - Average values saved to general/analysis/results/ethical/prognosed_data/average_values/average_values.txt.
+2024-03-16 16:20:46,030 - INFO - Starting to generate average salaries.
+2024-03-16 16:20:46,031 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing.
+2024-03-16 16:20:46,031 - INFO - Starting gender pay gap analysis.
+2024-03-16 16:20:46,032 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing.
+2024-03-16 16:20:46,032 - INFO - Starting analysis of salary distribution.
+2024-03-16 16:20:46,032 - INFO - Input file models/ethical/datasets/prognosed_data/prognosed_data.csv found. Proceeding with loading data.
+2024-03-16 16:20:46,032 - INFO - Data loaded successfully.
+2024-03-16 16:20:46,032 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing. Exiting function.
+2024-03-16 16:20:46,032 - INFO - Starting text frequency distribution generation process.
+2024-03-16 16:20:46,033 - INFO - CSV file loaded successfully.
+2024-03-16 16:20:46,033 - INFO - Empty rows removed.
+2024-03-16 16:20:46,033 - INFO - Output directory general/analysis/results/ethical/prognosed_data//frequency_distribution/text/ created/verified.
+2024-03-16 16:20:46,034 - INFO - Writing distribution data to general/analysis/results/ethical/prognosed_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-16 16:20:48,365 - INFO - Starting to generate average values.
+2024-03-16 16:20:48,366 - INFO - Processing column: Age
+2024-03-16 16:20:48,366 - INFO - Processing column: Years of Experience
+2024-03-16 16:20:48,367 - INFO - Processing column: Salary
+2024-03-16 16:20:48,368 - INFO - Finished generating average values.
+2024-03-16 16:20:48,368 - INFO - Average values saved to general/analysis/results/ethical/prognosed_data/average_values/average_values.txt.
+2024-03-16 16:20:48,368 - INFO - Starting to generate average salaries.
+2024-03-16 16:20:48,369 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing.
+2024-03-16 16:20:48,369 - INFO - Starting gender pay gap analysis.
+2024-03-16 16:20:48,370 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing.
+2024-03-16 16:20:48,370 - INFO - Starting analysis of salary distribution.
+2024-03-16 16:20:48,370 - INFO - Input file models/ethical/datasets/prognosed_data/prognosed_data.csv found. Proceeding with loading data.
+2024-03-16 16:20:48,370 - INFO - Data loaded successfully.
+2024-03-16 16:20:48,370 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing. Exiting function.
+2024-03-16 16:20:48,370 - INFO - Starting text frequency distribution generation process.
+2024-03-16 16:20:48,371 - INFO - CSV file loaded successfully.
+2024-03-16 16:20:48,371 - INFO - Empty rows removed.
+2024-03-16 16:20:48,371 - INFO - Output directory general/analysis/results/ethical/prognosed_data//frequency_distribution/text/ created/verified.
+2024-03-16 16:20:48,372 - INFO - Writing distribution data to general/analysis/results/ethical/prognosed_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-16 16:20:50,005 - INFO - Starting to generate average values.
+2024-03-16 16:20:50,006 - INFO - Processing column: Age
+2024-03-16 16:20:50,006 - INFO - Processing column: Years of Experience
+2024-03-16 16:20:50,007 - INFO - Processing column: Salary
+2024-03-16 16:20:50,007 - INFO - Finished generating average values.
+2024-03-16 16:20:50,007 - INFO - Average values saved to general/analysis/results/ethical/prognosed_data/average_values/average_values.txt.
+2024-03-16 16:20:50,007 - INFO - Starting to generate average salaries.
+2024-03-16 16:20:50,008 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing.
+2024-03-16 16:20:50,008 - INFO - Starting gender pay gap analysis.
+2024-03-16 16:20:50,009 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing.
+2024-03-16 16:20:50,009 - INFO - Starting analysis of salary distribution.
+2024-03-16 16:20:50,009 - INFO - Input file models/ethical/datasets/prognosed_data/prognosed_data.csv found. Proceeding with loading data.
+2024-03-16 16:20:50,010 - INFO - Data loaded successfully.
+2024-03-16 16:20:50,010 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing. Exiting function.
+2024-03-16 16:20:50,010 - INFO - Starting text frequency distribution generation process.
+2024-03-16 16:20:50,010 - INFO - CSV file loaded successfully.
+2024-03-16 16:20:50,011 - INFO - Empty rows removed.
+2024-03-16 16:20:50,011 - INFO - Output directory general/analysis/results/ethical/prognosed_data//frequency_distribution/text/ created/verified.
+2024-03-16 16:20:50,011 - INFO - Writing distribution data to general/analysis/results/ethical/prognosed_data//frequency_distribution/text//Education Level_distribution.txt.

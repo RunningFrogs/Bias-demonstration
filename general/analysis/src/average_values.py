@@ -4,9 +4,7 @@ import logging
 from config import paths
 
 # Konfiguration des Loggings
-logging.basicConfig(filename=paths.path_log_analysis, level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-
+logging.basicConfig(filename=paths.path_log_analysis, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def generate_average_values(input_path, result_path):
     logging.info('Starting to generate average values.')
@@ -53,7 +51,6 @@ def generate_average_values(input_path, result_path):
         file.write(output)
     logging.info(f'Average values saved to {filepath}.')
 
-
 def generate_average_salaries(input_path, result_path):
     logging.info('Starting to generate average salaries.')
     if not os.path.exists(input_path):
@@ -85,8 +82,7 @@ def generate_average_salaries(input_path, result_path):
 
     logging.info('Finished processing average salaries.')
     output = "Average and median salaries by job (descending order of average salary), including gender breakdown:\n"
-    for job, (avg_salary, median_salary, gender_stats) in sorted(job_statistics.items(), key=lambda item: item[1][0],
-                                                                 reverse=True):
+    for job, (avg_salary, median_salary, gender_stats) in sorted(job_statistics.items(), key=lambda item: item[1][0], reverse=True):
         output += f"  {job}:\n"
         output += f"      Average salary: {avg_salary:.2f}\n"
         output += f"      Median salary: {median_salary:.2f}\n"
@@ -100,7 +96,6 @@ def generate_average_salaries(input_path, result_path):
     with open(salaries_filepath, 'w') as file:
         file.write(output)
     logging.info(f'Average salaries data saved to {salaries_filepath}.')
-
 
 def analyze_gender_pay_gap(input_path, result_path):
     logging.info('Starting gender pay gap analysis.')
