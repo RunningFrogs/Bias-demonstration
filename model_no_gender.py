@@ -1,13 +1,8 @@
 import argparse
 
-from models.ethical.prognosis.src import interactive_prognosis, model_training, model_evaluation, \
+from models.no_gender.prognosis.src import interactive_prognosis, model_training, model_evaluation, \
     automated_prognosis
-from models.ethical.data_preparation.src import ethical_training_data_preparation
-
-
-# TODO: Abhängigkeiten ausarbeiten, dass Parameter nur in bestimmten Kombinationen funktionieren
-# TODO: Paths in zentrale Datei außerhalb der Modelle verwalten?
-# TODO: Add comments and logging
+from models.no_gender.data_preparation.src import ethical_training_data_preparation
 
 def train_model():
     model_training.train_model()

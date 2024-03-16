@@ -5,20 +5,22 @@ from config import paths
 import logging
 
 # Set up logging
-logging.basicConfig(filename=paths.path_log_model_ethical, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=paths.path_log_model_no_gender, level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 def prognose_interactive():
     logging.info('Starting the interactive prognose process.')
 
-    if not os.path.exists(paths.path_model_ethical):
-        logging.error(f'{paths.path_model_ethical} does not exist.')
-        print(f'{paths.path_model_ethical} does not exist.')
+    if not os.path.exists(paths.path_model_no_gender):
+        logging.error(f'{paths.path_model_no_gender} does not exist.')
+        print(f'{paths.path_model_no_gender} does not exist.')
         return
     else:
-        logging.info(f'Found model at {paths.path_model_ethical}.')
+        logging.info(f'Found model at {paths.path_model_no_gender}.')
 
     # Load model
-    trained_model = load(paths.path_model_ethical)
+    trained_model = load(paths.path_model_no_gender)
     logging.info('Model loaded successfully.')
 
     # Query input data

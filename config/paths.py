@@ -27,26 +27,26 @@ path_training_metrics_original = 'models/original/prognosis/model/training_metri
 path_evaluation_metrics_original = 'models/original/prognosis/model/evaluation_metrics.txt'
 
 
-## Ethical model paths
+## Model no gender paths
 # Datasets
-path_evaluation_data_ethical = 'models/ethical/datasets/training_data/evaluation_data_ethical.csv'
-path_prognosed_data_ethical = 'models/ethical/datasets/prognosed_data/prognosed_data.csv'
+path_evaluation_data_no_gender = 'models/no_gender/datasets/training_data/evaluation_data_ethical.csv'
+path_prognosed_data_no_gender = 'models/no_gender/datasets/prognosed_data/prognosed_data.csv'
 
-path_prepared_training_data_ethical = 'models/ethical/datasets/training_data/training_data_prepared_ethical.csv'
+path_prepared_training_data_no_gender = 'models/no_gender/datasets/training_data/training_data_prepared_ethical.csv'
 
 # Analysis paths
-path_analysis_result_training_data_ethical = 'analysis/results/training_data/'
-path_analysis_result_prognosed_data_ethical = 'general/analysis/results/ethical/prognosed_data/'
+path_analysis_result_training_data_no_gender = 'analysis/results/training_data/'
+path_analysis_result_prognosed_data_no_gender = 'general/analysis/results/no_gender/prognosed_data/'
 
 # Model
-path_model_ethical = 'models/ethical/prognosis/model/model.joblib'
-path_training_metrics_ethical = 'models/ethical/prognosis/model/training_metrics.txt'
-path_evaluation_metrics_ethical = 'models/ethical/prognosis/model/evaluation_metrics.txt'
+path_model_no_gender = 'models/no_gender/prognosis/model/model.joblib'
+path_training_metrics_no_gender = 'models/no_gender/prognosis/model/training_metrics.txt'
+path_evaluation_metrics_no_gender = 'models/no_gender/prognosis/model/evaluation_metrics.txt'
 
 
 
 # Logging
 path_log_analysis = 'general/analysis/log_analysis.txt'
-path_log_model_ethical = 'models/ethical/log_ethical_model.txt'
+path_log_model_no_gender = 'models/ethical/log_model_no_gender.txt'
 path_log_model_original = 'models/original/log_original_model.txt'
 path_log_general = 'general/log_general.txt'

@@ -6,17 +6,17 @@ from config import paths
 import logging
 
 # Setup logging
-logging.basicConfig(filename=paths.path_log_model_ethical, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=paths.path_log_model_no_gender, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def evaluate_model():
     logging.info('Starting model evaluation process.')
 
     # Load model
-    model = load(paths.path_model_ethical)
+    model = load(paths.path_model_no_gender)
     logging.info('Model loaded successfully.')
 
     # Load evaluation data
-    data = pd.read_csv(paths.path_evaluation_data_ethical)
+    data = pd.read_csv(paths.path_evaluation_data_no_gender)
     logging.info('Evaluation data loaded successfully.')
     X_test = data.drop(columns=['Salary'])
     y_true = data['Salary']
@@ -39,8 +39,8 @@ def evaluate_model():
     logging.info(f"R2: {r2}, RMSE: {rmse}, RMSE in relation to average income: {rmse_ratio}")
 
     # Save metrics in text file
-    with open(paths.path_evaluation_metrics_ethical, 'w') as file:
+    with open(paths.path_evaluation_metrics_no_gender, 'w') as file:
         file.write(f"R2: {r2}\n")
         file.write(f"RMSE: {rmse}\n")
         file.write(f"RMSE in relation to average income: {rmse_ratio}\n")
-    logging.info(f'Metrics saved to {paths.path_evaluation_metrics_ethical}')
+    logging.info(f'Metrics saved to {paths.path_evaluation_metrics_no_gender}')

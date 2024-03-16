@@ -5,7 +5,7 @@ from config import paths
 import logging
 
 # Konfiguriere das Logging
-logging.basicConfig(filename=paths.path_log_model_ethical, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=paths.path_log_model_no_gender, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def prepare_etical_data():
@@ -53,9 +53,9 @@ def prepare_etical_data():
     logging.info('Split data into training and evaluation datasets.')
 
     # Write the training data to a new CSV file
-    train_data.to_csv(paths.path_prepared_training_data_ethical, index=False)
-    logging.info(f'Training data saved at {paths.path_prepared_training_data_ethical}.')
+    train_data.to_csv(paths.path_prepared_training_data_no_gender, index=False)
+    logging.info(f'Training data saved at {paths.path_prepared_training_data_no_gender}.')
 
     # Write the evaluation data to a separate CSV file
-    eval_data.to_csv(paths.path_evaluation_data_ethical, index=False)
-    logging.info(f'Evaluation data saved at {paths.path_evaluation_data_ethical}.')
+    eval_data.to_csv(paths.path_evaluation_data_no_gender, index=False)
+    logging.info(f'Evaluation data saved at {paths.path_evaluation_data_no_gender}.')

@@ -12,21 +12,21 @@ from config import paths
 import logging
 
 # Setup logging
-logging.basicConfig(filename=paths.path_log_model_ethical, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=paths.path_log_model_no_gender, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def train_model():
     logging.info('Starting model training process.')
 
-    if not os.path.exists(paths.path_prepared_training_data_ethical):
-        logging.error(f'{paths.path_prepared_training_data_ethical} does not exist.')
-        print(f'{paths.path_prepared_training_data_ethical} does not exist.')
+    if not os.path.exists(paths.path_prepared_training_data_no_gender):
+        logging.error(f'{paths.path_prepared_training_data_no_gender} does not exist.')
+        print(f'{paths.path_prepared_training_data_no_gender} does not exist.')
         return
     else:
-        logging.info(f'Found prepared training data at {paths.path_prepared_training_data_ethical}.')
+        logging.info(f'Found prepared training data at {paths.path_prepared_training_data_no_gender}.')
 
     # Load training data
-    training_data = pd.read_csv(paths.path_prepared_training_data_ethical)
+    training_data = pd.read_csv(paths.path_prepared_training_data_no_gender)
     logging.info('Training data loaded successfully.')
 
     x = training_data.drop('Salary', axis=1)
@@ -94,7 +94,7 @@ def train_model():
     print(f'RMSE in relation to average income: {rmse_ratio}')
 
     # Save metrics in text file
-    with open(paths.path_training_metrics_ethical, 'w') as file:
+    with open(paths.path_training_metrics_no_gender, 'w') as file:
         file.write(f'Best parameters: {grid_search.best_params_}\n')
         file.write(f'R²: {r2}\n')
         file.write(f'RMSE: {rmse}\n')
@@ -102,5 +102,5 @@ def train_model():
     logging.info('Metrics saved to file.')
 
     # Save model
-    dump(best_model, paths.path_model_ethical)
-    logging.info(f'Model saved to {paths.path_model_ethical}.')
+    dump(best_model, paths.path_model_no_gender)
+    logging.info(f'Model saved to {paths.path_model_no_gender}.')
