@@ -24,14 +24,13 @@ def analyze_data(args):
         if args.original:
             input_path = paths.path_prognosed_data_original
             result_path = paths.path_analysis_result_prognosed_data_original
+            heatmaps.generate_heatmaps(input_path, result_path)
+            top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
+            lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
 
         elif args.ethical:
             input_path = paths.path_prognosed_data_ethical
             result_path = paths.path_analysis_result_prognosed_data_ethical
-
-        heatmaps.generate_heatmaps(input_path, result_path)
-        top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
-        lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
 
 
     else:

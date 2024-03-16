@@ -2,6 +2,7 @@ import argparse
 
 from models.original.prognosis.src import interactive_prognosis, model_training, model_evaluation, \
     automated_prognosis
+from models.original.data_preparation.src import training_data_preparation
 
 
 # TODO: Abhängigkeiten ausarbeiten, dass Parameter nur in bestimmten Kombinationen funktionieren
@@ -26,8 +27,10 @@ def prognose(args):
     else:
         raise Exception("Invalid prognose arguments")
 
+
 def call_prepare_training_data():
     training_data_preparation.prepare_training_data_basic()
+
 
 # Initialize the parser
 parser = argparse.ArgumentParser(description="Script to call specific functions based on arguments")
@@ -54,7 +57,6 @@ if args.prognose:
 
 if args.evaluate:
     evaluate_model()
-
 
 if args.prepare:
     call_prepare_training_data()

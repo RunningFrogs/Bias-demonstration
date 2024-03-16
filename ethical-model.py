@@ -27,8 +27,10 @@ def prognose(args):
     else:
         raise Exception("Invalid prognose arguments")
 
+
 def call_prepare_training_data():
     ethical_training_data_preparation.prepare_etical_data()
+
 
 # Initialize the parser
 parser = argparse.ArgumentParser(description="Script to call specific functions based on arguments")
@@ -55,7 +57,6 @@ if args.prognose:
 
 if args.evaluate:
     evaluate_model()
-
 
 if args.prepare:
     call_prepare_training_data()
