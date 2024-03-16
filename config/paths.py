@@ -8,16 +8,21 @@ path_test_data_expanded = 'general/datasets/test_data/test_data_expanded.csv'
 path_prepared_training_data_original = 'general/datasets/training_data/training_data_prepared_original.csv'
 path_evaluation_data = 'general/datasets/training_data/evaluation_data.csv'
 path_prepare_data_original_log = 'general/datasets/log/cleanup_log.txt'
+path_prognosed_data_original = 'models/original/datasets/prognosed_data/prognosed_data.csv'
+
+# General analyze paths
+
 
 ## Original model paths
-# Datasets
-path_prognosed_data_original = 'models/original/datasets/prognosed_data/prognosed_data.csv'
+# Analyze paths
+path_analysis_result_training_data_original = 'general/analysis/results/original/training_data/'
+path_analysis_result_prognosed_data_original = 'general/analysis/results/original/prognosed_data/'
+path_analysis_result_training_data_ethical = 'analysis/results/training_data/'
+path_analysis_result_prognosed_data_ethical = 'general/analysis/results/ethical/prognosed_data/'
 
 
 # Analysis
-path_analysis_result_training_data_original = 'models/original/analysis/results/training_data/'
-path_analysis_result_test_data_original = 'models/original/analysis/results/test_data/'
-path_analysis_result_prognosed_data_original = 'models/original/analysis/results/prognosed_data/'
+path_analysis_result_test_data_original = 'general/analysis/results/test_data/'
 
 # Model
 path_model_original = 'models/original/prognosis/model/model.joblib'
@@ -26,12 +31,10 @@ path_evaluation_metrics_original = 'models/original/prognosis/model/evaluation_m
 
 ## Ethical model paths
 # Datasets
-path_prognosed_data_ethical = 'datasets/prognosed_data/prognosed_data.csv'
+path_prognosed_data_ethical = 'models/ethical/datasets/prognosed_data/prognosed_data.csv'
 
 # Analysis
-path_analysis_result_training_data_ethical = 'analysis/results/training_data/'
-path_analysis_result_test_data_ethical = 'analysis/results/test_data/'
-path_analysis_result_prognosed_data_ethical = 'analysis/results/prognosed_data/'
+
 
 # Model
 path_model_ethical = 'prognosis/model/model.joblib'

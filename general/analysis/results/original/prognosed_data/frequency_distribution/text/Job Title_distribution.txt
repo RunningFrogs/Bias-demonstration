@@ -1,0 +1,303 @@
+Value distribution for Job Title:
+
+Principal Engineer: 12 (4.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Operations Analyst: 9 (3.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Director of Sales: 9 (3.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Sales Associate: 9 (3.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Financial Advisor: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Human Resources Coordinator: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+HR Manager: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Operations Manager: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Account Manager: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Marketing Analyst: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Research Scientist: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Sales Manager: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Sales Director: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Project Coordinator: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Engineer: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Digital Content Producer: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+VP of Operations: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Office Manager: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Accountant: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Content Marketing Manager: 6 (2.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Director of Finance: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Director of Engineering: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Data Entry Clerk: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Receptionist: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Operations Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Sales Representative: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Research Scientist: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Software Project Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Creative Director: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+CEO: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Social Media Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Back end Developer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Operations Coordinator: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Business Intelligence Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Software Developer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Business Operations Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Strategy Consultant: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Accountant: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Account Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Data Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Business Development Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Customer Support Specialist: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Digital Marketing Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Project Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Help Desk Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Operations Director: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Project Engineer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Account Executive: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Account Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Accountant: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Director of Sales and Marketing: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Product Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Technical Recruiter: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Financial Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Training Specialist: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Marketing Coordinator: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Marketing Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior HR Generalist: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Quality Assurance Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Financial Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Data Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Recruiter: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Research Scientist: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Business Analyst: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Marketing Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Operations Coordinator: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Project Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Software Engineer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Junior Web Developer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Full Stack Engineer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+UX Designer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Software Developer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Product Manager: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Senior Sales Representative: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Web Developer: 3 (1.00%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+
