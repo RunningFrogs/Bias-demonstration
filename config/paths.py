@@ -3,7 +3,7 @@ path_unprepared_training_data = 'general/datasets/training_data/training_data_un
 path_test_data_basic = 'general/datasets/test_data/test_data_basic.csv'
 path_test_data_expanded = 'general/datasets/test_data/test_data_expanded.csv'
 path_evaluation_data_ethical = 'models/ethical/datasets/training_data/evaluation_data_ethical.csv'
-path_evaluation_data_original = 'models/original/datasets/trainings_data/evaluation_data_original.csv'
+path_evaluation_data_original = 'models/original/datasets/training_data/evaluation_data_original.csv'
 path_prepare_data_original_log = 'general/datasets/log/cleanup_log.txt'
 path_prognosed_data_original = 'models/original/datasets/prognosed_data/prognosed_data.csv'
 
@@ -42,3 +42,6 @@ path_evaluation_metrics_original = 'models/original/prognosis/model/evaluation_m
 path_log_analysis = 'general/analysis/log_analysis.txt'
 path_log_model_ethical = 'models/ethical/log_ethical_model.txt'
 path_log_model_original = 'models/original/log_original_model.txt'
+path_log_general = 'general/log_general.txt'
+
+path_training_data_complete_prepared_basic = 'general/datasets/training_data/training_data_prepared_basic.csv'

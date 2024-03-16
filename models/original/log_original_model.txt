@@ -1,0 +1,80 @@
+2024-03-16 15:27:35,159 - INFO - Starting the preparation of the training data.
+2024-03-16 15:27:35,166 - INFO - Unprepared training data loaded successfully.
+2024-03-16 15:27:35,167 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-16 15:27:35,243 - INFO - Education level strings formatted.
+2024-03-16 15:27:35,245 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-16 15:27:35,255 - INFO - Cleaned training dataset saved.
+2024-03-16 15:28:19,803 - INFO - Starting the preparation of the training data.
+2024-03-16 15:28:19,808 - INFO - Unprepared training data loaded successfully.
+2024-03-16 15:28:19,809 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-16 15:28:19,885 - INFO - Education level strings formatted.
+2024-03-16 15:28:19,886 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-16 15:28:19,896 - INFO - Cleaned training dataset saved.
+2024-03-16 15:29:04,921 - INFO - Starting the preparation of the training data.
+2024-03-16 15:29:04,926 - INFO - Unprepared training data loaded successfully.
+2024-03-16 15:29:04,927 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-16 15:29:05,002 - INFO - Education level strings formatted.
+2024-03-16 15:29:05,004 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-16 15:29:05,006 - INFO - Data split into training and evaluation datasets.
+2024-03-16 15:29:37,413 - INFO - Starting the preparation of the training data.
+2024-03-16 15:29:37,419 - INFO - Unprepared training data loaded successfully.
+2024-03-16 15:29:37,420 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-16 15:29:37,496 - INFO - Education level strings formatted.
+2024-03-16 15:29:37,497 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-16 15:29:37,498 - INFO - Data split into training and evaluation datasets.
+2024-03-16 15:29:37,509 - INFO - Training and evaluation datasets saved.
+2024-03-16 15:29:48,909 - INFO - Starting the preparation of the training data.
+2024-03-16 15:29:48,915 - INFO - Unprepared training data loaded successfully.
+2024-03-16 15:29:48,916 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-16 15:29:48,992 - INFO - Education level strings formatted.
+2024-03-16 15:29:48,993 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-16 15:29:48,994 - INFO - Data split into training and evaluation datasets.
+2024-03-16 15:29:49,005 - INFO - Training and evaluation datasets saved.
+2024-03-16 15:29:59,749 - INFO - Starting the preparation of the training data.
+2024-03-16 15:29:59,755 - INFO - Unprepared training data loaded successfully.
+2024-03-16 15:29:59,756 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-16 15:29:59,832 - INFO - Education level strings formatted.
+2024-03-16 15:29:59,834 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-16 15:29:59,835 - INFO - Data split into training and evaluation datasets.
+2024-03-16 15:29:59,845 - INFO - Training and evaluation datasets saved.
+2024-03-16 15:34:08,571 - INFO - Starting model evaluation.
+2024-03-16 15:34:08,617 - INFO - Model loaded successfully.
+2024-03-16 15:34:08,619 - INFO - Evaluation data loaded successfully.
+2024-03-16 15:34:08,700 - INFO - Predictions made on evaluation data.
+2024-03-16 15:34:08,701 - INFO - Metrics calculated.
+2024-03-16 15:34:08,701 - INFO - Metrics saved to models/original/prognosis/model/evaluation_metrics.txt.
+2024-03-16 15:34:46,648 - INFO - Starting the automated prognose process.
+2024-03-16 15:34:46,648 - INFO - Found test data at general/datasets/test_data/test_data_basic.csv.
+2024-03-16 15:34:46,648 - INFO - Found model at models/ethical/prognosis/model/model.joblib.
+2024-03-16 15:34:46,959 - INFO - Model loaded successfully.
+2024-03-16 15:34:46,964 - INFO - Input data loaded successfully.
+2024-03-16 15:34:46,979 - INFO - Predictions made on input data.
+2024-03-16 15:34:46,981 - INFO - Predictions saved at models/ethical/datasets/prognosed_data/prognosed_data.csv.
+2024-03-16 15:34:54,647 - INFO - Starting the automated prognose process.
+2024-03-16 15:34:54,648 - INFO - Found test data at general/datasets/test_data/test_data_basic.csv.
+2024-03-16 15:34:54,648 - INFO - Found model at models/ethical/prognosis/model/model.joblib.
+2024-03-16 15:34:54,674 - INFO - Model loaded successfully.
+2024-03-16 15:34:54,676 - INFO - Input data loaded successfully.
+2024-03-16 15:34:54,681 - INFO - Predictions made on input data.
+2024-03-16 15:34:54,682 - INFO - Predictions saved at models/ethical/datasets/prognosed_data/prognosed_data.csv.
+2024-03-16 15:35:29,326 - INFO - Starting the automated prognose process.
+2024-03-16 15:35:29,326 - INFO - Found test data at general/datasets/test_data/test_data_basic.csv.
+2024-03-16 15:35:29,326 - INFO - Found model at models/ethical/prognosis/model/model.joblib.
+2024-03-16 15:35:29,352 - INFO - Model loaded successfully.
+2024-03-16 15:35:29,353 - INFO - Input data loaded successfully.
+2024-03-16 15:35:29,359 - INFO - Predictions made on input data.
+2024-03-16 15:35:29,360 - INFO - Predictions saved at models/original/datasets/prognosed_data/prognosed_data.csv.
+2024-03-16 15:36:45,984 - INFO - Starting the automated prognose process.
+2024-03-16 15:36:45,984 - INFO - Found test data at general/datasets/test_data/test_data_basic.csv.
+2024-03-16 15:36:45,984 - INFO - Found model at models/ethical/prognosis/model/model.joblib.
+2024-03-16 15:36:46,010 - INFO - Model loaded successfully.
+2024-03-16 15:36:46,012 - INFO - Input data loaded successfully.
+2024-03-16 15:36:46,017 - INFO - Predictions made on input data.
+2024-03-16 15:36:46,019 - INFO - Predictions saved at models/original/datasets/prognosed_data/prognosed_data.csv.
+2024-03-16 15:38:15,779 - INFO - Starting the automated prognose process.
+2024-03-16 15:38:15,779 - INFO - Found test data at general/datasets/test_data/test_data_basic.csv.
+2024-03-16 15:38:15,779 - INFO - Found model at models/original/prognosis/model/model.joblib.
+2024-03-16 15:38:15,825 - INFO - Model loaded successfully.
+2024-03-16 15:38:15,827 - INFO - Input data loaded successfully.
+2024-03-16 15:38:15,836 - INFO - Predictions made on input data.
+2024-03-16 15:38:15,837 - INFO - Predictions saved at models/original/datasets/prognosed_data/prognosed_data.csv.

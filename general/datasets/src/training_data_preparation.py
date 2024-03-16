@@ -1,11 +1,10 @@
 import os
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from config import paths
 import logging
 
 # Log file configuration
-logging.basicConfig(filename=paths.path_log_model_original, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=paths.path_log_general, level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
 def prepare_training_data_basic():
     if not os.path.exists(paths.path_unprepared_training_data):
@@ -46,14 +45,8 @@ def prepare_training_data_basic():
     df['Age'] = df['Age'].astype(int)
     logging.info('Numerical fields formatted and rows with missing values removed.')
 
-    # Split the data
-    train_data, eval_data = train_test_split(df, test_size=0.2, random_state=42)
-    logging.info('Data split into training and evaluation datasets.')
+    # Save the cleaned datasets
+    df.to_csv(paths.path_training_data_complete_prepared_basic, index=False)
+    logging.info('Cleaned training dataset saved.')
 
-    # Save the datasets
-    train_data.to_csv(paths.path_prepared_training_data_original, index=False)
-    eval_data.to_csv(paths.path_evaluation_data_original, index=False)
-    logging.info('Training and evaluation datasets saved.')
-
-    print(f'Training data saved at {paths.path_prepared_training_data_original}.')
-    print(f'Evaluation data saved at {paths.path_evaluation_data_original}.')
+    print(f'Cleaned training data saved at {paths.path_training_data_complete_prepared_basic}.')

@@ -5,10 +5,6 @@ from models.original.prognosis.src import interactive_prognosis, model_training,
 from models.original.data_preparation.src import training_data_preparation
 
 
-# TODO: Abhängigkeiten ausarbeiten, dass Parameter nur in bestimmten Kombinationen funktionieren
-# TODO: Paths in zentrale Datei außerhalb der Modelle verwalten?
-# TODO: Add comments and logging
-
 def train_model():
     model_training.train_model()
 
