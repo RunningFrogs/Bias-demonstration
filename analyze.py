@@ -4,9 +4,6 @@ from general.analysis.src import frequency_distribution, lowest_paying_jobs, ave
     frequency_distribution_gender, heatmaps, salary_distribution
 from config import paths
 
-# TODO: Add comments and logging
-# TODO: Add logging
-# TODO: Add abbreviations, not only for this but for all argument files
 
 def analyze_data(args):
     if args.training:

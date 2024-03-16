@@ -1,0 +1,31 @@
+2024-03-16 15:45:31,161 - INFO - Starting to prepare ethical data.
+2024-03-16 15:45:31,161 - INFO - Found unprepared training data at general/datasets/training_data/training_data_unprepared.csv.
+2024-03-16 15:45:31,167 - INFO - Unprepared training data loaded successfully.
+2024-03-16 15:45:31,167 - INFO - Removed attributes 'Gender' and 'Age' from the data.
+2024-03-16 15:45:31,220 - INFO - Education level strings formatted successfully.
+2024-03-16 15:45:31,221 - INFO - Removed rows with missing values.
+2024-03-16 15:45:31,221 - INFO - Formatted 'Salary' and 'Years of Experience' columns.
+2024-03-16 15:45:31,222 - INFO - Split data into training and evaluation datasets.
+2024-03-16 15:45:31,229 - INFO - Training data saved at models/ethical/datasets/training_data/training_data_prepared_ethical.csv.
+2024-03-16 15:45:31,230 - INFO - Evaluation data saved at models/ethical/datasets/training_data/evaluation_data_ethical.csv.
+2024-03-16 15:45:52,905 - INFO - Starting model training process.
+2024-03-16 15:45:52,905 - INFO - Found prepared training data at models/ethical/datasets/training_data/training_data_prepared_ethical.csv.
+2024-03-16 15:45:52,908 - INFO - Training data loaded successfully.
+2024-03-16 15:45:52,909 - INFO - Training and test data split successfully.
+2024-03-16 15:45:52,909 - INFO - Preprocessor for numerical and categorical features created.
+2024-03-16 15:45:52,909 - INFO - Pipeline with preprocessor and regressor established.
+2024-03-16 15:45:52,909 - INFO - GridSearchCV parameters defined.
+2024-03-16 15:45:52,909 - INFO - GridSearchCV created and ready to fit.
+2024-03-16 15:46:52,904 - INFO - Model trained using GridSearchCV.
+2024-03-16 15:46:52,905 - INFO - Best model obtained from GridSearchCV.
+2024-03-16 15:46:52,937 - INFO - Model evaluation completed.
+2024-03-16 15:46:52,938 - INFO - Metrics calculated. R2: 0.9483085426472413, RMSE: 11960.293991356504, RMSE ratio: 0.10013082211943548
+2024-03-16 15:46:52,938 - INFO - Metrics saved to file.
+2024-03-16 15:46:52,963 - INFO - Model saved to models/ethical/prognosis/model/model.joblib.
+2024-03-16 15:47:07,281 - INFO - Starting the automated prognose process.
+2024-03-16 15:47:07,281 - INFO - Found test data at general/datasets/test_data/test_data_basic.csv.
+2024-03-16 15:47:07,281 - INFO - Found model at models/ethical/prognosis/model/model.joblib.
+2024-03-16 15:47:07,309 - INFO - Model loaded successfully.
+2024-03-16 15:47:07,310 - INFO - Input data loaded successfully.
+2024-03-16 15:47:07,316 - INFO - Predictions made on input data.
+2024-03-16 15:47:07,317 - INFO - Predictions saved at models/ethical/datasets/prognosed_data/prognosed_data.csv.
