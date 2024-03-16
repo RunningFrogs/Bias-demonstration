@@ -6,7 +6,7 @@ from config import paths
 import logging
 
 # Setup logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=paths.path_log_model_original, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def evaluate_model():
     logging.info('Starting model evaluation.')
