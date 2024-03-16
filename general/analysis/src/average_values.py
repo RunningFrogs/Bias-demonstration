@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 #TODO: add analysis for ethical data
-
+# TODO: Add comments and logging
 def generate_average_values(input_path, result_path):
     if not os.path.exists(input_path):
         print(f'{input_path} existiert nicht.')

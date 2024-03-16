@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from config import paths
 import logging
 
-
+# TODO: Add comments and logging
 def prepare_training_data_basic():
     # Log-Datei konfigurieren
     logging.basicConfig(filename=paths.logging_path, level=logging.INFO,

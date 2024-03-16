@@ -5,13 +5,13 @@ logging_path = 'log.txt'
 path_unprepared_training_data = 'general/datasets/training_data/training_data_unprepared.csv'
 path_test_data_basic = 'general/datasets/test_data/test_data_basic.csv'
 path_test_data_expanded = 'general/datasets/test_data/test_data_expanded.csv'
-path_prepared_training_data_original = 'general/datasets/training_data/training_data_prepared_original.csv'
 path_evaluation_data = 'general/datasets/training_data/evaluation_data.csv'
 path_prepare_data_original_log = 'general/datasets/log/cleanup_log.txt'
 path_prognosed_data_original = 'models/original/datasets/prognosed_data/prognosed_data.csv'
 
 # General analyze paths
-
+path_prepared_training_data_original = 'models/original/training_data/training_data_prepared_original.csv'
+path_prepared_training_data_ethical = 'models/ethical/training_data/training_data_prepared_ethical.csv'
 
 ## Original model paths
 # Analyze paths

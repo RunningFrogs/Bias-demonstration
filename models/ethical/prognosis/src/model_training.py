@@ -10,7 +10,7 @@ from sklearn.preprocessing import OneHotEncoder, RobustScaler
 from joblib import dump
 from config import paths
 
-
+# TODO: Add comments and logging
 def train_model():
     if not os.path.exists(paths.path_prepared_training_data):
         print(f'{paths.path_prepared_training_data} does not exist.')

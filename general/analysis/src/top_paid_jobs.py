@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
+# TODO: Add comments and logging
 def generate_top_paid_jobs(input_path, result_path):
     if not os.path.exists(input_path):
         print(f'{input_path} does not exist.')

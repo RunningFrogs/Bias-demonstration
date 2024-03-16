@@ -6,6 +6,7 @@ from models.original.prognosis.src import interactive_prognosis, model_training,
 
 # TODO: Abhängigkeiten ausarbeiten, dass Parameter nur in bestimmten Kombinationen funktionieren
 # TODO: Paths in zentrale Datei außerhalb der Modelle verwalten?
+# TODO: Add comments and logging
 
 def train_model():
     model_training.train_model()
@@ -25,12 +26,11 @@ def prognose(args):
     else:
         raise Exception("Invalid prognose arguments")
 
+def call_prepare_training_data():
+    training_data_preparation.prepare_training_data_basic()
 
 # Initialize the parser
 parser = argparse.ArgumentParser(description="Script to call specific functions based on arguments")
-
-# Prepare data argument
-parser.add_argument('--prepare', action='store_true', help='Prepare flag')
 
 # Train model arguments
 parser.add_argument('--train', action='store_true', help='Train model flag')
@@ -41,6 +41,7 @@ parser.add_argument('--prognose', action='store_true', help='Prognose flag')
 parser.add_argument('--interactive', action='store_true', help='Interactive flag')
 parser.add_argument('--automated', action='store_true', help='Automated data flag')
 
+parser.add_argument('--prepare', action='store_true', help='Prepare training data')
 
 # Parse the arguments
 args = parser.parse_args()
@@ -53,3 +54,7 @@ if args.prognose:
 
 if args.evaluate:
     evaluate_model()
+
+
+if args.prepare:
+    call_prepare_training_data()

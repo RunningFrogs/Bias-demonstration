@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 
+# TODO: Add comments and logging
+
 def analyze_salary_distribution(input_path, result_path):
     if not os.path.exists(input_path):
         print(f'{input_path} does not exist.')

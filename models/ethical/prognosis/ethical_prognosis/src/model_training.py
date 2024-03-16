@@ -12,7 +12,7 @@ from config import paths
 
 #TODO: remove age and gender from training
 #TODO: add feature importance
-
+# TODO: Add comments and logging
 def train_model():
     if not os.path.exists(paths.path_prepared_training_data):
         print(f'{paths.path_prepared_training_data} does not exist.')

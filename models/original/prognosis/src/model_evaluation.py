@@ -5,6 +5,7 @@ import numpy as np
 from config import paths
 
 # TODO: Metriken usw im Logfile speichern
+# TODO: Add comments and logging
 
 def evaluate_model():
     # Load model
