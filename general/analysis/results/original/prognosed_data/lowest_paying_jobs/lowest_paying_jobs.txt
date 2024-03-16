@@ -5,61 +5,61 @@ Gender
 Male      50.0
 Female    50.0
 
-Job: Junior Marketing Analyst
+Job: Junior Product Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Marketing Manager
+Job: Business Intelligence Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Account Executive
+Job: Senior Product Development Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Junior Research Scientist
+Job: Senior IT Consultant
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Creative Director
+Job: Senior HR Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Financial Analyst
+Job: Senior Software Architect
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Director of Finance
+Job: Junior Advertising Coordinator
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Software Project Manager
+Job: Director of Human Capital
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Project Coordinator
+Job: Software Engineer
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Digital Content Producer
+Job: Software Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0

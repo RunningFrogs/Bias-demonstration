@@ -1,14 +1,14 @@
-Overall median salary (excluding 'Other'): 152828.7056755334
+Overall median salary (excluding 'Other'): 151707.8111213439
 
 Gender distribution below or equal to median salary (% of total, excluding 'Other'):
 Gender
-Female    27.5
-Male      22.5
+Female    26.0
+Male      24.0
 
 Gender distribution above median salary (% of total, excluding 'Other'):
 Gender
-Male      27.5
-Female    22.5
+Male      26.0
+Female    24.0
 
 Gender distribution in the lowest 10% of salaries (% of total, excluding 'Other'):
 Gender

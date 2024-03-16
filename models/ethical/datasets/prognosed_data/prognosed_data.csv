@@ -1,101 +1,101 @@
 Age,Gender,Education Level,Job Title,Years of Experience,Salary
-63,Male,PhD,Junior Developer,43,181613.03681549695
-64,Female,Master's,Software Developer,2,62831.2584429315
-50,Other,PhD,Director of Engineering,28,191361.45798694846
-59,Female,Master's,Product Manager,40,173992.20498055735
-22,Female,Master's,Senior Human Resources Manager,17,152203.5089271758
-62,Female,Master's,Marketing Coordinator,14,139868.7232945902
-29,Male,Bachelor's,Software Engineer,1,53384.15820838769
-42,Female,Bachelor's,Junior HR Generalist,15,138511.5221034905
-31,Other,High School,Software Project Manager,26,145880.90717384356
-21,Male,PhD,Technical Support Specialist,17,176363.91931454593
-55,Female,High School,Event Coordinator,25,143783.29282673443
-57,Other,High School,Senior Marketing Coordinator,16,119695.62162123673
-66,Male,Bachelor's,Software Manager,7,101579.32225137467
-18,Male,Bachelor's,Junior Sales Representative,12,130132.87002901237
-26,Other,Bachelor's,Chief Data Officer,10,137649.75822809406
-39,Female,High School,Marketing Director,35,168977.7499440105
-49,Other,Bachelor's,Senior Marketing Coordinator,7,80187.33005443514
-40,Male,Bachelor's,Digital Content Producer,9,121052.35591855555
-65,Other,PhD,Human Resources Director,8,109849.91668967965
-50,Other,High School,Senior Data Analyst,32,141734.94514226896
-41,Female,PhD,Help Desk Analyst,37,178875.38050638427
-48,Other,High School,Social Media Specialist,42,155711.01417088276
-19,Male,Bachelor's,Senior Business Development Manager,20,158030.7876931525
-58,Other,Master's,Junior Advertising Coordinator,3,57718.84015922486
-35,Male,Master's,Senior Software Developer,10,120569.41528952117
-20,Female,High School,Junior Product Manager,1,25523.02284466381
-34,Other,Master's,Senior Marketing Manager,47,140383.88802715548
-37,Other,Master's,IT Support,8,103872.49792004171
-70,Male,PhD,UX Researcher,14,165523.61590606862
-68,Male,Bachelor's,Help Desk Analyst,3,53558.13839876373
-20,Other,PhD,Director of Human Resources,12,161066.30699977608
-52,Male,High School,IT Support,50,160094.0585214274
-39,Female,Bachelor's,Account Manager,36,167465.31553291593
-70,Male,PhD,Senior Operations Coordinator,8,107908.79747713797
-31,Female,PhD,Senior Marketing Coordinator,18,151032.30226930405
-28,Male,PhD,Back end Developer,22,191290.5837241009
-40,Other,Master's,Senior Graphic Designer,22,149222.5282874174
-66,Other,PhD,Senior Product Designer,9,118774.93123163316
-23,Female,PhD,Junior Financial Analyst,29,186019.13042415958
-34,Female,High School,Business Intelligence Analyst,1,30223.993894576775
-55,Other,High School,Graphic Designer,18,158521.79773371678
-44,Male,Bachelor's,Network Engineer,45,167465.31553291593
-46,Other,Master's,Senior IT Consultant,1,37187.54950688532
-31,Male,Master's,Project Engineer,6,90356.86661623686
-64,Female,Master's,Account Manager,20,162468.71044096502
-56,Male,Master's,Senior Manager,45,156645.38565375647
-28,Female,High School,Senior Marketing Analyst,10,100285.51345745793
-63,Female,Master's,Senior IT Project Manager,27,174095.06485698168
-34,Female,Master's,Director of Human Capital,2,50449.017865977716
-27,Male,Bachelor's,Director of Data Science,6,95533.52076364467
-41,Male,Master's,Junior Business Development Associate,19,159374.58568356847
-29,Male,Master's,Marketing Analyst,49,171000.57255516504
-19,Male,Master's,Junior Social Media Specialist,23,167783.4199903345
-53,Other,Bachelor's,Strategy Consultant,6,90356.86661623686
-22,Male,Master's,Operations Manager,31,168485.2714299182
-37,Female,High School,Director of Data Science,13,139624.2447619708
-28,Female,Bachelor's,Senior Operations Manager,39,156524.99028538045
-19,Male,High School,Customer Service Rep,25,163240.0908143417
-48,Male,High School,Junior Accountant,20,154056.63007576685
-25,Male,Bachelor's,Director of Business Development,47,163427.68137084896
-67,Female,PhD,Senior HR Manager,1,54531.344295059316
-36,Other,Bachelor's,Senior IT Project Manager,21,170091.2395477104
-18,Female,High School,Software Manager,5,79648.62603383131
-36,Female,PhD,Marketing Specialist,23,187608.32474248103
-46,Male,Bachelor's,Junior Social Media Specialist,48,161816.8754933516
-43,Other,Bachelor's,Juniour HR Coordinator,9,121649.5661641531
-45,Other,Master's,Senior Business Development Manager,12,129949.04033810644
-67,Male,PhD,Senior Consultant,49,169422.05496033016
-48,Female,Master's,Director of Sales,29,175289.03656229994
-65,Female,High School,Juniour HR Generalist,26,163337.97092255068
-24,Female,PhD,Strategy Consultant,23,187608.32474248103
-21,Other,High School,HR Manager,13,131246.042002882
-67,Female,PhD,Accountant,10,130984.20626339607
-52,Other,PhD,Product Designer,12,160765.04321555275
-35,Female,High School,Marketing Specialist,31,159659.4393733144
-32,Female,High School,Senior Product Development Manager,1,30223.993894576775
-61,Female,PhD,Junior Developer,19,187675.69800151038
-66,Other,PhD,Senior UX Designer,21,177844.5674327706
-61,Other,Bachelor's,Content Marketing Manager,37,167987.6545913372
-63,Female,High School,Senior Human Resources Specialist,14,136763.80132401767
-23,Male,High School,Juniour HR Coordinator,38,160094.0585214274
-51,Female,Master's,Senior Sales Manager,24,168048.3243902522
-61,Male,PhD,Supply Chain Analyst,37,177771.8840617809
-19,Female,High School,Copywriter,32,159659.4393733144
-66,Other,PhD,Junior Web Designer,11,150332.53724710495
-48,Female,Bachelor's,Senior Software Architect,1,45618.259479145956
-38,Other,Master's,UX Researcher,16,160884.4734511062
-49,Male,Master's,Senior Graphic Designer,6,79343.7822277673
-29,Other,High School,Senior Marketing Coordinator,18,127776.3542105833
-24,Female,Master's,Director of Operations,19,157740.91740506806
-31,Female,Master's,Office Manager,49,132938.3327520296
-42,Other,PhD,Digital Content Producer,29,189588.32580504252
-46,Other,High School,Account Manager,29,164496.99406392942
-20,Female,PhD,Senior HR Specialist,27,190899.6403974666
-62,Male,Master's,Product Designer,0,50154.35747879931
-63,Male,Bachelor's,Sales Operations Manager,36,167465.31553291593
-51,Female,High School,Front End Developer,10,124340.74669290711
-39,Other,Bachelor's,Product Designer,7,100767.51680596366
-55,Other,Master's,Software Developer,48,161465.65001893463
-35,Other,High School,Research Scientist,50,168708.37499444225
+63,Male,PhD,Junior Developer,43,183529.1260537455
+64,Female,Master's,Software Developer,2,45987.497986439535
+50,Other,PhD,Director of Engineering,28,189269.7174000947
+59,Female,Master's,Product Manager,40,172867.76232220538
+22,Female,Master's,Senior Human Resources Manager,17,152819.90910525754
+62,Female,Master's,Marketing Coordinator,14,132952.99999504068
+29,Male,Bachelor's,Software Engineer,1,42941.08392247797
+42,Female,Bachelor's,Junior HR Generalist,15,139993.3082198293
+31,Other,High School,Software Project Manager,26,147834.1338730283
+21,Male,PhD,Technical Support Specialist,17,121942.00163709105
+55,Female,High School,Event Coordinator,25,140776.76349492063
+57,Other,High School,Senior Marketing Coordinator,16,130271.24086573992
+66,Male,Bachelor's,Software Manager,7,86348.24285506498
+18,Male,Bachelor's,Junior Sales Representative,12,154042.13853201753
+26,Other,Bachelor's,Chief Data Officer,10,183600.29783896884
+39,Female,High School,Marketing Director,35,162331.85581787254
+49,Other,Bachelor's,Senior Marketing Coordinator,7,74299.21354255725
+40,Male,Bachelor's,Digital Content Producer,9,109394.43869689114
+65,Other,PhD,Human Resources Director,8,86000.762043184
+50,Other,High School,Senior Data Analyst,32,149023.5692236551
+41,Female,PhD,Help Desk Analyst,37,168130.42609100012
+48,Other,High School,Social Media Specialist,42,160125.44891201056
+19,Male,Bachelor's,Senior Business Development Manager,20,162249.4365721966
+58,Other,Master's,Junior Advertising Coordinator,3,44730.838247478976
+35,Male,Master's,Senior Software Developer,10,116374.6906821885
+20,Female,High School,Junior Product Manager,1,24768.142537678028
+34,Other,Master's,Senior Marketing Manager,47,149428.20458699294
+37,Other,Master's,IT Support,8,90317.29523192975
+70,Male,PhD,UX Researcher,14,173337.79466851312
+68,Male,Bachelor's,Help Desk Analyst,3,40675.040135984746
+20,Other,PhD,Director of Human Resources,12,130101.2508192758
+52,Male,High School,IT Support,50,174515.55889093183
+39,Female,Bachelor's,Account Manager,36,165076.2055296027
+70,Male,PhD,Senior Operations Coordinator,8,102077.74224094089
+31,Female,PhD,Senior Marketing Coordinator,18,145121.02498387205
+28,Male,PhD,Back end Developer,22,154345.84958833628
+40,Other,Master's,Senior Graphic Designer,22,127021.53794190446
+66,Other,PhD,Senior Product Designer,9,100145.51160136245
+23,Female,PhD,Junior Financial Analyst,29,119229.26762521367
+34,Female,High School,Business Intelligence Analyst,1,29514.651302611725
+55,Other,High School,Graphic Designer,18,159478.34242009112
+44,Male,Bachelor's,Network Engineer,45,177382.0828838612
+46,Other,Master's,Senior IT Consultant,1,35605.34471024694
+31,Male,Master's,Project Engineer,6,92996.3425089777
+64,Female,Master's,Account Manager,20,153546.03998840746
+56,Male,Master's,Senior Manager,45,179338.10041509356
+28,Female,High School,Senior Marketing Analyst,10,156735.23090777936
+63,Female,Master's,Senior IT Project Manager,27,162418.6931396541
+34,Female,Master's,Director of Human Capital,2,46248.03574858787
+27,Male,Bachelor's,Director of Data Science,6,104593.15839617419
+41,Male,Master's,Junior Business Development Associate,19,170837.36764770816
+29,Male,Master's,Marketing Analyst,49,168217.31874779874
+19,Male,Master's,Junior Social Media Specialist,23,165528.52932961483
+53,Other,Bachelor's,Strategy Consultant,6,81150.47626244975
+22,Male,Master's,Operations Manager,31,165424.7824172006
+37,Female,High School,Director of Data Science,13,149976.99070184794
+28,Female,Bachelor's,Senior Operations Manager,39,162877.38514124163
+19,Male,High School,Customer Service Rep,25,162326.39049029848
+48,Male,High School,Junior Accountant,20,152298.19950643083
+25,Male,Bachelor's,Director of Business Development,47,165458.16765706718
+67,Female,PhD,Senior HR Manager,1,35949.0929243461
+36,Other,Bachelor's,Senior IT Project Manager,21,158520.5699965252
+18,Female,High School,Software Manager,5,85337.58007907256
+36,Female,PhD,Marketing Specialist,23,158656.87260096252
+46,Male,Bachelor's,Junior Social Media Specialist,48,176352.0451823109
+43,Other,Bachelor's,Juniour HR Coordinator,9,107340.19290984205
+45,Other,Master's,Senior Business Development Manager,12,121259.67930969685
+67,Male,PhD,Senior Consultant,49,174585.0348429947
+48,Female,Master's,Director of Sales,29,173372.4246709045
+65,Female,High School,Juniour HR Generalist,26,148326.31506346288
+24,Female,PhD,Strategy Consultant,23,164231.9362298983
+21,Other,High School,HR Manager,13,151016.20766100305
+67,Female,PhD,Accountant,10,107146.93282625181
+52,Other,PhD,Product Designer,12,148432.30896925877
+35,Female,High School,Marketing Specialist,31,158673.15332600332
+32,Female,High School,Senior Product Development Manager,1,29464.395279875276
+61,Female,PhD,Junior Developer,19,188701.45529904575
+66,Other,PhD,Senior UX Designer,21,166565.20285412838
+61,Other,Bachelor's,Content Marketing Manager,37,170271.19459263832
+63,Female,High School,Senior Human Resources Specialist,14,125500.50214190016
+23,Male,High School,Juniour HR Coordinator,38,165613.52718013508
+51,Female,Master's,Senior Sales Manager,24,161704.8432105186
+61,Male,PhD,Supply Chain Analyst,37,173701.45409332655
+19,Female,High School,Copywriter,32,160434.10154622886
+66,Other,PhD,Junior Web Designer,11,125823.84378258364
+48,Female,Bachelor's,Senior Software Architect,1,36345.3878012582
+38,Other,Master's,UX Researcher,16,164442.59585227963
+49,Male,Master's,Senior Graphic Designer,6,72834.62383093167
+29,Other,High School,Senior Marketing Coordinator,18,140186.6105055395
+24,Female,Master's,Director of Operations,19,159495.94299444515
+31,Female,Master's,Office Manager,49,128730.66341267503
+42,Other,PhD,Digital Content Producer,29,166131.93198569692
+46,Other,High School,Account Manager,29,169659.11401325683
+20,Female,PhD,Senior HR Specialist,27,121277.4247855563
+62,Male,Master's,Product Designer,0,35585.88816959649
+63,Male,Bachelor's,Sales Operations Manager,36,179755.56692133704
+51,Female,High School,Front End Developer,10,115687.32658661027
+39,Other,Bachelor's,Product Designer,7,84432.68720447939
+55,Other,Master's,Software Developer,48,176622.96637619004
+35,Other,High School,Research Scientist,50,170583.54533831857

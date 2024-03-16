@@ -10,12 +10,12 @@ logging.basicConfig(filename=paths.path_log_model_original, level=logging.INFO, 
 def prognose_automated():
     logging.info('Starting the automated prognose process.')
 
-    if not os.path.exists(paths.path_test_data_basic):
-        logging.error(f'{paths.path_test_data_basic} does not exist.')
-        print(f'{paths.path_test_data_basic} does not exist.')
+    if not os.path.exists(paths.path_test_data_expanded):
+        logging.error(f'{paths.path_test_data_expanded} does not exist.')
+        print(f'{paths.path_test_data_expanded} does not exist.')
         return
     else:
-        logging.info(f'Found test data at {paths.path_test_data_basic}.')
+        logging.info(f'Found test data at {paths.path_test_data_expanded}.')
 
     if not os.path.exists(paths.path_model_original):
         logging.error(f'{paths.path_model_original} does not exist.')
@@ -29,7 +29,7 @@ def prognose_automated():
     logging.info('Model loaded successfully.')
 
     # Load input data from CSV
-    input_data = pd.read_csv(paths.path_test_data_basic)
+    input_data = pd.read_csv(paths.path_test_data_expanded)
     logging.info('Input data loaded successfully.')
 
     # Predict on input data
@@ -40,6 +40,6 @@ def prognose_automated():
     input_data['Salary'] = predicted_salaries
 
     # Save the DataFrame with the predictions to a new CSV file
-    input_data.to_csv(paths.path_prognosed_data_ethical, index=False)
+    input_data.to_csv(paths.path_prognosed_data_original, index=False)
     logging.info(f'Predictions saved at {paths.path_prognosed_data_original}.')
     print(f'Predictions saved at {paths.path_prognosed_data_original}.')
