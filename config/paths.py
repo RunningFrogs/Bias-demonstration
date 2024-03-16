@@ -44,7 +44,9 @@ path_evaluation_metrics_no_gender = 'models/no_gender/prognosis/model/evaluation
 # Datasets
 path_evaluation_data_adjusted = 'models/adjusted/datasets/training_data/evaluation_data_ethical.csv'
 path_prognosed_data_adjusted = 'models/no_gender/datasets/prognosed_data/prognosed_data.csv'
-path_prepared_training_data_adjusted = 'models/adjusted/datasets/training_data/training_data_prepared_ethical.csv'
+path_prepared_training_data_adjusted_basic = 'models/adjusted/datasets/training_data/training_data_adjusted_prepared_basic.csv'
+path_prepared_training_data_balanced_gender = 'models/adjusted/datasets/training_data/training_data_balanced_gender.csv'
+path_prepared_training_data_adjusted_salaries = 'models/adjusted/datasets/training_data/training_data_adjusted_salaries.csv'
 
 # Analysis paths
 path_analysis_result_training_data_adjusted = 'gemeral/analysis/results/adjusted/training_data/'

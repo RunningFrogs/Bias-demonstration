@@ -2,7 +2,7 @@ import argparse
 
 from models.adjusted.prognosis.src import interactive_prognosis, model_training, model_evaluation, \
     automated_prognosis
-from models.adjusted.data_preparation.src import ethical_training_data_preparation
+from models.adjusted.data_preparation.src import training_data_adjustment
 
 def train_model():
     model_training.train_model()
@@ -24,7 +24,9 @@ def prognose(args):
 
 
 def call_prepare_training_data():
-    ethical_training_data_preparation.prepare_etical_data()
+    training_data_adjustment.prepare_training_data_basic()
+    training_data_adjustment.balance_gender()
+    training_data_adjustment.adjust_salary()
 
 
 # Initialize the parser
