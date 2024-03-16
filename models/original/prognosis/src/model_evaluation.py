@@ -4,10 +4,11 @@ from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 from config import paths
 
+# TODO: Metriken usw im Logfile speichern
 
 def evaluate_model():
     # Load model
-    model = load(paths.path_model)
+    model = load(paths.path_model_original)
 
     # Load evaluation data
     data = pd.read_csv(paths.path_evaluation_data)
@@ -29,7 +30,7 @@ def evaluate_model():
     print(f"RMSE in relation to average income: {rmse_ratio}")
 
     # Save metrics in text file
-    with open(paths.path_evaluation_metrics, 'w') as file:
+    with open(paths.path_evaluation_metrics_original, 'w') as file:
         file.write(f"R2: {r2}\n")
         file.write(f"RMSE: {rmse}\n")
         file.write(f"RMSE in relation to average income: {rmse_ratio}\n")

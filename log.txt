@@ -42,3 +42,15 @@
 6455  36.0    Male  Bachelor's Degree       Sales Director                  6.0       NaN
 2024-03-15 17:33:56,826:INFO:Training data prepared and saved at general/datasets/training_data/training_data_prepared_original.csv.
 2024-03-15 17:33:56,826:INFO:Evaluation data prepared and saved at general/datasets/training_data/evaluation_data.csv.
+2024-03-16 09:22:31,978:INFO:Starting data preparation.
+2024-03-16 09:22:32,007:INFO:Removing rows due to missing data: 
+       Age  Gender    Education Level            Job Title  Years of Experience    Salary
+172    NaN     NaN                NaN                  NaN                  NaN       NaN
+260    NaN     NaN                NaN                  NaN                  NaN       NaN
+2011  27.0    Male                NaN            Developer                  7.0  100000.0
+3136  31.0    Male    Master's Degree  Full Stack Engineer                  8.0       NaN
+5247  26.0  Female  Bachelor's Degree             Social M                  NaN       NaN
+6455  36.0    Male  Bachelor's Degree       Sales Director                  6.0       NaN
+2024-03-16 09:22:32,096:INFO:Training data and evaluation data splitted.
+2024-03-16 09:22:32,121:INFO:Training data prepared and saved at general/datasets/training_data/training_data_prepared_original.csv.
+2024-03-16 09:22:32,121:INFO:Evaluation data prepared and saved at general/datasets/training_data/evaluation_data.csv.

@@ -11,20 +11,18 @@ path_prepare_data_original_log = 'general/datasets/log/cleanup_log.txt'
 
 ## Original model paths
 # Datasets
-path_prognosed_data_original = 'datasets/prognosed_data/prognosed_data.csv'
-
-
+path_prognosed_data_original = 'models/original/datasets/prognosed_data/prognosed_data.csv'
 
 
 # Analysis
-path_analysis_result_training_data_original = 'analysis/results/training_data/'
-path_analysis_result_test_data_original = 'analysis/results/test_data/'
-path_analysis_result_prognosed_data_original = 'analysis/results/prognosed_data/'
+path_analysis_result_training_data_original = 'models/original/analysis/results/training_data/'
+path_analysis_result_test_data_original = 'models/original/analysis/results/test_data/'
+path_analysis_result_prognosed_data_original = 'models/original/analysis/results/prognosed_data/'
 
 # Model
-path_model_original = 'prognosis/model/model.joblib'
-path_training_metrics_original = 'prognosis/model/training_metrics.txt'
-path_evaluation_metrics_original = 'prognosis/model/evaluation_metrics.txt'
+path_model_original = 'models/original/prognosis/model/model.joblib'
+path_training_metrics_original = 'models/original/prognosis/model/training_metrics.txt'
+path_evaluation_metrics_original = 'models/original/prognosis/model/evaluation_metrics.txt'
 
 ## Ethical model paths
 # Datasets

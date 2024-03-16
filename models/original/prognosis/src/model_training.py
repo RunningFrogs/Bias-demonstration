@@ -12,12 +12,12 @@ from config import paths
 
 
 def train_model():
-    if not os.path.exists(paths.path_prepared_training_data):
-        print(f'{paths.path_prepared_training_data} does not exist.')
+    if not os.path.exists(paths.path_prepared_training_data_original):
+        print(f'{paths.path_prepared_training_data_original} does not exist.')
         return
 
     # Load training data
-    training_data = pd.read_csv(paths.path_prepared_training_data)
+    training_data = pd.read_csv(paths.path_prepared_training_data_original)
 
     x = training_data.drop('Salary', axis=1)
     y = training_data['Salary']
@@ -76,11 +76,11 @@ def train_model():
     print(f'RMSE in relation to average income: {rmse_ratio}')
 
     # Save metrics in text file
-    with open(paths.path_training_metrics, 'w') as file:
+    with open(paths.path_training_metrics_original, 'w') as file:
         file.write(f'Best parameters: {grid_search.best_params_}\n')
         file.write(f'R²: {r2}\n')
         file.write(f'RMSE: {rmse}\n')
         file.write(f'RMSE in relation to average income: {rmse_ratio}\n')
 
     # Save model
-    dump(best_model, paths.path_model)
+    dump(best_model, paths.path_model_original)

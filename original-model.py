@@ -5,14 +5,9 @@ from models.original.prognosis.src import interactive_prognosis, model_training,
 from models.original.analysis.src import average_values, frequency_distribution, heatmaps, top_paid_jobs, \
                                          frequency_distribution_gender, salary_distribution, lowest_paying_jobs
 from config import paths
-from general.datasets.src.training_data_preparation import prepare_data_basic
 
 # TODO: Abhängigkeiten ausarbeiten, dass Parameter nur in bestimmten Kombinationen funktionieren
 # TODO: Paths in zentrale Datei außerhalb der Modelle verwalten?
-
-def call_prepare_data():
-    prepare_data_basic()
-
 
 def train_model():
     model_training.train_model()
@@ -24,19 +19,19 @@ def evaluate_model():
 
 def analyze_data(args):
     if args.training:
-        input_path = paths.path_prepared_training_data
-        result_path = paths.path_analysis_result_training_data
+        input_path = paths.path_prepared_training_data_original
+        result_path = paths.path_analysis_result_training_data_original
         heatmaps.generate_heatmaps(input_path, result_path)
         top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
         lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
 
     elif args.test:
-        input_path = paths.path_test_data
-        result_path = paths.path_analysis_result_test_data
+        input_path = paths.path_test_data_expanded
+        result_path = paths.path_analysis_result_test_data_original
 
     elif args.prognosis:
-        input_path = paths.path_prognosed_data
-        result_path = paths.path_analysis_result_prognosed_data
+        input_path = paths.path_prognosed_data_original
+        result_path = paths.path_analysis_result_prognosed_data_original
         heatmaps.generate_heatmaps(input_path, result_path)
         top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
         lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
