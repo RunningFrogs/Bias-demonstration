@@ -29,3 +29,48 @@
 2024-03-16 15:47:07,310 - INFO - Input data loaded successfully.
 2024-03-16 15:47:07,316 - INFO - Predictions made on input data.
 2024-03-16 15:47:07,317 - INFO - Predictions saved at models/ethical/datasets/prognosed_data/prognosed_data.csv.
+2024-03-16 16:05:45,638 - INFO - Starting to prepare ethical data.
+2024-03-16 16:05:45,638 - INFO - Found unprepared training data at general/datasets/training_data/training_data_unprepared.csv.
+2024-03-16 16:05:45,643 - INFO - Unprepared training data loaded successfully.
+2024-03-16 16:05:45,643 - INFO - Removed attributes 'Gender' and 'Age' from the data.
+2024-03-16 16:05:45,696 - INFO - Education level strings formatted successfully.
+2024-03-16 16:05:45,697 - INFO - Removed rows with missing values.
+2024-03-16 16:05:45,698 - INFO - Formatted 'Salary' and 'Years of Experience' columns.
+2024-03-16 16:05:45,699 - INFO - Split data into training and evaluation datasets.
+2024-03-16 16:05:45,705 - INFO - Training data saved at models/ethical/datasets/training_data/training_data_prepared_ethical.csv.
+2024-03-16 16:05:45,707 - INFO - Evaluation data saved at models/ethical/datasets/training_data/evaluation_data_ethical.csv.
+2024-03-16 16:05:50,663 - INFO - Starting model training process.
+2024-03-16 16:05:50,663 - INFO - Found prepared training data at models/ethical/datasets/training_data/training_data_prepared_ethical.csv.
+2024-03-16 16:05:50,667 - INFO - Training data loaded successfully.
+2024-03-16 16:05:50,668 - INFO - Training and test data split successfully.
+2024-03-16 16:05:50,668 - INFO - Preprocessor for numerical and categorical features created.
+2024-03-16 16:05:50,668 - INFO - Pipeline with preprocessor and regressor established.
+2024-03-16 16:05:50,668 - INFO - GridSearchCV parameters defined.
+2024-03-16 16:05:50,668 - INFO - GridSearchCV created and ready to fit.
+2024-03-16 16:06:46,628 - INFO - Model trained using GridSearchCV.
+2024-03-16 16:06:46,628 - INFO - Best model obtained from GridSearchCV.
+2024-03-16 16:06:46,660 - INFO - Model evaluation completed.
+2024-03-16 16:06:46,661 - INFO - Metrics calculated. R2: 0.9483085426472413, RMSE: 11960.293991356504, RMSE ratio: 0.10013082211943548
+2024-03-16 16:06:46,661 - INFO - Metrics saved to file.
+2024-03-16 16:06:46,686 - INFO - Model saved to models/ethical/prognosis/model/model.joblib.
+2024-03-16 16:07:09,798 - INFO - Starting the automated prognose process.
+2024-03-16 16:07:09,798 - INFO - Found test data at general/datasets/test_data/test_data_basic.csv.
+2024-03-16 16:07:09,798 - INFO - Found model at models/ethical/prognosis/model/model.joblib.
+2024-03-16 16:07:09,824 - INFO - Model loaded successfully.
+2024-03-16 16:07:09,825 - INFO - Input data loaded successfully.
+2024-03-16 16:07:09,831 - INFO - Predictions made on input data.
+2024-03-16 16:07:09,832 - INFO - Predictions saved at models/ethical/datasets/prognosed_data/prognosed_data.csv.
+2024-03-16 16:10:31,971 - INFO - Starting the automated prognose process.
+2024-03-16 16:10:31,971 - INFO - Found test data at general/datasets/test_data/test_data_basic.csv.
+2024-03-16 16:10:31,971 - INFO - Found model at models/ethical/prognosis/model/model.joblib.
+2024-03-16 16:10:31,998 - INFO - Model loaded successfully.
+2024-03-16 16:10:31,999 - INFO - Input data loaded successfully.
+2024-03-16 16:10:32,005 - INFO - Predictions made on input data.
+2024-03-16 16:10:32,006 - INFO - Predictions saved at models/ethical/datasets/prognosed_data/prognosed_data.csv.
+2024-03-16 16:13:30,385 - INFO - Starting the automated prognose process.
+2024-03-16 16:13:30,385 - INFO - Found test data at general/datasets/test_data/test_data_without_gender.csv.
+2024-03-16 16:13:30,385 - INFO - Found model at models/ethical/prognosis/model/model.joblib.
+2024-03-16 16:13:30,412 - INFO - Model loaded successfully.
+2024-03-16 16:13:30,413 - INFO - Input data loaded successfully.
+2024-03-16 16:13:30,419 - INFO - Predictions made on input data.
+2024-03-16 16:13:30,420 - INFO - Predictions saved at models/ethical/datasets/prognosed_data/prognosed_data.csv.

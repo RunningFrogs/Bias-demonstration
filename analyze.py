@@ -38,12 +38,6 @@ def analyze_data(args):
             lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
             analyze_default(input_path, result_path)
 
-        elif args.ethical:
-            input_path = paths.path_prognosed_data_ethical
-            result_path = paths.path_analysis_result_prognosed_data_ethical
-            analyze_default(input_path, result_path)
-
-
     else:
         raise Exception("Invalid analyze arguments")
 

@@ -6,6 +6,7 @@ from general.datasets.src import test_data_generation, training_data_preparation
 def call_generate_data(num_rows):
     test_data_generation.generate_basic_test_data(num_rows)
     test_data_generation.expand_test_datas()
+    test_data_generation.remove_gender_age_and_age()
 
 def call_prepare_training_data():
     training_data_preparation.prepare_training_data_basic()

@@ -3,6 +3,7 @@
 path_unprepared_training_data = 'general/datasets/training_data/training_data_unprepared.csv'
 path_test_data_basic = 'general/datasets/test_data/test_data_basic.csv'
 path_test_data_expanded = 'general/datasets/test_data/test_data_expanded.csv'
+path_test_data_without_gender = 'general/datasets/test_data/test_data_without_gender.csv'
 path_training_data_complete_prepared_basic = 'general/datasets/training_data/training_data_prepared_basic.csv'
 
 # Analysis

@@ -5,17 +5,19 @@ import logging
 from config import paths
 
 # Set up logging
-logging.basicConfig(filename=paths.path_log_model_ethical, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=paths.path_log_model_ethical, level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 def prognose_automated():
     logging.info('Starting the automated prognose process.')
 
-    if not os.path.exists(paths.path_test_data_basic):
-        logging.error(f'{paths.path_test_data_basic} does not exist.')
-        print(f'{paths.path_test_data_basic} does not exist.')
+    if not os.path.exists(paths.path_test_data_without_gender):
+        logging.error(f'{paths.path_test_data_without_gender} does not exist.')
+        print(f'{paths.path_test_data_without_gender} does not exist.')
         return
     else:
-        logging.info(f'Found test data at {paths.path_test_data_basic}.')
+        logging.info(f'Found test data at {paths.path_test_data_without_gender}.')
 
     if not os.path.exists(paths.path_model_ethical):
         logging.error(f'{paths.path_model_ethical} does not exist.')
@@ -29,7 +31,7 @@ def prognose_automated():
     logging.info('Model loaded successfully.')
 
     # Load input data from CSV
-    input_data = pd.read_csv(paths.path_test_data_basic)
+    input_data = pd.read_csv(paths.path_test_data_without_gender)
     logging.info('Input data loaded successfully.')
 
     # Predict on input data
