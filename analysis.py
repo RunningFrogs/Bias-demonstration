@@ -1,8 +1,8 @@
 import argparse
 
+from config import paths
 from general.analysis.src import frequency_distribution, lowest_paying_jobs, average_values, top_paid_jobs, \
     frequency_distribution_gender, heatmaps, salary_distribution
-from config import paths
 
 
 def analyze_default(input_path, result_path):
@@ -37,9 +37,6 @@ def analyze_training(args):
 def analyze_test(args):
     input_path = paths.path_test_data_expanded
     result_path = paths.path_analysis_result_test_data_original
-    heatmaps.generate_heatmaps(input_path, result_path)
-    top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
-    lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
     analyze_default(input_path, result_path)
 
 def analyze_prognosis(args):
@@ -51,7 +48,7 @@ def analyze_prognosis(args):
         lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
         analyze_default(input_path, result_path)
 
-    elif args.adjusted(args):
+    elif args.adjusted:
         input_path = paths.path_prognosed_data_adjusted
         result_path = paths.path_analysis_result_prognosed_data_adjusted
         heatmaps.generate_heatmaps(input_path, result_path)

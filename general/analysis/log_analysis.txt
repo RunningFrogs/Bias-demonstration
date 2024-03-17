@@ -2027,3 +2027,621 @@
 2024-03-17 09:20:24,874 - INFO - Creating boxplots for Salary.
 2024-03-17 09:20:24,957 - INFO - Plot saved for Salary at general/analysis/results/adjusted/prognosed_data/frequency_distribution_gender/Salary.
 2024-03-17 09:20:24,957 - INFO - Completed the generation of graphic frequency distributions.
+2024-03-17 10:18:09,696 - INFO - Starting the heatmap generation process.
+2024-03-17 10:18:09,697 - INFO - Input path general/datasets/test_data/test_data_expanded.csv exists. Continuing with process.
+2024-03-17 10:18:09,697 - INFO - Loading data from general/datasets/test_data/test_data_expanded.csv.
+2024-03-17 10:18:09,698 - INFO - Translating gender values to German.
+2024-03-17 10:18:09,698 - INFO - Grouping data by Education Level and Gender.
+2024-03-17 10:18:09,699 - INFO - Calculating median salary across all individuals.
+2024-03-17 10:20:06,444 - INFO - Starting the heatmap generation process.
+2024-03-17 10:20:17,844 - INFO - Starting the heatmap generation process.
+2024-03-17 10:20:17,844 - INFO - Input path general/datasets/test_data/test_data_expanded.csv exists. Continuing with process.
+2024-03-17 10:20:17,844 - INFO - Loading data from general/datasets/test_data/test_data_expanded.csv.
+2024-03-17 10:20:17,845 - INFO - Translating gender values to German.
+2024-03-17 10:20:17,846 - INFO - Grouping data by Education Level and Gender.
+2024-03-17 10:20:17,846 - INFO - Calculating median salary across all individuals.
+2024-03-17 10:20:58,889 - INFO - Starting analysis of salary distribution.
+2024-03-17 10:20:58,889 - INFO - Input file general/datasets/test_data/test_data_expanded.csv found. Proceeding with loading data.
+2024-03-17 10:20:58,890 - INFO - Data loaded successfully.
+2024-03-17 10:20:58,890 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing. Exiting function.
+2024-03-17 10:20:58,890 - INFO - Starting text frequency distribution generation process.
+2024-03-17 10:20:58,891 - INFO - CSV file loaded successfully.
+2024-03-17 10:20:58,891 - INFO - Empty rows removed.
+2024-03-17 10:20:58,892 - INFO - "Salary" column not found, removed from the dataframe.
+2024-03-17 10:20:58,892 - INFO - Output directory general/analysis/results/test_data//frequency_distribution/text/ created/verified.
+2024-03-17 10:20:58,892 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Age_distribution.txt.
+2024-03-17 10:20:58,892 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Gender_distribution.txt.
+2024-03-17 10:20:58,892 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-17 10:20:58,901 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Job Title_distribution.txt.
+2024-03-17 10:20:59,036 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Years of Experience_distribution.txt.
+2024-03-17 10:20:59,036 - INFO - Text frequency distribution generation process completed.
+2024-03-17 10:20:59,036 - INFO - Starting graphic frequency distribution generation process.
+2024-03-17 10:20:59,036 - INFO - general/datasets/test_data/test_data_expanded.csv found, proceeding with processing.
+2024-03-17 10:20:59,037 - INFO - CSV file loaded successfully.
+2024-03-17 10:20:59,037 - INFO - Gender values translated to German.
+2024-03-17 10:20:59,037 - INFO - "Salary" column not found, removed from translations.
+2024-03-17 10:20:59,256 - INFO - Histogram created for Age.
+2024-03-17 10:20:59,341 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Age_distribution.png saved successfully.
+2024-03-17 10:20:59,356 - INFO - Bar chart created for Gender.
+2024-03-17 10:20:59,417 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Gender_distribution.png saved successfully.
+2024-03-17 10:20:59,434 - INFO - Bar chart created for Education Level.
+2024-03-17 10:20:59,494 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Education Level_distribution.png saved successfully.
+2024-03-17 10:20:59,580 - INFO - Bar chart created for Job Title.
+2024-03-17 10:20:59,812 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Job Title_distribution.png saved successfully.
+2024-03-17 10:20:59,838 - INFO - Histogram created for Years of Experience.
+2024-03-17 10:20:59,906 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Years of Experience_distribution.png saved successfully.
+2024-03-17 10:20:59,906 - INFO - Graphic frequency distribution generation process completed.
+2024-03-17 10:20:59,906 - INFO - Starting the generation of graphic frequency distributions.
+2024-03-17 10:20:59,906 - INFO - Input path general/datasets/test_data/test_data_expanded.csv exists. Continuing with process.
+2024-03-17 10:20:59,908 - INFO - CSV file successfully loaded.
+2024-03-17 10:20:59,909 - INFO - Gender values translated according to the provided dictionary.
+2024-03-17 10:20:59,909 - INFO - Graphic path general/analysis/results/test_data/frequency_distribution/graphic created or already exists.
+2024-03-17 10:20:59,909 - INFO - Creating plots for Age.
+2024-03-17 10:20:59,911 - INFO - Creating bar charts for Age.
+2024-03-17 10:21:00,161 - INFO - Plot saved for Age at general/analysis/results/test_data/frequency_distribution_gender/Age.
+2024-03-17 10:21:00,161 - INFO - Creating plots for Gender.
+2024-03-17 10:21:00,163 - INFO - No specific plot type set for Gender, skipping.
+2024-03-17 10:21:00,163 - INFO - Creating plots for Education Level.
+2024-03-17 10:21:00,164 - INFO - Creating bar charts for Education Level.
+2024-03-17 10:21:00,257 - INFO - Plot saved for Education Level at general/analysis/results/test_data/frequency_distribution_gender/Education Level.
+2024-03-17 10:21:00,257 - INFO - Creating plots for Job Title.
+2024-03-17 10:21:00,258 - INFO - No specific plot type set for Job Title, skipping.
+2024-03-17 10:21:00,258 - INFO - Creating plots for Years of Experience.
+2024-03-17 10:21:00,260 - INFO - Creating boxplots for Years of Experience.
+2024-03-17 10:21:00,337 - INFO - Plot saved for Years of Experience at general/analysis/results/test_data/frequency_distribution_gender/Years of Experience.
+2024-03-17 10:21:00,337 - INFO - Completed the generation of graphic frequency distributions.
+2024-03-17 10:26:33,519 - INFO - Starting analysis of salary distribution.
+2024-03-17 10:26:33,519 - INFO - Input file general/datasets/test_data/test_data_expanded.csv found. Proceeding with loading data.
+2024-03-17 10:26:33,520 - INFO - Data loaded successfully.
+2024-03-17 10:26:33,520 - ERROR - Required columns 'Salary', 'Job Title', or 'Gender' missing. Exiting function.
+2024-03-17 10:26:33,520 - INFO - Starting text frequency distribution generation process.
+2024-03-17 10:26:33,521 - INFO - CSV file loaded successfully.
+2024-03-17 10:26:33,521 - INFO - Empty rows removed.
+2024-03-17 10:26:33,522 - INFO - "Salary" column not found, removed from the dataframe.
+2024-03-17 10:26:33,522 - INFO - Output directory general/analysis/results/test_data//frequency_distribution/text/ created/verified.
+2024-03-17 10:26:33,522 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Age_distribution.txt.
+2024-03-17 10:26:33,522 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Gender_distribution.txt.
+2024-03-17 10:26:33,523 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-17 10:26:33,532 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Job Title_distribution.txt.
+2024-03-17 10:26:33,680 - INFO - Writing distribution data to general/analysis/results/test_data//frequency_distribution/text//Years of Experience_distribution.txt.
+2024-03-17 10:26:33,680 - INFO - Text frequency distribution generation process completed.
+2024-03-17 10:26:33,680 - INFO - Starting graphic frequency distribution generation process.
+2024-03-17 10:26:33,680 - INFO - general/datasets/test_data/test_data_expanded.csv found, proceeding with processing.
+2024-03-17 10:26:33,681 - INFO - CSV file loaded successfully.
+2024-03-17 10:26:33,682 - INFO - Gender values translated to German.
+2024-03-17 10:26:33,682 - INFO - "Salary" column not found, removed from translations.
+2024-03-17 10:26:33,922 - INFO - Histogram created for Age.
+2024-03-17 10:26:34,013 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Age_distribution.png saved successfully.
+2024-03-17 10:26:34,030 - INFO - Bar chart created for Gender.
+2024-03-17 10:26:34,096 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Gender_distribution.png saved successfully.
+2024-03-17 10:26:34,113 - INFO - Bar chart created for Education Level.
+2024-03-17 10:26:34,178 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Education Level_distribution.png saved successfully.
+2024-03-17 10:26:34,270 - INFO - Bar chart created for Job Title.
+2024-03-17 10:26:34,519 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Job Title_distribution.png saved successfully.
+2024-03-17 10:26:34,547 - INFO - Histogram created for Years of Experience.
+2024-03-17 10:26:34,619 - INFO - general/analysis/results/test_data/frequency_distribution/graphic/Years of Experience_distribution.png saved successfully.
+2024-03-17 10:26:34,619 - INFO - Graphic frequency distribution generation process completed.
+2024-03-17 10:26:34,619 - INFO - Starting the generation of graphic frequency distributions.
+2024-03-17 10:26:34,619 - INFO - Input path general/datasets/test_data/test_data_expanded.csv exists. Continuing with process.
+2024-03-17 10:26:34,621 - INFO - CSV file successfully loaded.
+2024-03-17 10:26:34,622 - INFO - Gender values translated according to the provided dictionary.
+2024-03-17 10:26:34,622 - INFO - Graphic path general/analysis/results/test_data/frequency_distribution/graphic created or already exists.
+2024-03-17 10:26:34,622 - INFO - Creating plots for Age.
+2024-03-17 10:26:34,624 - INFO - Creating bar charts for Age.
+2024-03-17 10:26:34,886 - INFO - Plot saved for Age at general/analysis/results/test_data/frequency_distribution_gender/Age.
+2024-03-17 10:26:34,886 - INFO - Creating plots for Gender.
+2024-03-17 10:26:34,888 - INFO - No specific plot type set for Gender, skipping.
+2024-03-17 10:26:34,888 - INFO - Creating plots for Education Level.
+2024-03-17 10:26:34,889 - INFO - Creating bar charts for Education Level.
+2024-03-17 10:26:34,987 - INFO - Plot saved for Education Level at general/analysis/results/test_data/frequency_distribution_gender/Education Level.
+2024-03-17 10:26:34,988 - INFO - Creating plots for Job Title.
+2024-03-17 10:26:34,989 - INFO - No specific plot type set for Job Title, skipping.
+2024-03-17 10:26:34,989 - INFO - Creating plots for Years of Experience.
+2024-03-17 10:26:34,991 - INFO - Creating boxplots for Years of Experience.
+2024-03-17 10:26:35,072 - INFO - Plot saved for Years of Experience at general/analysis/results/test_data/frequency_distribution_gender/Years of Experience.
+2024-03-17 10:26:35,072 - INFO - Completed the generation of graphic frequency distributions.
+2024-03-17 10:33:45,635 - INFO - Starting the heatmap generation process.
+2024-03-17 10:33:45,635 - INFO - Input path models/original/datasets/prognosed_data/prognosed_data.csv exists. Continuing with process.
+2024-03-17 10:33:45,635 - INFO - Loading data from models/original/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 10:33:45,637 - INFO - Translating gender values to German.
+2024-03-17 10:33:45,637 - INFO - Grouping data by Education Level and Gender.
+2024-03-17 10:33:45,637 - INFO - Calculating median salary across all individuals.
+2024-03-17 10:33:45,638 - INFO - Creating heatmap for the percentage of individuals earning above the median salary.
+2024-03-17 10:33:45,974 - INFO - Percentage heatmap saved to general/analysis/results/original/prognosed_data//heatmaps/percentage_above_median.png.
+2024-03-17 10:33:45,974 - INFO - Creating heatmap for the median incomes by Education Level and Gender.
+2024-03-17 10:33:46,091 - INFO - Median income heatmap saved to general/analysis/results/original/prognosed_data//heatmaps/median_income.png.
+2024-03-17 10:33:46,091 - INFO - Heatmap generation process completed.
+2024-03-17 10:33:46,091 - INFO - Starting to generate charts for top paid jobs.
+2024-03-17 10:33:46,091 - INFO - Input file models/original/datasets/prognosed_data/prognosed_data.csv found. Proceeding with data loading.
+2024-03-17 10:33:46,093 - INFO - Data loaded successfully.
+2024-03-17 10:33:46,094 - INFO - Translated gender labels to German.
+2024-03-17 10:33:46,095 - INFO - Filtered job titles where more than 10 people are employed.
+2024-03-17 10:33:46,096 - INFO - Identified top 10 highest-paid job titles.
+2024-03-17 10:33:46,097 - INFO - Calculated gender distribution in the top 10 highest-paid job titles.
+2024-03-17 10:33:46,209 - INFO - Generated heatmap for percentage gender distribution.
+2024-03-17 10:33:46,325 - INFO - Generated heatmap for absolute gender distribution.
+2024-03-17 10:33:46,325 - INFO - Completed generating charts for top paid jobs.
+2024-03-17 10:33:46,325 - INFO - Starting analysis of lowest paying jobs.
+2024-03-17 10:33:46,325 - INFO - Input path models/original/datasets/prognosed_data/prognosed_data.csv found. Proceeding with data loading.
+2024-03-17 10:33:46,326 - INFO - Data loaded successfully.
+2024-03-17 10:33:46,327 - INFO - Filtered data to include only Male and Female genders.
+2024-03-17 10:33:46,327 - INFO - Calculated median salaries and sorted them.
+2024-03-17 10:33:46,327 - INFO - Identified the 10 lowest paying jobs.
+2024-03-17 10:33:46,327 - INFO - Filtered data for the 10 lowest paying jobs.
+2024-03-17 10:33:46,328 - INFO - Calculated total gender distribution for the 10 lowest paying jobs.
+2024-03-17 10:33:46,329 - INFO - Processed gender distribution for Junior Business Operations Analyst.
+2024-03-17 10:33:46,330 - INFO - Processed gender distribution for Senior Business Analyst.
+2024-03-17 10:33:46,331 - INFO - Processed gender distribution for Senior Project Coordinator.
+2024-03-17 10:33:46,331 - INFO - Processed gender distribution for Director of HR.
+2024-03-17 10:33:46,332 - INFO - Processed gender distribution for Chief Data Officer.
+2024-03-17 10:33:46,333 - INFO - Processed gender distribution for VP of Finance.
+2024-03-17 10:33:46,333 - INFO - Processed gender distribution for Software Engineer Manager.
+2024-03-17 10:33:46,334 - INFO - Processed gender distribution for Senior Accountant.
+2024-03-17 10:33:46,335 - INFO - Processed gender distribution for Senior Product Marketing Manager.
+2024-03-17 10:33:46,335 - INFO - Processed gender distribution for Senior Scientist.
+2024-03-17 10:33:46,335 - INFO - Result path general/analysis/results/original/prognosed_data/ created or already exists.
+2024-03-17 10:33:46,335 - INFO - Results written to general/analysis/results/original/prognosed_data/lowest_paying_jobs/lowest_paying_jobs.txt.
+2024-03-17 10:33:46,336 - INFO - Analysis of lowest paying jobs completed successfully.
+2024-03-17 10:33:46,525 - INFO - Starting analysis of salary distribution.
+2024-03-17 10:33:46,525 - INFO - Input file models/original/datasets/prognosed_data/prognosed_data.csv found. Proceeding with loading data.
+2024-03-17 10:33:46,526 - INFO - Data loaded successfully.
+2024-03-17 10:33:46,526 - INFO - Data filtered by gender (excluding 'Other').
+2024-03-17 10:33:46,527 - INFO - Calculated overall median salary: 157691.3655351561.
+2024-03-17 10:33:46,527 - INFO - Analyzed lower decile salary distribution.
+2024-03-17 10:33:46,528 - INFO - Calculated gender distribution for salary ranges.
+2024-03-17 10:33:46,529 - INFO - Salary distribution analysis saved to general/analysis/results/original/prognosed_data/salary_distribution/salary_distribution.txt.
+2024-03-17 10:33:46,529 - INFO - Salary distribution analysis completed successfully.
+2024-03-17 10:33:46,529 - INFO - Starting text frequency distribution generation process.
+2024-03-17 10:33:46,530 - INFO - CSV file loaded successfully.
+2024-03-17 10:33:46,531 - INFO - Empty rows removed.
+2024-03-17 10:33:46,531 - INFO - Output directory general/analysis/results/original/prognosed_data//frequency_distribution/text/ created/verified.
+2024-03-17 10:33:46,531 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Age_distribution.txt.
+2024-03-17 10:33:46,531 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Gender_distribution.txt.
+2024-03-17 10:33:46,532 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-17 10:33:46,541 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Job Title_distribution.txt.
+2024-03-17 10:33:46,704 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Years of Experience_distribution.txt.
+2024-03-17 10:33:46,704 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Salary_distribution.txt.
+2024-03-17 10:33:46,705 - INFO - Text frequency distribution generation process completed.
+2024-03-17 10:33:46,706 - INFO - Starting graphic frequency distribution generation process.
+2024-03-17 10:33:46,706 - INFO - models/original/datasets/prognosed_data/prognosed_data.csv found, proceeding with processing.
+2024-03-17 10:33:46,707 - INFO - CSV file loaded successfully.
+2024-03-17 10:33:46,708 - INFO - Gender values translated to German.
+2024-03-17 10:33:46,749 - INFO - Histogram created for Age.
+2024-03-17 10:33:46,831 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Age_distribution.png saved successfully.
+2024-03-17 10:33:46,847 - INFO - Bar chart created for Gender.
+2024-03-17 10:33:46,912 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Gender_distribution.png saved successfully.
+2024-03-17 10:33:46,929 - INFO - Bar chart created for Education Level.
+2024-03-17 10:33:46,994 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Education Level_distribution.png saved successfully.
+2024-03-17 10:33:47,085 - INFO - Bar chart created for Job Title.
+2024-03-17 10:33:47,332 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Job Title_distribution.png saved successfully.
+2024-03-17 10:33:47,360 - INFO - Histogram created for Years of Experience.
+2024-03-17 10:33:47,432 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Years of Experience_distribution.png saved successfully.
+2024-03-17 10:33:47,460 - INFO - Histogram created for Salary.
+2024-03-17 10:33:47,543 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Salary_distribution.png saved successfully.
+2024-03-17 10:33:47,543 - INFO - Graphic frequency distribution generation process completed.
+2024-03-17 10:33:47,543 - INFO - Starting the generation of graphic frequency distributions.
+2024-03-17 10:33:47,543 - INFO - Input path models/original/datasets/prognosed_data/prognosed_data.csv exists. Continuing with process.
+2024-03-17 10:33:47,545 - INFO - CSV file successfully loaded.
+2024-03-17 10:33:47,545 - INFO - Gender values translated according to the provided dictionary.
+2024-03-17 10:33:47,545 - INFO - Graphic path general/analysis/results/original/prognosed_data/frequency_distribution/graphic created or already exists.
+2024-03-17 10:33:47,545 - INFO - Creating plots for Age.
+2024-03-17 10:33:47,547 - INFO - Creating bar charts for Age.
+2024-03-17 10:33:47,868 - INFO - Plot saved for Age at general/analysis/results/original/prognosed_data/frequency_distribution_gender/Age.
+2024-03-17 10:33:47,868 - INFO - Creating plots for Gender.
+2024-03-17 10:33:47,870 - INFO - No specific plot type set for Gender, skipping.
+2024-03-17 10:33:47,870 - INFO - Creating plots for Education Level.
+2024-03-17 10:33:47,871 - INFO - Creating bar charts for Education Level.
+2024-03-17 10:33:47,971 - INFO - Plot saved for Education Level at general/analysis/results/original/prognosed_data/frequency_distribution_gender/Education Level.
+2024-03-17 10:33:47,971 - INFO - Creating plots for Job Title.
+2024-03-17 10:33:47,973 - INFO - No specific plot type set for Job Title, skipping.
+2024-03-17 10:33:47,973 - INFO - Creating plots for Years of Experience.
+2024-03-17 10:33:47,975 - INFO - Creating boxplots for Years of Experience.
+2024-03-17 10:33:48,058 - INFO - Plot saved for Years of Experience at general/analysis/results/original/prognosed_data/frequency_distribution_gender/Years of Experience.
+2024-03-17 10:33:48,058 - INFO - Creating plots for Salary.
+2024-03-17 10:33:48,060 - INFO - Creating boxplots for Salary.
+2024-03-17 10:33:48,146 - INFO - Plot saved for Salary at general/analysis/results/original/prognosed_data/frequency_distribution_gender/Salary.
+2024-03-17 10:33:48,146 - INFO - Completed the generation of graphic frequency distributions.
+2024-03-17 10:34:37,813 - INFO - Starting the heatmap generation process.
+2024-03-17 10:34:37,813 - INFO - Input path models/original/datasets/training_data/training_data_prepared_original.csv exists. Continuing with process.
+2024-03-17 10:34:37,813 - INFO - Loading data from models/original/datasets/training_data/training_data_prepared_original.csv.
+2024-03-17 10:34:37,817 - INFO - Translating gender values to German.
+2024-03-17 10:34:37,818 - INFO - Grouping data by Education Level and Gender.
+2024-03-17 10:34:37,818 - INFO - Calculating median salary across all individuals.
+2024-03-17 10:34:37,818 - INFO - Creating heatmap for the percentage of individuals earning above the median salary.
+2024-03-17 10:34:38,150 - INFO - Percentage heatmap saved to general/analysis/results/original/training_data//heatmaps/percentage_above_median.png.
+2024-03-17 10:34:38,150 - INFO - Creating heatmap for the median incomes by Education Level and Gender.
+2024-03-17 10:34:38,270 - INFO - Median income heatmap saved to general/analysis/results/original/training_data//heatmaps/median_income.png.
+2024-03-17 10:34:38,270 - INFO - Heatmap generation process completed.
+2024-03-17 10:34:38,270 - INFO - Starting to generate charts for top paid jobs.
+2024-03-17 10:34:38,270 - INFO - Input file models/original/datasets/training_data/training_data_prepared_original.csv found. Proceeding with data loading.
+2024-03-17 10:34:38,277 - INFO - Data loaded successfully.
+2024-03-17 10:34:38,278 - INFO - Translated gender labels to German.
+2024-03-17 10:34:38,279 - INFO - Filtered job titles where more than 10 people are employed.
+2024-03-17 10:34:38,281 - INFO - Identified top 10 highest-paid job titles.
+2024-03-17 10:34:38,283 - INFO - Calculated gender distribution in the top 10 highest-paid job titles.
+2024-03-17 10:34:38,440 - INFO - Generated heatmap for percentage gender distribution.
+2024-03-17 10:34:38,597 - INFO - Generated heatmap for absolute gender distribution.
+2024-03-17 10:34:38,597 - INFO - Completed generating charts for top paid jobs.
+2024-03-17 10:34:38,597 - INFO - Starting analysis of lowest paying jobs.
+2024-03-17 10:34:38,597 - INFO - Input path models/original/datasets/training_data/training_data_prepared_original.csv found. Proceeding with data loading.
+2024-03-17 10:34:38,600 - INFO - Data loaded successfully.
+2024-03-17 10:34:38,600 - INFO - Filtered data to include only Male and Female genders.
+2024-03-17 10:34:38,601 - INFO - Calculated median salaries and sorted them.
+2024-03-17 10:34:38,601 - INFO - Identified the 10 lowest paying jobs.
+2024-03-17 10:34:38,602 - INFO - Filtered data for the 10 lowest paying jobs.
+2024-03-17 10:34:38,602 - INFO - Calculated total gender distribution for the 10 lowest paying jobs.
+2024-03-17 10:34:38,603 - INFO - Processed gender distribution for Junior Business Operations Analyst.
+2024-03-17 10:34:38,604 - INFO - Processed gender distribution for Receptionist.
+2024-03-17 10:34:38,605 - INFO - Processed gender distribution for Junior Sales Associate.
+2024-03-17 10:34:38,606 - INFO - Processed gender distribution for Delivery Driver.
+2024-03-17 10:34:38,607 - INFO - Processed gender distribution for Sales Associate.
+2024-03-17 10:34:38,608 - INFO - Processed gender distribution for Customer Service Representative.
+2024-03-17 10:34:38,609 - INFO - Processed gender distribution for Juniour HR Coordinator.
+2024-03-17 10:34:38,610 - INFO - Processed gender distribution for Junior HR Generalist.
+2024-03-17 10:34:38,610 - INFO - Processed gender distribution for Junior HR Coordinator.
+2024-03-17 10:34:38,611 - INFO - Processed gender distribution for Help Desk Analyst.
+2024-03-17 10:34:38,611 - INFO - Result path general/analysis/results/original/training_data/ created or already exists.
+2024-03-17 10:34:38,611 - INFO - Results written to general/analysis/results/original/training_data/lowest_paying_jobs/lowest_paying_jobs.txt.
+2024-03-17 10:34:38,611 - INFO - Analysis of lowest paying jobs completed successfully.
+2024-03-17 10:34:38,993 - INFO - Starting analysis of salary distribution.
+2024-03-17 10:34:38,993 - INFO - Input file models/original/datasets/training_data/training_data_prepared_original.csv found. Proceeding with loading data.
+2024-03-17 10:34:38,997 - INFO - Data loaded successfully.
+2024-03-17 10:34:38,998 - INFO - Data filtered by gender (excluding 'Other').
+2024-03-17 10:34:38,998 - INFO - Calculated overall median salary: 115000.0.
+2024-03-17 10:34:38,999 - INFO - Analyzed lower decile salary distribution.
+2024-03-17 10:34:39,001 - INFO - Calculated gender distribution for salary ranges.
+2024-03-17 10:34:39,001 - INFO - Salary distribution analysis saved to general/analysis/results/original/training_data/salary_distribution/salary_distribution.txt.
+2024-03-17 10:34:39,001 - INFO - Salary distribution analysis completed successfully.
+2024-03-17 10:34:39,002 - INFO - Starting text frequency distribution generation process.
+2024-03-17 10:34:39,006 - INFO - CSV file loaded successfully.
+2024-03-17 10:34:39,007 - INFO - Empty rows removed.
+2024-03-17 10:34:39,008 - INFO - Output directory general/analysis/results/original/training_data//frequency_distribution/text/ created/verified.
+2024-03-17 10:34:39,009 - INFO - Writing distribution data to general/analysis/results/original/training_data//frequency_distribution/text//Age_distribution.txt.
+2024-03-17 10:34:39,010 - INFO - Writing distribution data to general/analysis/results/original/training_data//frequency_distribution/text//Gender_distribution.txt.
+2024-03-17 10:34:39,010 - INFO - Writing distribution data to general/analysis/results/original/training_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-17 10:34:39,029 - INFO - Writing distribution data to general/analysis/results/original/training_data//frequency_distribution/text//Job Title_distribution.txt.
+2024-03-17 10:34:39,436 - INFO - Writing distribution data to general/analysis/results/original/training_data//frequency_distribution/text//Years of Experience_distribution.txt.
+2024-03-17 10:34:39,437 - INFO - Writing distribution data to general/analysis/results/original/training_data//frequency_distribution/text//Salary_distribution.txt.
+2024-03-17 10:34:39,438 - INFO - Text frequency distribution generation process completed.
+2024-03-17 10:34:39,438 - INFO - Starting graphic frequency distribution generation process.
+2024-03-17 10:34:39,438 - INFO - models/original/datasets/training_data/training_data_prepared_original.csv found, proceeding with processing.
+2024-03-17 10:34:39,441 - INFO - CSV file loaded successfully.
+2024-03-17 10:34:39,442 - INFO - Gender values translated to German.
+2024-03-17 10:34:39,483 - INFO - Histogram created for Age.
+2024-03-17 10:34:39,557 - INFO - general/analysis/results/original/training_data/frequency_distribution/graphic/Age_distribution.png saved successfully.
+2024-03-17 10:34:39,573 - INFO - Bar chart created for Gender.
+2024-03-17 10:34:39,633 - INFO - general/analysis/results/original/training_data/frequency_distribution/graphic/Gender_distribution.png saved successfully.
+2024-03-17 10:34:39,650 - INFO - Bar chart created for Education Level.
+2024-03-17 10:34:39,709 - INFO - general/analysis/results/original/training_data/frequency_distribution/graphic/Education Level_distribution.png saved successfully.
+2024-03-17 10:34:39,891 - INFO - Bar chart created for Job Title.
+2024-03-17 10:34:40,369 - INFO - general/analysis/results/original/training_data/frequency_distribution/graphic/Job Title_distribution.png saved successfully.
+2024-03-17 10:34:40,399 - INFO - Histogram created for Years of Experience.
+2024-03-17 10:34:40,479 - INFO - general/analysis/results/original/training_data/frequency_distribution/graphic/Years of Experience_distribution.png saved successfully.
+2024-03-17 10:34:40,509 - INFO - Histogram created for Salary.
+2024-03-17 10:34:40,589 - INFO - general/analysis/results/original/training_data/frequency_distribution/graphic/Salary_distribution.png saved successfully.
+2024-03-17 10:34:40,590 - INFO - Graphic frequency distribution generation process completed.
+2024-03-17 10:34:40,590 - INFO - Starting the generation of graphic frequency distributions.
+2024-03-17 10:34:40,590 - INFO - Input path models/original/datasets/training_data/training_data_prepared_original.csv exists. Continuing with process.
+2024-03-17 10:34:40,594 - INFO - CSV file successfully loaded.
+2024-03-17 10:34:40,594 - INFO - Gender values translated according to the provided dictionary.
+2024-03-17 10:34:40,594 - INFO - Graphic path general/analysis/results/original/training_data/frequency_distribution/graphic created or already exists.
+2024-03-17 10:34:40,594 - INFO - Creating plots for Age.
+2024-03-17 10:34:40,596 - INFO - Creating bar charts for Age.
+2024-03-17 10:34:40,838 - INFO - Plot saved for Age at general/analysis/results/original/training_data/frequency_distribution_gender/Age.
+2024-03-17 10:34:40,838 - INFO - Creating plots for Gender.
+2024-03-17 10:34:40,841 - INFO - No specific plot type set for Gender, skipping.
+2024-03-17 10:34:40,841 - INFO - Creating plots for Education Level.
+2024-03-17 10:34:40,842 - INFO - Creating bar charts for Education Level.
+2024-03-17 10:34:40,933 - INFO - Plot saved for Education Level at general/analysis/results/original/training_data/frequency_distribution_gender/Education Level.
+2024-03-17 10:34:40,933 - INFO - Creating plots for Job Title.
+2024-03-17 10:34:40,935 - INFO - No specific plot type set for Job Title, skipping.
+2024-03-17 10:34:40,935 - INFO - Creating plots for Years of Experience.
+2024-03-17 10:34:40,937 - INFO - Creating boxplots for Years of Experience.
+2024-03-17 10:34:41,027 - INFO - Plot saved for Years of Experience at general/analysis/results/original/training_data/frequency_distribution_gender/Years of Experience.
+2024-03-17 10:34:41,027 - INFO - Creating plots for Salary.
+2024-03-17 10:34:41,029 - INFO - Creating boxplots for Salary.
+2024-03-17 10:34:41,111 - INFO - Plot saved for Salary at general/analysis/results/original/training_data/frequency_distribution_gender/Salary.
+2024-03-17 10:34:41,111 - INFO - Completed the generation of graphic frequency distributions.
+2024-03-17 10:35:25,764 - INFO - Starting the heatmap generation process.
+2024-03-17 10:35:25,764 - INFO - Input path models/original/datasets/prognosed_data/prognosed_data.csv exists. Continuing with process.
+2024-03-17 10:35:25,765 - INFO - Loading data from models/original/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 10:35:25,766 - INFO - Translating gender values to German.
+2024-03-17 10:35:25,766 - INFO - Grouping data by Education Level and Gender.
+2024-03-17 10:35:25,767 - INFO - Calculating median salary across all individuals.
+2024-03-17 10:35:25,767 - INFO - Creating heatmap for the percentage of individuals earning above the median salary.
+2024-03-17 10:35:26,102 - INFO - Percentage heatmap saved to general/analysis/results/original/prognosed_data//heatmaps/percentage_above_median.png.
+2024-03-17 10:35:26,102 - INFO - Creating heatmap for the median incomes by Education Level and Gender.
+2024-03-17 10:35:26,219 - INFO - Median income heatmap saved to general/analysis/results/original/prognosed_data//heatmaps/median_income.png.
+2024-03-17 10:35:26,219 - INFO - Heatmap generation process completed.
+2024-03-17 10:35:26,219 - INFO - Starting to generate charts for top paid jobs.
+2024-03-17 10:35:26,219 - INFO - Input file models/original/datasets/prognosed_data/prognosed_data.csv found. Proceeding with data loading.
+2024-03-17 10:35:26,221 - INFO - Data loaded successfully.
+2024-03-17 10:35:26,223 - INFO - Translated gender labels to German.
+2024-03-17 10:35:26,224 - INFO - Filtered job titles where more than 10 people are employed.
+2024-03-17 10:35:26,225 - INFO - Identified top 10 highest-paid job titles.
+2024-03-17 10:35:26,227 - INFO - Calculated gender distribution in the top 10 highest-paid job titles.
+2024-03-17 10:35:26,337 - INFO - Generated heatmap for percentage gender distribution.
+2024-03-17 10:35:26,453 - INFO - Generated heatmap for absolute gender distribution.
+2024-03-17 10:35:26,453 - INFO - Completed generating charts for top paid jobs.
+2024-03-17 10:35:26,453 - INFO - Starting analysis of lowest paying jobs.
+2024-03-17 10:35:26,453 - INFO - Input path models/original/datasets/prognosed_data/prognosed_data.csv found. Proceeding with data loading.
+2024-03-17 10:35:26,455 - INFO - Data loaded successfully.
+2024-03-17 10:35:26,456 - INFO - Filtered data to include only Male and Female genders.
+2024-03-17 10:35:26,456 - INFO - Calculated median salaries and sorted them.
+2024-03-17 10:35:26,457 - INFO - Identified the 10 lowest paying jobs.
+2024-03-17 10:35:26,457 - INFO - Filtered data for the 10 lowest paying jobs.
+2024-03-17 10:35:26,457 - INFO - Calculated total gender distribution for the 10 lowest paying jobs.
+2024-03-17 10:35:26,459 - INFO - Processed gender distribution for Junior Business Operations Analyst.
+2024-03-17 10:35:26,459 - INFO - Processed gender distribution for Senior Business Analyst.
+2024-03-17 10:35:26,460 - INFO - Processed gender distribution for Senior Project Coordinator.
+2024-03-17 10:35:26,461 - INFO - Processed gender distribution for Director of HR.
+2024-03-17 10:35:26,461 - INFO - Processed gender distribution for Chief Data Officer.
+2024-03-17 10:35:26,462 - INFO - Processed gender distribution for VP of Finance.
+2024-03-17 10:35:26,463 - INFO - Processed gender distribution for Software Engineer Manager.
+2024-03-17 10:35:26,463 - INFO - Processed gender distribution for Senior Accountant.
+2024-03-17 10:35:26,464 - INFO - Processed gender distribution for Senior Product Marketing Manager.
+2024-03-17 10:35:26,465 - INFO - Processed gender distribution for Senior Scientist.
+2024-03-17 10:35:26,465 - INFO - Result path general/analysis/results/original/prognosed_data/ created or already exists.
+2024-03-17 10:35:26,465 - INFO - Results written to general/analysis/results/original/prognosed_data/lowest_paying_jobs/lowest_paying_jobs.txt.
+2024-03-17 10:35:26,465 - INFO - Analysis of lowest paying jobs completed successfully.
+2024-03-17 10:35:26,670 - INFO - Starting analysis of salary distribution.
+2024-03-17 10:35:26,670 - INFO - Input file models/original/datasets/prognosed_data/prognosed_data.csv found. Proceeding with loading data.
+2024-03-17 10:35:26,671 - INFO - Data loaded successfully.
+2024-03-17 10:35:26,672 - INFO - Data filtered by gender (excluding 'Other').
+2024-03-17 10:35:26,672 - INFO - Calculated overall median salary: 157691.3655351561.
+2024-03-17 10:35:26,673 - INFO - Analyzed lower decile salary distribution.
+2024-03-17 10:35:26,675 - INFO - Calculated gender distribution for salary ranges.
+2024-03-17 10:35:26,675 - INFO - Salary distribution analysis saved to general/analysis/results/original/prognosed_data/salary_distribution/salary_distribution.txt.
+2024-03-17 10:35:26,675 - INFO - Salary distribution analysis completed successfully.
+2024-03-17 10:35:26,675 - INFO - Starting text frequency distribution generation process.
+2024-03-17 10:35:26,676 - INFO - CSV file loaded successfully.
+2024-03-17 10:35:26,677 - INFO - Empty rows removed.
+2024-03-17 10:35:26,677 - INFO - Output directory general/analysis/results/original/prognosed_data//frequency_distribution/text/ created/verified.
+2024-03-17 10:35:26,677 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Age_distribution.txt.
+2024-03-17 10:35:26,677 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Gender_distribution.txt.
+2024-03-17 10:35:26,678 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-17 10:35:26,687 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Job Title_distribution.txt.
+2024-03-17 10:35:26,851 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Years of Experience_distribution.txt.
+2024-03-17 10:35:26,851 - INFO - Writing distribution data to general/analysis/results/original/prognosed_data//frequency_distribution/text//Salary_distribution.txt.
+2024-03-17 10:35:26,852 - INFO - Text frequency distribution generation process completed.
+2024-03-17 10:35:26,852 - INFO - Starting graphic frequency distribution generation process.
+2024-03-17 10:35:26,852 - INFO - models/original/datasets/prognosed_data/prognosed_data.csv found, proceeding with processing.
+2024-03-17 10:35:26,853 - INFO - CSV file loaded successfully.
+2024-03-17 10:35:26,853 - INFO - Gender values translated to German.
+2024-03-17 10:35:26,895 - INFO - Histogram created for Age.
+2024-03-17 10:35:26,974 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Age_distribution.png saved successfully.
+2024-03-17 10:35:26,990 - INFO - Bar chart created for Gender.
+2024-03-17 10:35:27,055 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Gender_distribution.png saved successfully.
+2024-03-17 10:35:27,073 - INFO - Bar chart created for Education Level.
+2024-03-17 10:35:27,137 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Education Level_distribution.png saved successfully.
+2024-03-17 10:35:27,229 - INFO - Bar chart created for Job Title.
+2024-03-17 10:35:27,474 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Job Title_distribution.png saved successfully.
+2024-03-17 10:35:27,501 - INFO - Histogram created for Years of Experience.
+2024-03-17 10:35:27,573 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Years of Experience_distribution.png saved successfully.
+2024-03-17 10:35:27,601 - INFO - Histogram created for Salary.
+2024-03-17 10:35:27,684 - INFO - general/analysis/results/original/prognosed_data/frequency_distribution/graphic/Salary_distribution.png saved successfully.
+2024-03-17 10:35:27,684 - INFO - Graphic frequency distribution generation process completed.
+2024-03-17 10:35:27,684 - INFO - Starting the generation of graphic frequency distributions.
+2024-03-17 10:35:27,684 - INFO - Input path models/original/datasets/prognosed_data/prognosed_data.csv exists. Continuing with process.
+2024-03-17 10:35:27,685 - INFO - CSV file successfully loaded.
+2024-03-17 10:35:27,686 - INFO - Gender values translated according to the provided dictionary.
+2024-03-17 10:35:27,686 - INFO - Graphic path general/analysis/results/original/prognosed_data/frequency_distribution/graphic created or already exists.
+2024-03-17 10:35:27,686 - INFO - Creating plots for Age.
+2024-03-17 10:35:27,688 - INFO - Creating bar charts for Age.
+2024-03-17 10:35:28,004 - INFO - Plot saved for Age at general/analysis/results/original/prognosed_data/frequency_distribution_gender/Age.
+2024-03-17 10:35:28,004 - INFO - Creating plots for Gender.
+2024-03-17 10:35:28,007 - INFO - No specific plot type set for Gender, skipping.
+2024-03-17 10:35:28,007 - INFO - Creating plots for Education Level.
+2024-03-17 10:35:28,008 - INFO - Creating bar charts for Education Level.
+2024-03-17 10:35:28,106 - INFO - Plot saved for Education Level at general/analysis/results/original/prognosed_data/frequency_distribution_gender/Education Level.
+2024-03-17 10:35:28,106 - INFO - Creating plots for Job Title.
+2024-03-17 10:35:28,108 - INFO - No specific plot type set for Job Title, skipping.
+2024-03-17 10:35:28,108 - INFO - Creating plots for Years of Experience.
+2024-03-17 10:35:28,110 - INFO - Creating boxplots for Years of Experience.
+2024-03-17 10:35:28,191 - INFO - Plot saved for Years of Experience at general/analysis/results/original/prognosed_data/frequency_distribution_gender/Years of Experience.
+2024-03-17 10:35:28,191 - INFO - Creating plots for Salary.
+2024-03-17 10:35:28,193 - INFO - Creating boxplots for Salary.
+2024-03-17 10:35:28,279 - INFO - Plot saved for Salary at general/analysis/results/original/prognosed_data/frequency_distribution_gender/Salary.
+2024-03-17 10:35:28,279 - INFO - Completed the generation of graphic frequency distributions.
+2024-03-17 10:40:39,046 - INFO - Starting the heatmap generation process.
+2024-03-17 10:40:39,046 - INFO - Input path models/adjusted/datasets/training_data/training_data_adjusted.csv exists. Continuing with process.
+2024-03-17 10:40:39,046 - INFO - Loading data from models/adjusted/datasets/training_data/training_data_adjusted.csv.
+2024-03-17 10:40:39,055 - INFO - Translating gender values to German.
+2024-03-17 10:40:39,056 - INFO - Grouping data by Education Level and Gender.
+2024-03-17 10:40:39,056 - INFO - Calculating median salary across all individuals.
+2024-03-17 10:40:39,056 - INFO - Creating heatmap for the percentage of individuals earning above the median salary.
+2024-03-17 10:40:39,392 - INFO - Percentage heatmap saved to general/analysis/results/adjusted/training_data//heatmaps/percentage_above_median.png.
+2024-03-17 10:40:39,392 - INFO - Creating heatmap for the median incomes by Education Level and Gender.
+2024-03-17 10:40:39,514 - INFO - Median income heatmap saved to general/analysis/results/adjusted/training_data//heatmaps/median_income.png.
+2024-03-17 10:40:39,514 - INFO - Heatmap generation process completed.
+2024-03-17 10:40:39,514 - INFO - Starting to generate charts for top paid jobs.
+2024-03-17 10:40:39,514 - INFO - Input file models/adjusted/datasets/training_data/training_data_adjusted.csv found. Proceeding with data loading.
+2024-03-17 10:40:39,523 - INFO - Data loaded successfully.
+2024-03-17 10:40:39,524 - INFO - Translated gender labels to German.
+2024-03-17 10:40:39,526 - INFO - Filtered job titles where more than 10 people are employed.
+2024-03-17 10:40:39,528 - INFO - Identified top 10 highest-paid job titles.
+2024-03-17 10:40:39,531 - INFO - Calculated gender distribution in the top 10 highest-paid job titles.
+2024-03-17 10:40:39,698 - INFO - Generated heatmap for percentage gender distribution.
+2024-03-17 10:40:39,859 - INFO - Generated heatmap for absolute gender distribution.
+2024-03-17 10:40:39,859 - INFO - Completed generating charts for top paid jobs.
+2024-03-17 10:40:39,859 - INFO - Starting analysis of lowest paying jobs.
+2024-03-17 10:40:39,859 - INFO - Input path models/adjusted/datasets/training_data/training_data_adjusted.csv found. Proceeding with data loading.
+2024-03-17 10:40:39,867 - INFO - Data loaded successfully.
+2024-03-17 10:40:39,869 - INFO - Filtered data to include only Male and Female genders.
+2024-03-17 10:40:39,871 - INFO - Calculated median salaries and sorted them.
+2024-03-17 10:40:39,871 - INFO - Identified the 10 lowest paying jobs.
+2024-03-17 10:40:39,871 - INFO - Filtered data for the 10 lowest paying jobs.
+2024-03-17 10:40:39,872 - INFO - Calculated total gender distribution for the 10 lowest paying jobs.
+2024-03-17 10:40:39,873 - INFO - Processed gender distribution for Junior Sales Representative.
+2024-03-17 10:40:39,874 - INFO - Processed gender distribution for Receptionist.
+2024-03-17 10:40:39,875 - INFO - Processed gender distribution for Delivery Driver.
+2024-03-17 10:40:39,876 - INFO - Processed gender distribution for Junior Sales Associate.
+2024-03-17 10:40:39,876 - INFO - Processed gender distribution for Sales Associate.
+2024-03-17 10:40:39,877 - INFO - Processed gender distribution for Customer Service Representative.
+2024-03-17 10:40:39,878 - INFO - Processed gender distribution for Juniour HR Coordinator.
+2024-03-17 10:40:39,878 - INFO - Processed gender distribution for Help Desk Analyst.
+2024-03-17 10:40:39,879 - INFO - Processed gender distribution for Junior Business Operations Analyst.
+2024-03-17 10:40:39,880 - INFO - Processed gender distribution for Sales Executive.
+2024-03-17 10:40:39,880 - INFO - Result path general/analysis/results/adjusted/training_data/ created or already exists.
+2024-03-17 10:40:39,880 - INFO - Results written to general/analysis/results/adjusted/training_data/lowest_paying_jobs/lowest_paying_jobs.txt.
+2024-03-17 10:40:39,880 - INFO - Analysis of lowest paying jobs completed successfully.
+2024-03-17 10:40:40,539 - INFO - Starting analysis of salary distribution.
+2024-03-17 10:40:40,539 - INFO - Input file models/adjusted/datasets/training_data/training_data_adjusted.csv found. Proceeding with loading data.
+2024-03-17 10:40:40,546 - INFO - Data loaded successfully.
+2024-03-17 10:40:40,547 - INFO - Data filtered by gender (excluding 'Other').
+2024-03-17 10:40:40,548 - INFO - Calculated overall median salary: 120000.0.
+2024-03-17 10:40:40,548 - INFO - Analyzed lower decile salary distribution.
+2024-03-17 10:40:40,550 - INFO - Calculated gender distribution for salary ranges.
+2024-03-17 10:40:40,551 - INFO - Salary distribution analysis saved to general/analysis/results/adjusted/training_data/salary_distribution/salary_distribution.txt.
+2024-03-17 10:40:40,551 - INFO - Salary distribution analysis completed successfully.
+2024-03-17 10:40:40,551 - INFO - Starting text frequency distribution generation process.
+2024-03-17 10:40:40,559 - INFO - CSV file loaded successfully.
+2024-03-17 10:40:40,561 - INFO - Empty rows removed.
+2024-03-17 10:40:40,561 - INFO - Output directory general/analysis/results/adjusted/training_data//frequency_distribution/text/ created/verified.
+2024-03-17 10:40:40,561 - INFO - Writing distribution data to general/analysis/results/adjusted/training_data//frequency_distribution/text//Age_distribution.txt.
+2024-03-17 10:40:40,562 - INFO - Writing distribution data to general/analysis/results/adjusted/training_data//frequency_distribution/text//Gender_distribution.txt.
+2024-03-17 10:40:40,563 - INFO - Writing distribution data to general/analysis/results/adjusted/training_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-17 10:40:40,578 - INFO - Writing distribution data to general/analysis/results/adjusted/training_data//frequency_distribution/text//Job Title_distribution.txt.
+2024-03-17 10:40:41,066 - INFO - Writing distribution data to general/analysis/results/adjusted/training_data//frequency_distribution/text//Years of Experience_distribution.txt.
+2024-03-17 10:40:41,066 - INFO - Writing distribution data to general/analysis/results/adjusted/training_data//frequency_distribution/text//Salary_distribution.txt.
+2024-03-17 10:40:41,067 - INFO - Text frequency distribution generation process completed.
+2024-03-17 10:40:41,067 - INFO - Starting graphic frequency distribution generation process.
+2024-03-17 10:40:41,067 - INFO - models/adjusted/datasets/training_data/training_data_adjusted.csv found, proceeding with processing.
+2024-03-17 10:40:41,076 - INFO - CSV file loaded successfully.
+2024-03-17 10:40:41,077 - INFO - Gender values translated to German.
+2024-03-17 10:40:41,117 - INFO - Histogram created for Age.
+2024-03-17 10:40:41,192 - INFO - general/analysis/results/adjusted/training_data/frequency_distribution/graphic/Age_distribution.png saved successfully.
+2024-03-17 10:40:41,210 - INFO - Bar chart created for Gender.
+2024-03-17 10:40:41,275 - INFO - general/analysis/results/adjusted/training_data/frequency_distribution/graphic/Gender_distribution.png saved successfully.
+2024-03-17 10:40:41,292 - INFO - Bar chart created for Education Level.
+2024-03-17 10:40:41,351 - INFO - general/analysis/results/adjusted/training_data/frequency_distribution/graphic/Education Level_distribution.png saved successfully.
+2024-03-17 10:40:41,603 - INFO - Bar chart created for Job Title.
+2024-03-17 10:40:42,071 - INFO - general/analysis/results/adjusted/training_data/frequency_distribution/graphic/Job Title_distribution.png saved successfully.
+2024-03-17 10:40:42,100 - INFO - Histogram created for Years of Experience.
+2024-03-17 10:40:42,180 - INFO - general/analysis/results/adjusted/training_data/frequency_distribution/graphic/Years of Experience_distribution.png saved successfully.
+2024-03-17 10:40:42,207 - INFO - Histogram created for Salary.
+2024-03-17 10:40:42,291 - INFO - general/analysis/results/adjusted/training_data/frequency_distribution/graphic/Salary_distribution.png saved successfully.
+2024-03-17 10:40:42,291 - INFO - Graphic frequency distribution generation process completed.
+2024-03-17 10:40:42,291 - INFO - Starting the generation of graphic frequency distributions.
+2024-03-17 10:40:42,291 - INFO - Input path models/adjusted/datasets/training_data/training_data_adjusted.csv exists. Continuing with process.
+2024-03-17 10:40:42,297 - INFO - CSV file successfully loaded.
+2024-03-17 10:40:42,298 - INFO - Gender values translated according to the provided dictionary.
+2024-03-17 10:40:42,298 - INFO - Graphic path general/analysis/results/adjusted/training_data/frequency_distribution/graphic created or already exists.
+2024-03-17 10:40:42,298 - INFO - Creating plots for Age.
+2024-03-17 10:40:42,300 - INFO - Creating bar charts for Age.
+2024-03-17 10:40:42,535 - INFO - Plot saved for Age at general/analysis/results/adjusted/training_data/frequency_distribution_gender/Age.
+2024-03-17 10:40:42,536 - INFO - Creating plots for Gender.
+2024-03-17 10:40:42,538 - INFO - No specific plot type set for Gender, skipping.
+2024-03-17 10:40:42,538 - INFO - Creating plots for Education Level.
+2024-03-17 10:40:42,539 - INFO - Creating bar charts for Education Level.
+2024-03-17 10:40:42,632 - INFO - Plot saved for Education Level at general/analysis/results/adjusted/training_data/frequency_distribution_gender/Education Level.
+2024-03-17 10:40:42,632 - INFO - Creating plots for Job Title.
+2024-03-17 10:40:42,634 - INFO - No specific plot type set for Job Title, skipping.
+2024-03-17 10:40:42,634 - INFO - Creating plots for Years of Experience.
+2024-03-17 10:40:42,636 - INFO - Creating boxplots for Years of Experience.
+2024-03-17 10:40:42,728 - INFO - Plot saved for Years of Experience at general/analysis/results/adjusted/training_data/frequency_distribution_gender/Years of Experience.
+2024-03-17 10:40:42,728 - INFO - Creating plots for Salary.
+2024-03-17 10:40:42,730 - INFO - Creating boxplots for Salary.
+2024-03-17 10:40:42,811 - INFO - Plot saved for Salary at general/analysis/results/adjusted/training_data/frequency_distribution_gender/Salary.
+2024-03-17 10:40:42,811 - INFO - Completed the generation of graphic frequency distributions.
+2024-03-17 10:42:26,745 - INFO - Starting the heatmap generation process.
+2024-03-17 10:42:26,745 - INFO - Input path models/no_gender/datasets/prognosed_data/prognosed_data.csv exists. Continuing with process.
+2024-03-17 10:42:26,745 - INFO - Loading data from models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 10:42:26,746 - INFO - Translating gender values to German.
+2024-03-17 10:42:26,747 - INFO - Grouping data by Education Level and Gender.
+2024-03-17 10:42:26,747 - INFO - Calculating median salary across all individuals.
+2024-03-17 10:42:26,747 - INFO - Creating heatmap for the percentage of individuals earning above the median salary.
+2024-03-17 10:42:27,079 - INFO - Percentage heatmap saved to general/analysis/results/adjusted/prognosed_data//heatmaps/percentage_above_median.png.
+2024-03-17 10:42:27,079 - INFO - Creating heatmap for the median incomes by Education Level and Gender.
+2024-03-17 10:42:27,202 - INFO - Median income heatmap saved to general/analysis/results/adjusted/prognosed_data//heatmaps/median_income.png.
+2024-03-17 10:42:27,202 - INFO - Heatmap generation process completed.
+2024-03-17 10:42:27,202 - INFO - Starting to generate charts for top paid jobs.
+2024-03-17 10:42:27,202 - INFO - Input file models/no_gender/datasets/prognosed_data/prognosed_data.csv found. Proceeding with data loading.
+2024-03-17 10:42:27,204 - INFO - Data loaded successfully.
+2024-03-17 10:42:27,205 - INFO - Translated gender labels to German.
+2024-03-17 10:42:27,206 - INFO - Filtered job titles where more than 10 people are employed.
+2024-03-17 10:42:27,207 - INFO - Identified top 10 highest-paid job titles.
+2024-03-17 10:42:27,209 - INFO - Calculated gender distribution in the top 10 highest-paid job titles.
+2024-03-17 10:42:27,323 - INFO - Generated heatmap for percentage gender distribution.
+2024-03-17 10:42:27,439 - INFO - Generated heatmap for absolute gender distribution.
+2024-03-17 10:42:27,439 - INFO - Completed generating charts for top paid jobs.
+2024-03-17 10:42:27,439 - INFO - Starting analysis of lowest paying jobs.
+2024-03-17 10:42:27,439 - INFO - Input path models/no_gender/datasets/prognosed_data/prognosed_data.csv found. Proceeding with data loading.
+2024-03-17 10:42:27,441 - INFO - Data loaded successfully.
+2024-03-17 10:42:27,441 - INFO - Filtered data to include only Male and Female genders.
+2024-03-17 10:42:27,441 - INFO - Calculated median salaries and sorted them.
+2024-03-17 10:42:27,442 - INFO - Identified the 10 lowest paying jobs.
+2024-03-17 10:42:27,442 - INFO - Filtered data for the 10 lowest paying jobs.
+2024-03-17 10:42:27,442 - INFO - Calculated total gender distribution for the 10 lowest paying jobs.
+2024-03-17 10:42:27,444 - INFO - Processed gender distribution for Chief Data Officer.
+2024-03-17 10:42:27,444 - INFO - Processed gender distribution for Senior Project Coordinator.
+2024-03-17 10:42:27,445 - INFO - Processed gender distribution for Junior Business Operations Analyst.
+2024-03-17 10:42:27,446 - INFO - Processed gender distribution for Senior Business Analyst.
+2024-03-17 10:42:27,446 - INFO - Processed gender distribution for Director of HR.
+2024-03-17 10:42:27,447 - INFO - Processed gender distribution for VP of Finance.
+2024-03-17 10:42:27,448 - INFO - Processed gender distribution for Data Scientist.
+2024-03-17 10:42:27,449 - INFO - Processed gender distribution for Software Engineer Manager.
+2024-03-17 10:42:27,449 - INFO - Processed gender distribution for Senior Product Marketing Manager.
+2024-03-17 10:42:27,450 - INFO - Processed gender distribution for Senior Human Resources Manager.
+2024-03-17 10:42:27,450 - INFO - Result path general/analysis/results/adjusted/prognosed_data/ created or already exists.
+2024-03-17 10:42:27,450 - INFO - Results written to general/analysis/results/adjusted/prognosed_data/lowest_paying_jobs/lowest_paying_jobs.txt.
+2024-03-17 10:42:27,450 - INFO - Analysis of lowest paying jobs completed successfully.
+2024-03-17 10:42:27,640 - INFO - Starting analysis of salary distribution.
+2024-03-17 10:42:27,640 - INFO - Input file models/no_gender/datasets/prognosed_data/prognosed_data.csv found. Proceeding with loading data.
+2024-03-17 10:42:27,641 - INFO - Data loaded successfully.
+2024-03-17 10:42:27,641 - INFO - Data filtered by gender (excluding 'Other').
+2024-03-17 10:42:27,642 - INFO - Calculated overall median salary: 158230.59501008343.
+2024-03-17 10:42:27,642 - INFO - Analyzed lower decile salary distribution.
+2024-03-17 10:42:27,643 - INFO - Calculated gender distribution for salary ranges.
+2024-03-17 10:42:27,644 - INFO - Salary distribution analysis saved to general/analysis/results/adjusted/prognosed_data/salary_distribution/salary_distribution.txt.
+2024-03-17 10:42:27,644 - INFO - Salary distribution analysis completed successfully.
+2024-03-17 10:42:27,644 - INFO - Starting text frequency distribution generation process.
+2024-03-17 10:42:27,645 - INFO - CSV file loaded successfully.
+2024-03-17 10:42:27,645 - INFO - Empty rows removed.
+2024-03-17 10:42:27,645 - INFO - Output directory general/analysis/results/adjusted/prognosed_data//frequency_distribution/text/ created/verified.
+2024-03-17 10:42:27,646 - INFO - Writing distribution data to general/analysis/results/adjusted/prognosed_data//frequency_distribution/text//Age_distribution.txt.
+2024-03-17 10:42:27,646 - INFO - Writing distribution data to general/analysis/results/adjusted/prognosed_data//frequency_distribution/text//Gender_distribution.txt.
+2024-03-17 10:42:27,646 - INFO - Writing distribution data to general/analysis/results/adjusted/prognosed_data//frequency_distribution/text//Education Level_distribution.txt.
+2024-03-17 10:42:27,656 - INFO - Writing distribution data to general/analysis/results/adjusted/prognosed_data//frequency_distribution/text//Job Title_distribution.txt.
+2024-03-17 10:42:27,823 - INFO - Writing distribution data to general/analysis/results/adjusted/prognosed_data//frequency_distribution/text//Years of Experience_distribution.txt.
+2024-03-17 10:42:27,824 - INFO - Writing distribution data to general/analysis/results/adjusted/prognosed_data//frequency_distribution/text//Salary_distribution.txt.
+2024-03-17 10:42:27,825 - INFO - Text frequency distribution generation process completed.
+2024-03-17 10:42:27,825 - INFO - Starting graphic frequency distribution generation process.
+2024-03-17 10:42:27,825 - INFO - models/no_gender/datasets/prognosed_data/prognosed_data.csv found, proceeding with processing.
+2024-03-17 10:42:27,826 - INFO - CSV file loaded successfully.
+2024-03-17 10:42:27,826 - INFO - Gender values translated to German.
+2024-03-17 10:42:27,866 - INFO - Histogram created for Age.
+2024-03-17 10:42:27,947 - INFO - general/analysis/results/adjusted/prognosed_data/frequency_distribution/graphic/Age_distribution.png saved successfully.
+2024-03-17 10:42:27,963 - INFO - Bar chart created for Gender.
+2024-03-17 10:42:28,028 - INFO - general/analysis/results/adjusted/prognosed_data/frequency_distribution/graphic/Gender_distribution.png saved successfully.
+2024-03-17 10:42:28,046 - INFO - Bar chart created for Education Level.
+2024-03-17 10:42:28,110 - INFO - general/analysis/results/adjusted/prognosed_data/frequency_distribution/graphic/Education Level_distribution.png saved successfully.
+2024-03-17 10:42:28,200 - INFO - Bar chart created for Job Title.
+2024-03-17 10:42:28,448 - INFO - general/analysis/results/adjusted/prognosed_data/frequency_distribution/graphic/Job Title_distribution.png saved successfully.
+2024-03-17 10:42:28,476 - INFO - Histogram created for Years of Experience.
+2024-03-17 10:42:28,549 - INFO - general/analysis/results/adjusted/prognosed_data/frequency_distribution/graphic/Years of Experience_distribution.png saved successfully.
+2024-03-17 10:42:28,580 - INFO - Histogram created for Salary.
+2024-03-17 10:42:28,667 - INFO - general/analysis/results/adjusted/prognosed_data/frequency_distribution/graphic/Salary_distribution.png saved successfully.
+2024-03-17 10:42:28,668 - INFO - Graphic frequency distribution generation process completed.
+2024-03-17 10:42:28,668 - INFO - Starting the generation of graphic frequency distributions.
+2024-03-17 10:42:28,668 - INFO - Input path models/no_gender/datasets/prognosed_data/prognosed_data.csv exists. Continuing with process.
+2024-03-17 10:42:28,669 - INFO - CSV file successfully loaded.
+2024-03-17 10:42:28,670 - INFO - Gender values translated according to the provided dictionary.
+2024-03-17 10:42:28,670 - INFO - Graphic path general/analysis/results/adjusted/prognosed_data/frequency_distribution/graphic created or already exists.
+2024-03-17 10:42:28,670 - INFO - Creating plots for Age.
+2024-03-17 10:42:28,672 - INFO - Creating bar charts for Age.
+2024-03-17 10:42:28,993 - INFO - Plot saved for Age at general/analysis/results/adjusted/prognosed_data/frequency_distribution_gender/Age.
+2024-03-17 10:42:28,993 - INFO - Creating plots for Gender.
+2024-03-17 10:42:28,995 - INFO - No specific plot type set for Gender, skipping.
+2024-03-17 10:42:28,995 - INFO - Creating plots for Education Level.
+2024-03-17 10:42:28,996 - INFO - Creating bar charts for Education Level.
+2024-03-17 10:42:29,102 - INFO - Plot saved for Education Level at general/analysis/results/adjusted/prognosed_data/frequency_distribution_gender/Education Level.
+2024-03-17 10:42:29,102 - INFO - Creating plots for Job Title.
+2024-03-17 10:42:29,104 - INFO - No specific plot type set for Job Title, skipping.
+2024-03-17 10:42:29,104 - INFO - Creating plots for Years of Experience.
+2024-03-17 10:42:29,106 - INFO - Creating boxplots for Years of Experience.
+2024-03-17 10:42:29,188 - INFO - Plot saved for Years of Experience at general/analysis/results/adjusted/prognosed_data/frequency_distribution_gender/Years of Experience.
+2024-03-17 10:42:29,189 - INFO - Creating plots for Salary.
+2024-03-17 10:42:29,190 - INFO - Creating boxplots for Salary.
+2024-03-17 10:42:29,277 - INFO - Plot saved for Salary at general/analysis/results/adjusted/prognosed_data/frequency_distribution_gender/Salary.
+2024-03-17 10:42:29,277 - INFO - Completed the generation of graphic frequency distributions.

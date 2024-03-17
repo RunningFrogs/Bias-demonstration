@@ -178,3 +178,35 @@
 2024-03-17 09:20:05,213 - INFO - Input data loaded successfully.
 2024-03-17 09:20:05,231 - INFO - Predictions made on input data.
 2024-03-17 09:20:05,233 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 10:36:25,520 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 10:36:25,527 - INFO - Unprepared training data loaded successfully.
+2024-03-17 10:36:25,528 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 10:36:25,607 - INFO - Education level strings formatted.
+2024-03-17 10:36:25,609 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 10:36:29,339 - INFO - Dataset adjusted with synthetic data to ensure every gender is represented in each job equally.
+2024-03-17 10:36:29,347 - INFO - Salaries adjusted for fairness across genders.
+2024-03-17 10:36:29,348 - INFO - Data split into training and evaluation datasets.
+2024-03-17 10:36:29,382 - INFO - Training and evaluation datasets saved.
+2024-03-17 10:41:43,079 - INFO - Starting the automated prognose process.
+2024-03-17 10:41:43,079 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-17 10:41:43,079 - INFO - Found model at models/adjusted/prognosis/model/model.joblib.
+2024-03-17 10:41:43,125 - INFO - Model loaded successfully.
+2024-03-17 10:41:43,127 - INFO - Input data loaded successfully.
+2024-03-17 10:41:43,145 - INFO - Predictions made on input data.
+2024-03-17 10:41:43,147 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 10:43:06,882 - INFO - Starting interactive prognose.
+2024-03-17 10:43:06,883 - INFO - Model file found.
+2024-03-17 10:43:06,927 - INFO - Model loaded successfully.
+2024-03-17 10:43:06,928 - INFO - Querying for input data.
+2024-03-17 10:44:03,620 - INFO - Input data collected.
+2024-03-17 10:44:03,622 - INFO - DataFrame created from input data.
+2024-03-17 10:44:03,640 - INFO - Prediction made on input data.
+2024-03-17 10:44:03,640 - INFO - Predicted Income: ₹51,053
+2024-03-17 10:44:18,450 - INFO - Starting interactive prognose.
+2024-03-17 10:44:18,450 - INFO - Model file found.
+2024-03-17 10:44:18,495 - INFO - Model loaded successfully.
+2024-03-17 10:44:18,495 - INFO - Querying for input data.
+2024-03-17 10:44:33,106 - INFO - Input data collected.
+2024-03-17 10:44:33,108 - INFO - DataFrame created from input data.
+2024-03-17 10:44:33,128 - INFO - Prediction made on input data.
+2024-03-17 10:44:33,128 - INFO - Predicted Income: ₹51,048

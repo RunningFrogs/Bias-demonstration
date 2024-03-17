@@ -29,9 +29,9 @@ path_evaluation_metrics_original = 'models/original/prognosis/model/evaluation_m
 
 ## Model no gender paths
 # Datasets
-path_evaluation_data_no_gender = 'models/no_gender/datasets/training_data/evaluation_data_ethical.csv'
+path_evaluation_data_no_gender = 'models/no_gender/datasets/training_data/evaluation_data_no_gender.csv'
 path_prognosed_data_no_gender = 'models/no_gender/datasets/prognosed_data/prognosed_data.csv'
-path_prepared_training_data_no_gender = 'models/no_gender/datasets/training_data/training_data_prepared_ethical.csv'
+path_prepared_training_data_no_gender = 'models/no_gender/datasets/training_data/training_data_prepared_no_gender.csv'
 
 # Model
 path_model_no_gender = 'models/no_gender/prognosis/model/model.joblib'
@@ -58,7 +58,7 @@ path_evaluation_metrics_adjusted = 'models/adjusted/prognosis/model/evaluation_m
 
 # Logging
 path_log_general = 'general/log_general.txt'
-path_log_model_no_gender = 'models/ethical/log_model_no_gender.txt'
+path_log_model_no_gender = 'models/no_gender/log_model_no_gender.txt'
 path_log_model_original = 'models/original/log_original_model.txt'
 path_log_model_adjusted = 'models/adjusted/log_model_adjusted.txt'
 path_log_analysis = 'general/analysis/log_analysis.txt'

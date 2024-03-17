@@ -134,3 +134,45 @@
 2024-03-16 16:01:32,553 - INFO - Input data loaded successfully.
 2024-03-16 16:01:32,573 - INFO - Predictions made on input data.
 2024-03-16 16:01:32,574 - INFO - Predictions saved at models/original/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 10:30:53,185 - INFO - Starting the preparation of the training data.
+2024-03-17 10:30:53,190 - INFO - Unprepared training data loaded successfully.
+2024-03-17 10:30:53,191 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 10:30:53,270 - INFO - Education level strings formatted.
+2024-03-17 10:30:53,272 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 10:30:53,273 - INFO - Data split into training and evaluation datasets.
+2024-03-17 10:30:53,284 - INFO - Training and evaluation datasets saved.
+2024-03-17 10:31:02,110 - INFO - Starting model evaluation.
+2024-03-17 10:31:02,110 - ERROR - Model file models/original/prognosis/model/model.joblib not found.
+2024-03-17 10:33:03,366 - INFO - Starting model evaluation.
+2024-03-17 10:33:03,416 - INFO - Model loaded successfully.
+2024-03-17 10:33:03,417 - INFO - Evaluation data loaded successfully.
+2024-03-17 10:33:03,516 - INFO - Predictions made on evaluation data.
+2024-03-17 10:33:03,517 - INFO - Metrics calculated.
+2024-03-17 10:33:03,517 - INFO - Metrics saved to models/original/prognosis/model/evaluation_metrics.txt.
+2024-03-17 10:33:26,672 - INFO - Starting the automated prognose process.
+2024-03-17 10:33:26,673 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-17 10:33:26,673 - INFO - Found model at models/original/prognosis/model/model.joblib.
+2024-03-17 10:33:26,722 - INFO - Model loaded successfully.
+2024-03-17 10:33:26,723 - INFO - Input data loaded successfully.
+2024-03-17 10:33:26,746 - INFO - Predictions made on input data.
+2024-03-17 10:33:26,748 - INFO - Predictions saved at models/original/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 10:44:55,811 - INFO - Starting interactive prognose.
+2024-03-17 10:44:55,811 - INFO - Model file found.
+2024-03-17 10:44:55,860 - INFO - Model loaded successfully.
+2024-03-17 10:44:55,860 - INFO - Querying for input data.
+2024-03-17 10:45:04,507 - INFO - Starting interactive prognose.
+2024-03-17 10:45:04,507 - INFO - Model file found.
+2024-03-17 10:45:04,556 - INFO - Model loaded successfully.
+2024-03-17 10:45:04,556 - INFO - Querying for input data.
+2024-03-17 10:45:17,451 - INFO - Input data collected.
+2024-03-17 10:45:17,453 - INFO - DataFrame created from input data.
+2024-03-17 10:45:17,472 - INFO - Prediction made on input data.
+2024-03-17 10:45:17,472 - INFO - Predicted Income: ₹51,808
+2024-03-17 10:45:31,904 - INFO - Starting interactive prognose.
+2024-03-17 10:45:31,904 - INFO - Model file found.
+2024-03-17 10:45:31,955 - INFO - Model loaded successfully.
+2024-03-17 10:45:31,955 - INFO - Querying for input data.
+2024-03-17 10:45:46,753 - INFO - Input data collected.
+2024-03-17 10:45:46,755 - INFO - DataFrame created from input data.
+2024-03-17 10:45:46,773 - INFO - Prediction made on input data.
+2024-03-17 10:45:46,774 - INFO - Predicted Income: ₹51,699

@@ -1,6 +1,0 @@
-Value distribution for Gender:
-
-Male: 100 (33.33%)
-Female: 100 (33.33%)
-Other: 100 (33.33%)
-
