@@ -5,8 +5,10 @@ from config import paths
 import logging
 
 # Setup logging
-logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-# TODO: add inputs and results to logging
+logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+
 def prognose_interactive():
     logging.info('Starting interactive prognose.')
 
@@ -24,10 +26,20 @@ def prognose_interactive():
     # Query input data
     logging.info('Querying for input data.')
     age = float(input("Age: "))
+    logging.info(f'Input Age: {age}')
+
     gender = input("Gender (Male/Female): ")
+    logging.info(f'Input Gender: {gender}')
+
     education_level = input("Education Level (High School, Bachelor's, Master's, PhD): ")
+    logging.info(f'Input Education Level: {education_level}')
+
     job_title = input("Job Title: ")
+    logging.info(f'Input Job Title: {job_title}')
+
     years_of_experience = float(input("Years of Experience: "))
+    logging.info(f'Input Years of Experience: {years_of_experience}')
+
     logging.info('Input data collected.')
 
     # Create a DataFrame from the input data
@@ -45,5 +57,7 @@ def prognose_interactive():
     logging.info('Prediction made on input data.')
 
     # Print predicted income
-    print(f'Predicted Income: ₹{predicted_salary[0]:,.0f}')
-    logging.info(f'Predicted Income: ₹{predicted_salary[0]:,.0f}')
+    predicted_income_msg = f'Predicted Income: ₹{predicted_salary[0]:,.0f}'
+    print(predicted_income_msg)
+    logging.info(predicted_income_msg)
+

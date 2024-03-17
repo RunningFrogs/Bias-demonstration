@@ -217,3 +217,84 @@
 2024-03-17 10:59:27,320 - INFO - Input data loaded successfully.
 2024-03-17 10:59:27,339 - INFO - Predictions made on input data.
 2024-03-17 10:59:27,340 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 11:32:05,303 - INFO - Training model started
+2024-03-17 11:32:05,303 - INFO - Training model started.
+2024-03-17 11:32:05,311 - INFO - Training data loaded.
+2024-03-17 11:32:05,313 - INFO - Training and test data split.
+2024-03-17 11:32:05,313 - INFO - Preprocessor setup.
+2024-03-17 11:32:05,313 - INFO - Pipeline setup.
+2024-03-17 11:32:05,313 - INFO - GridSearchCV parameters defined.
+2024-03-17 11:32:05,313 - INFO - GridSearchCV setup.
+2024-03-17 11:34:02,486 - INFO - Prognosis process started with args: Namespace(train=False, evaluate=False, prognose=True, interactive=True, automated=False, prepare=False)
+2024-03-17 11:34:02,486 - INFO - Interactive prognosis started
+2024-03-17 11:34:02,486 - INFO - Starting interactive prognose.
+2024-03-17 11:34:02,486 - INFO - Model file found.
+2024-03-17 11:34:02,529 - INFO - Model loaded successfully.
+2024-03-17 11:34:02,529 - INFO - Querying for input data.
+2024-03-17 11:34:03,512 - INFO - Input Age: 2.0
+2024-03-17 11:34:05,878 - INFO - Prognosis process started with args: Namespace(train=False, evaluate=False, prognose=True, interactive=True, automated=False, prepare=False)
+2024-03-17 11:34:05,878 - INFO - Interactive prognosis started
+2024-03-17 11:34:05,878 - INFO - Starting interactive prognose.
+2024-03-17 11:34:05,878 - INFO - Model file found.
+2024-03-17 11:34:05,921 - INFO - Model loaded successfully.
+2024-03-17 11:34:05,921 - INFO - Querying for input data.
+2024-03-17 11:34:07,320 - INFO - Input Age: 25.0
+2024-03-17 11:34:08,760 - INFO - Input Gender: Male
+2024-03-17 11:34:10,384 - INFO - Input Education Level: PhD
+2024-03-17 11:34:36,807 - INFO - Input Job Title: Sales Operations Manager
+2024-03-17 11:34:38,007 - INFO - Input Years of Experience: 3.0
+2024-03-17 11:34:38,008 - INFO - Input data collected.
+2024-03-17 11:34:38,009 - INFO - DataFrame created from input data.
+2024-03-17 11:34:38,015 - INFO - Prediction made on input data.
+2024-03-17 11:34:38,015 - INFO - Predicted Income: ₹40,915
+2024-03-17 11:34:38,015 - INFO - Interactive prognosis completed
+2024-03-17 11:34:38,016 - INFO - Prognosis process completed
+2024-03-17 11:43:41,765 - INFO - Training model started
+2024-03-17 11:43:41,765 - INFO - Training model started.
+2024-03-17 11:43:41,773 - INFO - Training data loaded.
+2024-03-17 11:43:41,774 - INFO - Training and test data split.
+2024-03-17 11:43:41,774 - INFO - Preprocessor setup.
+2024-03-17 11:43:41,774 - INFO - Pipeline setup.
+2024-03-17 11:43:41,774 - INFO - GridSearchCV parameters defined.
+2024-03-17 11:43:41,775 - INFO - GridSearchCV setup.
+2024-03-17 11:47:04,862 - INFO - Model training completed with GridSearchCV.
+2024-03-17 11:47:04,862 - INFO - Best model determined: {'regressor__learning_rate': 0.1, 'regressor__max_depth': 9, 'regressor__min_samples_split': 5, 'regressor__n_estimators': 1000, 'regressor__subsample': 1.0}
+2024-03-17 11:47:04,869 - INFO - Feature importances extracted, sorted, and saved.
+2024-03-17 11:47:04,870 - INFO - Aggregate feature importances extracted and saved.
+2024-03-17 11:47:05,031 - INFO - Model evaluation metrics calculated and saved.
+2024-03-17 11:47:05,076 - INFO - Model saved.
+2024-03-17 11:47:05,076 - INFO - Training model process completed.
+2024-03-17 11:47:05,077 - INFO - Training model completed
+2024-03-17 11:55:40,139 - INFO - Training model started
+2024-03-17 11:55:40,139 - INFO - Training model started.
+2024-03-17 11:55:40,147 - INFO - Training data loaded.
+2024-03-17 11:55:40,149 - INFO - Training and test data split.
+2024-03-17 11:55:40,149 - INFO - Preprocessor setup.
+2024-03-17 11:55:40,149 - INFO - Pipeline setup.
+2024-03-17 11:55:40,149 - INFO - GridSearchCV parameters defined.
+2024-03-17 11:55:40,149 - INFO - GridSearchCV setup.
+2024-03-17 11:59:01,457 - INFO - Model training completed with GridSearchCV.
+2024-03-17 11:59:01,458 - INFO - Best model determined: {'regressor__learning_rate': 0.1, 'regressor__max_depth': 9, 'regressor__min_samples_split': 5, 'regressor__n_estimators': 1000, 'regressor__subsample': 1.0}
+2024-03-17 11:59:01,464 - INFO - Feature importances extracted, sorted, and saved.
+2024-03-17 11:59:01,465 - INFO - Aggregate feature importances extracted and saved.
+2024-03-17 11:59:01,618 - INFO - Metrics: Best parameters: {'regressor__learning_rate': 0.1, 'regressor__max_depth': 9, 'regressor__min_samples_split': 5, 'regressor__n_estimators': 1000, 'regressor__subsample': 1.0}
+R²: 0.9967976539474688
++ RMSE: 2990.089121604604
++ RMSE in relation to average income: 0.02576444588200964
+
+2024-03-17 11:59:01,618 - INFO - Model evaluation metrics calculated and saved.
+2024-03-17 11:59:01,681 - INFO - Model saved.
+2024-03-17 11:59:01,681 - INFO - Training model process completed.
+2024-03-17 11:59:01,682 - INFO - Training model completed
+2024-03-17 12:02:47,860 - INFO - Model evaluation started
+2024-03-17 12:02:47,860 - INFO - Starting model evaluation.
+2024-03-17 12:02:47,904 - INFO - Model loaded successfully.
+2024-03-17 12:02:47,907 - INFO - Evaluation data loaded successfully.
+2024-03-17 12:02:48,085 - INFO - Predictions made on evaluation data.
+2024-03-17 12:02:48,086 - INFO - Metrics calculated.
+2024-03-17 12:02:48,086 - INFO - Evaluation metrics: R²: 0.9971396352750962
+RMSE: 2832.4774536831715
+RMSE in relation to average income: 0.024335238918172186
+
+2024-03-17 12:02:48,086 - INFO - Metrics saved to models/adjusted/prognosis/model/evaluation_metrics.txt.
+2024-03-17 12:02:48,087 - INFO - Model evaluation completed

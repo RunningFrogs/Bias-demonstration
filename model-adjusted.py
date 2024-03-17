@@ -1,31 +1,43 @@
 import argparse
-
-from models.adjusted.prognosis.src import interactive_prognosis, model_training, model_evaluation, \
-    automated_prognosis
+import logging
+from config import paths
+from models.adjusted.prognosis.src import interactive_prognosis, model_training, model_evaluation, automated_prognosis
 from models.adjusted.data_preparation.src import training_data_adjustment
 
-def train_model():
-    model_training.train_model()
+# Setup logging configuration
+logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+def train_model():
+    logging.info("Training model started")
+    model_training.train_model()
+    logging.info("Training model completed")
 
 def evaluate_model():
+    logging.info("Model evaluation started")
     model_evaluation.evaluate_model()
-
+    logging.info("Model evaluation completed")
 
 def prognose(args):
+    logging.info("Prognosis process started with args: %s", args)
     if args.interactive:
+        logging.info("Interactive prognosis started")
         interactive_prognosis.prognose_interactive()
+        logging.info("Interactive prognosis completed")
 
     elif args.automated:
+        logging.info("Automated prognosis started")
         automated_prognosis.prognose_automated()
+        logging.info("Automated prognosis completed")
 
     else:
+        logging.error("Invalid prognosis arguments")
         raise Exception("Invalid prognose arguments")
-
+    logging.info("Prognosis process completed")
 
 def call_prepare_training_data():
+    logging.info("Preparation of training data started")
     training_data_adjustment.prepare_training_data()
-
+    logging.info("Preparation of training data completed")
 
 # Initialize the parser
 parser = argparse.ArgumentParser(description="Script to call specific functions based on arguments")

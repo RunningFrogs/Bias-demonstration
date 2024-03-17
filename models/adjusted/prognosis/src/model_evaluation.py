@@ -7,7 +7,7 @@ import logging
 
 # Setup logging
 logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-# TODO: Add metrics and importances to logging
+
 def evaluate_model():
     logging.info('Starting model evaluation.')
 
@@ -41,14 +41,14 @@ def evaluate_model():
     rmse_ratio = rmse / average_salary
     logging.info('Metrics calculated.')
 
-    # Print metrics
-    print(f"R2: {r2}")
-    print(f"RMSE: {rmse}")
-    print(f"RMSE in relation to average income: {rmse_ratio}")
+    metrics_output = (f'R²: {r2}\n'
+                      f'RMSE: {rmse}\n'
+                      f'RMSE in relation to average income: {rmse_ratio}\n')
 
-    # Save metrics in text file
+    logging.info(f'Evaluation metrics: {metrics_output}')
+    print(metrics_output)
+
     with open(paths.path_evaluation_metrics_adjusted, 'w') as file:
-        file.write(f"R2: {r2}\n")
-        file.write(f"RMSE: {rmse}\n")
-        file.write(f"RMSE in relation to average income: {rmse_ratio}\n")
+        file.write(metrics_output)
+
     logging.info(f'Metrics saved to {paths.path_evaluation_metrics_adjusted}.')

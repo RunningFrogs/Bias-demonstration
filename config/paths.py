@@ -45,7 +45,8 @@ path_evaluation_metrics_no_gender = 'models/no_gender/prognosis/model/evaluation
 path_evaluation_data_adjusted = 'models/adjusted/datasets/training_data/evaluation_data_adjusted.csv'
 path_prognosed_data_adjusted = 'models/no_gender/datasets/prognosed_data/prognosed_data.csv'
 path_prepared_training_data_adjusted = 'models/adjusted/datasets/training_data/training_data_adjusted.csv'
-path_feature_importances = 'models/adjusted/prognosis/model/feature_importances.csv'
+path_feature_importances_detailed = 'models/adjusted/prognosis/model/feature_importances_detailed.csv'
+path_feature_importances_category = 'models/adjusted/prognosis/model/feature_importances_category.csv'
 
 # Analysis paths
 path_analysis_result_training_data_adjusted = 'general/analysis/results/adjusted/training_data/'
