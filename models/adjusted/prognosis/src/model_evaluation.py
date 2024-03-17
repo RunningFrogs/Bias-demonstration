@@ -7,7 +7,7 @@ import logging
 
 # Setup logging
 logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+# TODO: Add metrics and importances to logging
 def evaluate_model():
     logging.info('Starting model evaluation.')
 

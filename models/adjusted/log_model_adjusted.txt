@@ -210,3 +210,10 @@
 2024-03-17 10:44:33,108 - INFO - DataFrame created from input data.
 2024-03-17 10:44:33,128 - INFO - Prediction made on input data.
 2024-03-17 10:44:33,128 - INFO - Predicted Income: ₹51,048
+2024-03-17 10:59:27,274 - INFO - Starting the automated prognose process.
+2024-03-17 10:59:27,274 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-17 10:59:27,274 - INFO - Found model at models/adjusted/prognosis/model/model.joblib.
+2024-03-17 10:59:27,319 - INFO - Model loaded successfully.
+2024-03-17 10:59:27,320 - INFO - Input data loaded successfully.
+2024-03-17 10:59:27,339 - INFO - Predictions made on input data.
+2024-03-17 10:59:27,340 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.

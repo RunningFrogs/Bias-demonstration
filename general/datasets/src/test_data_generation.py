@@ -4,16 +4,11 @@ from random import choice, randint, seed
 from time import time
 from config import paths
 from general.datasets.src.job_titles import job_titles
-import logging
 
-# Setup logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def generate_basic_test_data(num_rows):
-    logging.info(f'Starting to generate {num_rows} rows of basic test data.')
 
     if not os.path.exists(paths.path_prepared_training_data_original):
-        logging.error(f'{paths.path_prepared_training_data_original} does not exist.')
         print(f'{paths.path_prepared_training_data_original} does not exist.')
         return
 
@@ -45,17 +40,13 @@ def generate_basic_test_data(num_rows):
     new_data = pd.DataFrame(new_rows)
     new_data.to_csv(paths.path_test_data_basic, index=False)
 
-    logging.info(f'Basic test data generated and saved to {paths.path_test_data_basic}.')
     print(f'{num_rows} test data generated.')
 
 def expand_test_datas():
-    logging.info('Starting to expand test data.')
-
     original_csv_path = paths.path_test_data_basic
     expanded_csv_path = paths.path_test_data_expanded
 
     if not os.path.exists(original_csv_path):
-        logging.error(f'{original_csv_path} does not exist.')
         print(f'{original_csv_path} does not exist.')
         return
 
@@ -81,16 +72,12 @@ def expand_test_datas():
     expanded_data = pd.DataFrame(expanded_rows)
     expanded_data.to_csv(expanded_csv_path, index=False)
 
-    logging.info(f'Expanded test data generated and saved to {expanded_csv_path}.')
     print(f'Expanded test data generated and saved to {expanded_csv_path}.')
 
 def remove_gender_age_and_age():
-    logging.info('Starting to remove "Gender" and "Age" columns from basic test data.')
-
     basic_csv_path = paths.path_test_data_basic
 
     if not os.path.exists(basic_csv_path):
-        logging.error(f'{basic_csv_path} does not exist.')
         print(f'{basic_csv_path} does not exist.')
         return
 
@@ -99,5 +86,4 @@ def remove_gender_age_and_age():
 
     modified_data.to_csv(paths.path_test_data_without_gender, index=False)
 
-    logging.info(f'Modified test data (without "Gender" and "Age") saved to {paths.path_test_data_without_gender}.')
     print(f'Modified test data saved to {paths.path_test_data_without_gender}.')

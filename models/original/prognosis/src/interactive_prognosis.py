@@ -4,31 +4,21 @@ from joblib import load
 from config import paths
 import logging
 
-# Setup logging
-logging.basicConfig(filename=paths.path_log_model_original, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 def prognose_interactive():
-    logging.info('Starting interactive prognose.')
 
     if not os.path.exists(paths.path_model_original):
-        logging.error(f'Model file {paths.path_model_original} does not exist.')
         print(f'{paths.path_model_original} does not exist.')
         return
-    else:
-        logging.info('Model file found.')
 
     # Load model
     trained_model = load(paths.path_model_original)
-    logging.info('Model loaded successfully.')
 
     # Query input data
-    logging.info('Querying for input data.')
     age = float(input("Age: "))
     gender = input("Gender (Male/Female): ")
     education_level = input("Education Level (High School, Bachelor's, Master's, PhD): ")
     job_title = input("Job Title: ")
     years_of_experience = float(input("Years of Experience: "))
-    logging.info('Input data collected.')
 
     # Create a DataFrame from the input data
     input_data = pd.DataFrame({
@@ -38,12 +28,9 @@ def prognose_interactive():
         'Job Title': [job_title],
         'Years of Experience': [years_of_experience]
     })
-    logging.info('DataFrame created from input data.')
 
     # Predict on input data
     predicted_salary = trained_model.predict(input_data)
-    logging.info('Prediction made on input data.')
 
     # Print predicted income
     print(f'Predicted Income: ₹{predicted_salary[0]:,.0f}')
-    logging.info(f'Predicted Income: ₹{predicted_salary[0]:,.0f}')

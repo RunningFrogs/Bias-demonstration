@@ -10,6 +10,9 @@ from sklearn.preprocessing import OneHotEncoder, RobustScaler
 from joblib import dump
 from config import paths
 
+# TODO: add logging
+# TODO: Combine feature importances
+
 def train_model():
     if not os.path.exists(paths.path_prepared_training_data_adjusted):
         print(f'{paths.path_prepared_training_data_adjusted} does not exist.')
@@ -56,6 +59,26 @@ def train_model():
 
     best_model = grid_search.best_estimator_
 
+    # Extract feature importances from the best model
+    feature_importances = best_model.named_steps['regressor'].feature_importances_
+
+    # Get feature names from the preprocessor
+    feature_names = numerical_features + \
+                    list(best_model.named_steps['preprocessor'].named_transformers_['cat'].get_feature_names_out(
+                        categorical_features))
+
+    # Combine feature names with their importances and sort descending
+    features_importances_sorted = sorted(zip(feature_names, feature_importances), key=lambda x: x[1], reverse=True)
+
+    # Convert to DataFrame for saving and print
+    feature_importances_df = pd.DataFrame(features_importances_sorted, columns=['Feature', 'Importance'])
+
+    # Save sorted feature importances to a file
+    feature_importances_df.to_csv(paths.path_feature_importances, index=False)
+
+    print('Feature importances (sorted):')
+    print(feature_importances_df)
+
     # Evaluate model
     y_pred = best_model.predict(x_test)
     # Predicted values should not be negative
@@ -73,6 +96,7 @@ def train_model():
     print(f'R²: {r2}')
     print(f'RMSE: {rmse}')
     print(f'RMSE in relation to average income: {rmse_ratio}')
+    print('Feature importances saved to:', paths.path_feature_importances)
 
     # Save metrics in text file
     with open(paths.path_training_metrics_adjusted, 'w') as file:
@@ -83,3 +107,4 @@ def train_model():
 
     # Save model
     dump(best_model, paths.path_model_adjusted)
+

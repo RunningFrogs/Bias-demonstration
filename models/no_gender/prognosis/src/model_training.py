@@ -9,32 +9,21 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.preprocessing import OneHotEncoder, RobustScaler
 from joblib import dump
 from config import paths
-import logging
-
-# Setup logging
-logging.basicConfig(filename=paths.path_log_model_no_gender, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 
 def train_model():
-    logging.info('Starting model training process.')
 
     if not os.path.exists(paths.path_prepared_training_data_no_gender):
-        logging.error(f'{paths.path_prepared_training_data_no_gender} does not exist.')
         print(f'{paths.path_prepared_training_data_no_gender} does not exist.')
         return
-    else:
-        logging.info(f'Found prepared training data at {paths.path_prepared_training_data_no_gender}.')
 
     # Load training data
     training_data = pd.read_csv(paths.path_prepared_training_data_no_gender)
-    logging.info('Training data loaded successfully.')
 
     x = training_data.drop('Salary', axis=1)
     y = training_data['Salary']
 
     # Split training and test data
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=60)
-    logging.info('Training and test data split successfully.')
 
     # Define categorical and numerical features
     categorical_features = ['Education Level', 'Job Title']
@@ -46,12 +35,10 @@ def train_model():
             ('num', RobustScaler(), numerical_features),
             ('cat', OneHotEncoder(handle_unknown='ignore'), categorical_features)
         ])
-    logging.info('Preprocessor for numerical and categorical features created.')
 
     # Pipeline with preprocessor
     pipeline = Pipeline(steps=[('preprocessor', preprocessor),
                                ('regressor', GradientBoostingRegressor(random_state=42))])
-    logging.info('Pipeline with preprocessor and regressor established.')
 
     # Define GridSearchCV parameters
     param_grid = {
@@ -61,23 +48,18 @@ def train_model():
         'regressor__min_samples_split': [2, 5],
         'regressor__subsample': [0.75, 1.0]
     }
-    logging.info('GridSearchCV parameters defined.')
 
     # Create GridSearchCV
     grid_search = GridSearchCV(pipeline, param_grid, cv=5, scoring='neg_mean_squared_error', verbose=3, n_jobs=-1)
-    logging.info('GridSearchCV created and ready to fit.')
 
     # Train model using GridSearchCV
     grid_search.fit(x_train, y_train)
-    logging.info('Model trained using GridSearchCV.')
 
     best_model = grid_search.best_estimator_
-    logging.info('Best model obtained from GridSearchCV.')
 
     # Evaluate model
     y_pred = best_model.predict(x_test)
     y_pred = np.clip(y_pred, a_min=0, a_max=None)  # Ensure predicted values are not negative
-    logging.info('Model evaluation completed.')
 
     # Calculate metrics
     mse = mean_squared_error(y_test, y_pred)
@@ -85,7 +67,6 @@ def train_model():
     r2 = r2_score(y_test, y_pred)
     average_salary = y_test.mean()
     rmse_ratio = rmse / average_salary
-    logging.info(f'Metrics calculated. R2: {r2}, RMSE: {rmse}, RMSE ratio: {rmse_ratio}')
 
     # Print metrics and best parameters
     print(f'Best parameters: {grid_search.best_params_}')
@@ -99,8 +80,6 @@ def train_model():
         file.write(f'R²: {r2}\n')
         file.write(f'RMSE: {rmse}\n')
         file.write(f'RMSE in relation to average income: {rmse_ratio}\n')
-    logging.info('Metrics saved to file.')
 
     # Save model
     dump(best_model, paths.path_model_no_gender)
-    logging.info(f'Model saved to {paths.path_model_no_gender}.')

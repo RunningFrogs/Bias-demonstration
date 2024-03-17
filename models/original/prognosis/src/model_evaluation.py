@@ -5,41 +5,22 @@ import numpy as np
 from config import paths
 import logging
 
-# Setup logging
-logging.basicConfig(filename=paths.path_log_model_original, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 def evaluate_model():
-    logging.info('Starting model evaluation.')
+    model = load(paths.path_model_original)
+    data = pd.read_csv(paths.path_evaluation_data_original)
 
-    # Load model
-    try:
-        model = load(paths.path_model_original)
-        logging.info('Model loaded successfully.')
-    except FileNotFoundError:
-        logging.error(f'Model file {paths.path_model_original} not found.')
-        return
-
-    # Load evaluation data
-    try:
-        data = pd.read_csv(paths.path_evaluation_data_original)
-        logging.info('Evaluation data loaded successfully.')
-    except FileNotFoundError:
-        logging.error(f'Evaluation data file {paths.path_evaluation_data_original} not found.')
-        return
 
     X_test = data.drop(columns=['Salary'])
     y_true = data['Salary']
 
     # Prognose salaries
     y_pred = model.predict(X_test)
-    logging.info('Predictions made on evaluation data.')
 
     # Calculate metrics
     rmse = np.sqrt(mean_squared_error(y_true, y_pred))
     r2 = r2_score(y_true, y_pred)
     average_salary = y_true.mean()
     rmse_ratio = rmse / average_salary
-    logging.info('Metrics calculated.')
 
     # Print metrics
     print(f"R2: {r2}")
@@ -51,4 +32,3 @@ def evaluate_model():
         file.write(f"R2: {r2}\n")
         file.write(f"RMSE: {rmse}\n")
         file.write(f"RMSE in relation to average income: {rmse_ratio}\n")
-    logging.info(f'Metrics saved to {paths.path_evaluation_metrics_original}.')

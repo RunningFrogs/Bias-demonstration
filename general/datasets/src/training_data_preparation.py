@@ -1,27 +1,21 @@
 import os
 import pandas as pd
 from config import paths
-import logging
 
-# Log file configuration
-logging.basicConfig(filename=paths.path_log_general, level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
 def prepare_training_data_basic():
     if not os.path.exists(paths.path_unprepared_training_data):
-        logging.error(f'Unprepared training data file {paths.path_unprepared_training_data} does not exist.')
         print(f'{paths.path_unprepared_training_data} does not exist.')
         return
 
-    logging.info('Starting the preparation of the training data.')
 
     # Load the CSV file into a pandas DataFrame
     df = pd.read_csv(paths.path_unprepared_training_data)
-    logging.info('Unprepared training data loaded successfully.')
 
     # Log information about rows with missing data before removal
     missing_data_info = df[df.isnull().any(axis=1)]
     if not missing_data_info.empty:
-        logging.info(f'Removing rows due to missing data. Rows affected: {len(missing_data_info)}')
+        print(f'Removing rows due to missing data. Rows affected: {len(missing_data_info)}')
 
     # Clean and format the DataFrame
     df = df.replace({
@@ -34,7 +28,6 @@ def prepare_training_data_basic():
         "High School Diploma": "High School",
         "High School": "High School"
     }, regex=True)
-    logging.info('Education level strings formatted.')
 
     # Remove rows with any missing values
     df = df.dropna(how='any')
@@ -43,10 +36,8 @@ def prepare_training_data_basic():
     df['Salary'] = df['Salary'].astype(int)
     df['Years of Experience'] = df['Years of Experience'].astype(int)
     df['Age'] = df['Age'].astype(int)
-    logging.info('Numerical fields formatted and rows with missing values removed.')
 
     # Save the cleaned datasets
     df.to_csv(paths.path_training_data_complete_prepared_basic, index=False)
-    logging.info('Cleaned training dataset saved.')
 
     print(f'Cleaned training data saved at {paths.path_training_data_complete_prepared_basic}.')
