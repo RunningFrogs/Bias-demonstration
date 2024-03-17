@@ -10,18 +10,15 @@ logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, 
 
 
 def balance_genders(df):
-    """
-    Adjust the dataset to ensure every gender is represented in each job by creating synthetic data if necessary.
-    This keeps the genders evenly represented as much as possible.
-    """
+
     unique_genders = df['Gender'].unique()
     unique_jobs = df.groupby(['Education Level', 'Job Title', 'Years of Experience']).size().reset_index().drop(0, axis=1)
 
-    # Synthetische Daten basierend auf vorhandenen Daten generieren
+
     def generate_synthetic_data(row, gender):
         synthetic_row = row.copy()
         synthetic_row['Gender'] = gender
-        # Hier können Sie weitere Anpassungen vornehmen, z.B. Variationen in den Daten einführen
+
         return synthetic_row
 
     balanced_df = pd.DataFrame()
@@ -33,16 +30,16 @@ def balance_genders(df):
         job_df = df[job_mask]
         max_count = job_df['Gender'].value_counts().max()
 
-        # Für jedes Geschlecht sicherstellen, dass es max_count Einträge gibt
+
         for gender in unique_genders:
             gender_df = job_df[job_df['Gender'] == gender]
 
             if gender_df.empty:
-                # Wenn keine Einträge für ein Geschlecht vorhanden sind, generieren Sie synthetische Daten
+
                 synthetic_data = generate_synthetic_data(job_df.iloc[0], gender)
                 gender_df = pd.DataFrame([synthetic_data])
 
-            # Füllen oder reduzieren Sie die Daten, um eine gleichmäßige Verteilung zu erreichen
+
             resampled_gender_df = gender_df.sample(n=max_count, replace=True, random_state=42).reset_index(drop=True)
             balanced_df = pd.concat([balanced_df, resampled_gender_df], axis=0)
 

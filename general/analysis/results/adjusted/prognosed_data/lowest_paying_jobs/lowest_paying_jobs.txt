@@ -5,49 +5,25 @@ Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Quality Assurance Analyst
+Job: Senior Sales Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Strategy Consultant
+Job: Senior Operations Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Public Relations Manager
+Job: Senior Operations Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Copywriter
-Gender Distribution (Male & Female only):
-Gender
-Male      50.0
-Female    50.0
-
-Job: Business Development Manager
-Gender Distribution (Male & Female only):
-Gender
-Male      50.0
-Female    50.0
-
-Job: Senior Product Designer
-Gender Distribution (Male & Female only):
-Gender
-Male      50.0
-Female    50.0
-
-Job: Junior Business Operations Analyst
-Gender Distribution (Male & Female only):
-Gender
-Male      50.0
-Female    50.0
-
-Job: Senior Product Development Manager
+Job: Junior Software Developer
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
@@ -59,7 +35,31 @@ Gender
 Male      50.0
 Female    50.0
 
-Job: Chief Technology Officer
+Job: Training Specialist
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Junior Financial Advisor
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Data Scientist
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Junior Social Media Specialist
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Junior Financial Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0

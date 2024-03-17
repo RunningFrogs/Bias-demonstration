@@ -1,0 +1,180 @@
+2024-03-17 08:08:02,044 - INFO - Starting the preparation of the training data.
+2024-03-17 08:08:02,049 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:08:02,050 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:08:46,650 - INFO - Starting the preparation of the training data.
+2024-03-17 08:08:46,655 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:08:46,657 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:08:46,901 - INFO - Data balanced for gender.
+2024-03-17 08:08:46,941 - INFO - Salaries adjusted based on job title, years of experience, and gender.
+2024-03-17 08:08:46,958 - INFO - Training and evaluation datasets saved.
+2024-03-17 08:08:46,958 - INFO - Complete data preparation and adjustment process finished.
+2024-03-17 08:19:03,591 - INFO - Starting the preparation of the training data.
+2024-03-17 08:19:03,596 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:19:03,598 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:19:03,841 - INFO - Data balanced for gender.
+2024-03-17 08:19:03,882 - INFO - Salaries adjusted based on job title, years of experience, and gender.
+2024-03-17 08:19:03,899 - INFO - Training and evaluation datasets saved.
+2024-03-17 08:19:03,899 - INFO - Complete data preparation and adjustment process finished.
+2024-03-17 08:21:25,264 - INFO - Starting the preparation of the training data.
+2024-03-17 08:21:25,269 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:21:25,271 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:22:13,183 - INFO - Starting the preparation of the training data.
+2024-03-17 08:22:13,188 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:22:13,190 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:22:13,441 - INFO - Data balanced for gender.
+2024-03-17 08:22:59,217 - INFO - Starting the preparation of the training data.
+2024-03-17 08:22:59,222 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:22:59,224 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:22:59,465 - INFO - Data balanced for gender.
+2024-03-17 08:22:59,466 - ERROR - DataFrame is None or does not contain 'Job Title' column.
+2024-03-17 08:22:59,466 - INFO - Complete data preparation and adjustment process finished.
+2024-03-17 08:23:06,354 - INFO - Starting the preparation of the training data.
+2024-03-17 08:23:06,359 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:23:06,361 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:23:06,601 - INFO - Data balanced for gender.
+2024-03-17 08:23:06,601 - ERROR - DataFrame is None or does not contain 'Job Title' column.
+2024-03-17 08:23:06,601 - INFO - Complete data preparation and adjustment process finished.
+2024-03-17 08:25:06,628 - INFO - Starting the preparation of the training data.
+2024-03-17 08:25:06,632 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:25:06,637 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:25:06,884 - INFO - Data balanced for gender.
+2024-03-17 08:25:06,947 - INFO - Salaries adjusted based on job title, years of experience, and gender.
+2024-03-17 08:25:06,977 - INFO - Training and evaluation datasets saved.
+2024-03-17 08:25:06,977 - INFO - Complete data preparation and adjustment process finished.
+2024-03-17 08:29:06,055 - INFO - Starting the preparation of the training data.
+2024-03-17 08:29:06,060 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:29:06,065 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:29:06,311 - INFO - Data balanced for gender.
+2024-03-17 08:29:15,394 - INFO - Starting the preparation of the training data.
+2024-03-17 08:29:15,399 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:29:15,403 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:29:15,652 - INFO - Data balanced for gender.
+2024-03-17 08:29:15,706 - INFO - Salaries fairly adjusted based on job title, years of experience, education level, and gender.
+2024-03-17 08:29:15,730 - INFO - Training and evaluation datasets saved.
+2024-03-17 08:29:15,730 - INFO - Complete data preparation and adjustment process finished.
+2024-03-17 08:35:30,951 - INFO - Starting the preparation of the training data.
+2024-03-17 08:35:30,956 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:35:30,961 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:37:26,150 - INFO - Starting the preparation of the training data.
+2024-03-17 08:37:26,155 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:37:26,160 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:39:11,308 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:39:11,312 - INFO - Data cleaned, formatted, and missing values removed.
+2024-03-17 08:43:07,939 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:43:07,944 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:43:07,945 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:43:08,020 - INFO - Education level strings formatted.
+2024-03-17 08:43:08,022 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:43:08,025 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:43:35,270 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:43:35,275 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:43:35,276 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:43:35,350 - INFO - Education level strings formatted.
+2024-03-17 08:43:35,352 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:43:35,355 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:43:42,409 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:43:42,414 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:43:42,415 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:43:42,492 - INFO - Education level strings formatted.
+2024-03-17 08:43:42,493 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:43:42,496 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:46:43,370 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:46:43,375 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:46:43,376 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:46:43,451 - INFO - Education level strings formatted.
+2024-03-17 08:46:43,453 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:46:43,455 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:47:06,737 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:47:06,742 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:47:06,743 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:47:06,819 - INFO - Education level strings formatted.
+2024-03-17 08:47:06,821 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:47:06,823 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:47:30,688 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:47:30,693 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:47:30,694 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:47:30,771 - INFO - Education level strings formatted.
+2024-03-17 08:47:30,772 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:47:30,775 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:47:35,779 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:47:35,784 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:47:35,785 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:47:35,861 - INFO - Education level strings formatted.
+2024-03-17 08:47:35,863 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:47:35,865 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:49:21,571 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:49:21,576 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:49:21,576 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:49:21,651 - INFO - Education level strings formatted.
+2024-03-17 08:49:21,653 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:49:21,655 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:49:28,574 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:49:28,579 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:49:28,580 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:49:28,654 - INFO - Education level strings formatted.
+2024-03-17 08:49:28,655 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:49:28,658 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:49:28,663 - INFO - Data split into training and evaluation datasets.
+2024-03-17 08:49:28,664 - INFO - Training and evaluation datasets saved.
+2024-03-17 08:49:38,055 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:49:38,060 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:49:38,061 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:49:38,136 - INFO - Education level strings formatted.
+2024-03-17 08:49:38,137 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:49:38,140 - INFO - Dataset balanced across genders. Each gender now has 14 entries.
+2024-03-17 08:49:38,144 - INFO - Data split into training and evaluation datasets.
+2024-03-17 08:49:38,145 - INFO - Training and evaluation datasets saved.
+2024-03-17 08:51:37,564 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:51:37,569 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:51:37,570 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:51:37,645 - INFO - Education level strings formatted.
+2024-03-17 08:51:37,646 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:51:39,467 - INFO - Dataset adjusted to ensure every gender is represented in each job.
+2024-03-17 08:51:39,472 - INFO - Data split into training and evaluation datasets.
+2024-03-17 08:51:39,481 - INFO - Training and evaluation datasets saved.
+2024-03-17 08:52:33,789 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:52:33,795 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:52:33,796 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:52:33,874 - INFO - Education level strings formatted.
+2024-03-17 08:52:33,876 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:52:35,683 - INFO - Dataset adjusted to ensure every gender is represented in each job.
+2024-03-17 08:52:35,687 - INFO - Salaries adjusted for fairness across genders.
+2024-03-17 08:52:35,687 - INFO - Data split into training and evaluation datasets.
+2024-03-17 08:52:35,696 - INFO - Training and evaluation datasets saved.
+2024-03-17 08:58:54,924 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:58:54,929 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:58:54,929 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:58:55,007 - INFO - Education level strings formatted.
+2024-03-17 08:58:55,009 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 08:59:57,014 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 08:59:57,019 - INFO - Unprepared training data loaded successfully.
+2024-03-17 08:59:57,020 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 08:59:57,096 - INFO - Education level strings formatted.
+2024-03-17 08:59:57,098 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 09:00:01,514 - INFO - Dataset adjusted with synthetic data to ensure every gender is represented in each job.
+2024-03-17 09:00:01,520 - INFO - Salaries adjusted for fairness across genders.
+2024-03-17 09:00:01,521 - INFO - Data split into training and evaluation datasets.
+2024-03-17 09:00:01,536 - INFO - Training and evaluation datasets saved.
+2024-03-17 09:01:47,573 - INFO - Starting the advanced preparation of the training data.
+2024-03-17 09:01:47,578 - INFO - Unprepared training data loaded successfully.
+2024-03-17 09:01:47,579 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-17 09:01:47,655 - INFO - Education level strings formatted.
+2024-03-17 09:01:47,657 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-17 09:01:50,912 - INFO - Dataset adjusted with synthetic data to ensure every gender is represented in each job equally.
+2024-03-17 09:01:50,920 - INFO - Salaries adjusted for fairness across genders.
+2024-03-17 09:01:50,921 - INFO - Data split into training and evaluation datasets.
+2024-03-17 09:01:50,954 - INFO - Training and evaluation datasets saved.
+2024-03-17 09:19:52,880 - INFO - Starting the automated prognose process.
+2024-03-17 09:19:52,880 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-17 09:19:52,880 - INFO - Found model at models/adjusted/prognosis/model/model.joblib.
+2024-03-17 09:19:52,926 - INFO - Model loaded successfully.
+2024-03-17 09:19:52,927 - INFO - Input data loaded successfully.
+2024-03-17 09:19:52,946 - INFO - Predictions made on input data.
+2024-03-17 09:19:52,948 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-17 09:20:05,169 - INFO - Starting the automated prognose process.
+2024-03-17 09:20:05,169 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-17 09:20:05,169 - INFO - Found model at models/adjusted/prognosis/model/model.joblib.
+2024-03-17 09:20:05,212 - INFO - Model loaded successfully.
+2024-03-17 09:20:05,213 - INFO - Input data loaded successfully.
+2024-03-17 09:20:05,231 - INFO - Predictions made on input data.
+2024-03-17 09:20:05,233 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
