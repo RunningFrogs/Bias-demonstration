@@ -17,22 +17,42 @@ def analyze_default(input_path, result_path):
 
 def analyze_data(args):
     if args.training:
-        input_path = paths.path_prepared_training_data_original
-        result_path = paths.path_analysis_result_training_data_original
-        heatmaps.generate_heatmaps(input_path, result_path)
-        top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
-        lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
-        analyze_default(input_path, result_path)
+        if args.original:
+            input_path = paths.path_prepared_training_data_original
+            result_path = paths.path_analysis_result_training_data_original
+            heatmaps.generate_heatmaps(input_path, result_path)
+            top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
+            lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
+            analyze_default(input_path, result_path)
+
+        elif args.adjusted:
+            input_path = paths.path_prepared_training_data_adjusted
+            result_path = paths.path_analysis_result_training_data_adjusted
+            heatmaps.generate_heatmaps(input_path, result_path)
+            top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
+            lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
+            analyze_default(input_path, result_path)
 
     elif args.test:
         input_path = paths.path_test_data_expanded
         result_path = paths.path_analysis_result_test_data_original
+        heatmaps.generate_heatmaps(input_path, result_path)
+        top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
+        lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
         analyze_default(input_path, result_path)
 
     elif args.prognosis:
         if args.original:
             input_path = paths.path_prognosed_data_original
             result_path = paths.path_analysis_result_prognosed_data_original
+            heatmaps.generate_heatmaps(input_path, result_path)
+            top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
+            lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
+            analyze_default(input_path, result_path)
+
+        elif args.adjusted:
+            input_path = paths.path_prognosed_data_adjusted
+            result_path = paths.path_analysis_result_prognosed_data_adjusted
             heatmaps.generate_heatmaps(input_path, result_path)
             top_paid_jobs.generate_top_paid_jobs(input_path, result_path)
             lowest_paying_jobs.analyze_lowest_paying_jobs(input_path, result_path)
@@ -46,7 +66,8 @@ parser = argparse.ArgumentParser(description="Script to call specific functions 
 
 # Analyze arguments
 parser.add_argument('--analyze', action='store_true', help='Analyze flag')
-parser.add_argument('--training', action='store_true', help='Training data flag')
+parser.add_argument('--training', action='store_true', help='Adjusted data flag')
+parser.add_argument('--adjusted', action='store_true', help='Training data flag')
 parser.add_argument('--test', action='store_true', help='Test data flag')
 parser.add_argument('--prognosis', action='store_true', help='Prognosis data flag')
 parser.add_argument('--original', action='store_true', help='Original prognosis data flag')

@@ -1,0 +1,14 @@
+Years of Experience:
+  Summary:
+      Average: 24.28
+      Median: 25.50
+      Standard deviation: 14.51
+      Range: from 0.0 to 50.0
+
+Salary:
+  Summary:
+      Average: 143084.75
+      Median: 159965.49
+      Standard deviation: 42342.52
+      Range: from 37338.79612608086 to 197070.29353088685
+

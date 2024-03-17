@@ -42,14 +42,12 @@ path_evaluation_metrics_no_gender = 'models/no_gender/prognosis/model/evaluation
 
 ## Model adjusted
 # Datasets
-path_evaluation_data_adjusted = 'models/adjusted/datasets/training_data/evaluation_data_ethical.csv'
+path_evaluation_data_adjusted = 'models/adjusted/datasets/training_data/evaluation_data_adjusted.csv'
 path_prognosed_data_adjusted = 'models/no_gender/datasets/prognosed_data/prognosed_data.csv'
-path_prepared_training_data_adjusted_basic = 'models/adjusted/datasets/training_data/training_data_adjusted_prepared_basic.csv'
-path_prepared_training_data_balanced_gender = 'models/adjusted/datasets/training_data/training_data_balanced_gender.csv'
-path_prepared_training_data_adjusted_salaries = 'models/adjusted/datasets/training_data/training_data_adjusted_salaries.csv'
+path_prepared_training_data_adjusted = 'models/adjusted/datasets/training_data/training_data_adjusted.csv'
 
 # Analysis paths
-path_analysis_result_training_data_adjusted = 'gemeral/analysis/results/adjusted/training_data/'
+path_analysis_result_training_data_adjusted = 'general/analysis/results/adjusted/training_data/'
 path_analysis_result_prognosed_data_adjusted = 'general/analysis/results/adjusted/prognosed_data/'
 
 # Model
@@ -62,5 +60,5 @@ path_evaluation_metrics_adjusted = 'models/adjusted/prognosis/model/evaluation_m
 path_log_general = 'general/log_general.txt'
 path_log_model_no_gender = 'models/ethical/log_model_no_gender.txt'
 path_log_model_original = 'models/original/log_original_model.txt'
-path_log_model_adjusted = 'models/original/log_model_adjusted.txt'
+path_log_model_adjusted = 'models/adjusted/log_model_adjusted.txt'
 path_log_analysis = 'general/analysis/log_analysis.txt'
