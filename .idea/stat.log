@@ -329,3 +329,7 @@
 {"ts":1710745667797,"action":"FILE_OPENED","file":"/models/adjusted/prognosis/src/interactive_prognosis.py","tags":{"FILE_LINE_OF_CODE":"64"}}
 {"ts":1710745670654,"action":"FILE_CLOSED","file":"/models/adjusted/prognosis/src/interactive_prognosis.py","tags":{"FILE_LINE_OF_CODE":"64"}}
 {"ts":1710745670654,"action":"FILE_OPENED","file":"/models/adjusted/data_preparation/src/training_data_adjustment.py","tags":{"FILE_LINE_OF_CODE":"127"}}
+{"ts":1710745695374,"action":"IDE_DEACTIVATED"}
+{"ts":1710745695374,"action":"IDE_ACTIVATED"}
+{"ts":1710745696820,"action":"IDE_DEACTIVATED"}
+{"ts":1710772075464,"action":"IDE_ACTIVATED"}

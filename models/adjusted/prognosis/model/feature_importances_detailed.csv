@@ -1,0 +1,197 @@
+Feature,Importance
+Years of Experience,0.7511542542348953
+Job Title_Data Scientist,0.04121557775285526
+Job Title_Data Analyst,0.036048833839368584
+Job Title_Software Engineer,0.03490303025046948
+Age,0.027161190351626927
+Job Title_Product Manager,0.022243433665630002
+Education Level_High School,0.010319462141089513
+Education Level_PhD,0.008611003065236817
+Job Title_Full Stack Engineer,0.008399326596817459
+Job Title_Back end Developer,0.007601735503143378
+Education Level_Bachelor,0.005303490084318748
+Job Title_Senior Software Engineer,0.004680497691336499
+Job Title_Software Engineer Manager,0.004570383430281433
+Job Title_Senior Project Engineer,0.0037271984373815977
+Job Title_Financial Manager,0.0035756216398826523
+Job Title_Front end Developer,0.002952047262112311
+Education Level_Master,0.002773996390299162
+Job Title_Director of HR,0.0023195951764948914
+Job Title_Marketing Manager,0.001900091896511558
+Job Title_Director of Data Science,0.0017784667926114559
+Job Title_Marketing Coordinator,0.001221615471469091
+Job Title_Sales Director,0.0011654955414951082
+Job Title_Senior Research Scientist,0.0009581094047057372
+Job Title_Human Resources Manager,0.0008103883531232686
+Job Title_Operations Manager,0.0007197791260380883
+Job Title_Senior Human Resources Manager,0.0006932696174531699
+Job Title_Marketing Director,0.0006559267911986156
+Job Title_Junior Software Developer,0.0006354483919906422
+Job Title_Digital Marketing Manager,0.0006085028467993752
+Job Title_Senior Product Marketing Manager,0.000591648930657236
+Job Title_Director of Marketing,0.0005338565751076818
+Job Title_Administrative Assistant,0.0004301961976446983
+Job Title_Senior Marketing Analyst,0.0004286766729755337
+Job Title_Recruiter,0.0003808035372217116
+Job Title_Senior Project Coordinator,0.00036320764782028515
+Job Title_Project Manager,0.00030313614020139793
+Job Title_Sales Manager,0.0003008931074922281
+Job Title_Web Developer,0.00028908261912453514
+Job Title_CEO,0.0002880104623589352
+Job Title_Customer Service Manager,0.00027587452130813913
+Job Title_HR Generalist,0.0002723914097716643
+Job Title_Senior HR Generalist,0.00026610912194594504
+Job Title_Junior HR Generalist,0.00023011031421965296
+Job Title_Senior Data Scientist,0.00021588606597727452
+Job Title_Human Resources Coordinator,0.00020242713544902204
+Job Title_HR Manager,0.0001991665708514916
+Job Title_Junior Marketing Manager,0.00018868769980116725
+Job Title_Software Developer,0.00018258336856298284
+Job Title_Senior Graphic Designer,0.00017671112892614848
+Job Title_Senior Sales Representative,0.0001605902160445272
+Job Title_Financial Advisor,0.00015681937430516037
+Job Title_Event Coordinator,0.00015629136859045847
+Job Title_Sales Representative,0.00014698733489464455
+Job Title_Office Manager,0.00014346527477357483
+Job Title_Operations Analyst,0.00013791611352210358
+Job Title_Senior Product Designer,0.00012662658463633548
+Job Title_Senior HR Manager,0.00012302069291754046
+Job Title_Research Director,0.0001200440817196667
+Job Title_Chief Technology Officer,0.00011909716600664176
+Job Title_Content Marketing Manager,0.00011696596132533924
+Job Title_Front End Developer,0.0001163324397014845
+Job Title_Sales Associate,0.00011384566794298805
+Job Title_Principal Scientist,0.0001128769687349685
+Job Title_Senior Engineer,0.00011270065149754474
+Job Title_IT Support Specialist,0.00011188892725616051
+Job Title_Training Specialist,0.00011083824131469392
+Job Title_Supply Chain Manager,0.00011012957757720988
+Job Title_Supply Chain Analyst,9.75707748168524e-05
+Job Title_Financial Analyst,9.634568643760153e-05
+Job Title_Senior Marketing Manager,9.632446872933114e-05
+Job Title_Creative Director,9.568423575974613e-05
+Job Title_Technical Recruiter,8.86323956829489e-05
+Job Title_Project Engineer,8.457588073157466e-05
+Job Title_Marketing Analyst,8.336824911644754e-05
+Job Title_Sales Operations Manager,8.252063694427041e-05
+Job Title_Senior Account Executive,8.032169669760983e-05
+Job Title_Senior Scientist,7.73825107218432e-05
+Job Title_Senior Quality Assurance Analyst,7.659694284154688e-05
+Job Title_Senior Project Manager,7.543885989921983e-05
+Job Title_Marketing Specialist,6.692118241737811e-05
+Job Title_Senior Financial Analyst,6.644360869944309e-05
+Job Title_Junior HR Coordinator,6.447573898703359e-05
+Job Title_VP of Finance,6.219907613866375e-05
+Job Title_Senior Marketing Coordinator,6.181769726494502e-05
+Job Title_Senior Researcher,5.701889796502264e-05
+Job Title_Senior Business Development Manager,5.698520062930631e-05
+Job Title_Research Scientist,5.460327983188712e-05
+Job Title_Junior Software Engineer,5.4148042131583504e-05
+Job Title_Senior IT Support Specialist,5.287302719742212e-05
+Job Title_Senior Business Analyst,4.6423550259545224e-05
+Job Title_Senior Data Analyst,4.591919844944948e-05
+Job Title_Customer Service Representative,4.3004368085508854e-05
+Job Title_Director of Operations,3.972876517823776e-05
+Job Title_Public Relations Manager,3.914709557532166e-05
+Job Title_IT Manager,3.895486701160181e-05
+Job Title_Senior Operations Manager,3.844783260719434e-05
+Job Title_Junior Operations Analyst,3.502451046739165e-05
+Job Title_Sales Executive,3.4944390967668345e-05
+Job Title_Junior Data Analyst,3.487190178910575e-05
+Job Title_Senior Software Developer,3.338859175206512e-05
+Gender_Female,3.1963322278879926e-05
+Job Title_Senior Human Resources Coordinator,3.014954128403509e-05
+Job Title_Software Manager,2.9924341513311856e-05
+Job Title_Product Designer,2.9697606383796115e-05
+Gender_Male,2.5881688970962016e-05
+Job Title_Senior Financial Advisor,2.5624012398844915e-05
+Job Title_Junior Sales Associate,2.283926965272371e-05
+Job Title_UX Researcher,2.2443687515094045e-05
+Job Title_Senior Product Manager,2.236651023201345e-05
+Job Title_Senior Training Specialist,2.233332333719216e-05
+Gender_Other,2.1471144408904958e-05
+Job Title_Senior Financial Manager,1.871141784935846e-05
+Job Title_Senior Account Manager,1.85828909835428e-05
+Job Title_Senior Data Engineer,1.8275146833251545e-05
+Job Title_Junior Financial Analyst,1.815671044128513e-05
+Job Title_Senior Marketing Director,1.800619209949328e-05
+Job Title_Senior Operations Analyst,1.69928082829247e-05
+Job Title_Business Intelligence Analyst,1.6685005965667657e-05
+Job Title_Business Analyst,1.652098663529836e-05
+Job Title_VP of Operations,1.6150951423037765e-05
+Job Title_Senior UX Designer,1.5213651947180147e-05
+Job Title_Principal Engineer,1.519777233533643e-05
+Job Title_Senior Sales Manager,1.5058775109154378e-05
+Job Title_Junior Customer Support Specialist,1.4636185766444313e-05
+Job Title_Director,1.3856718673659387e-05
+Job Title_Senior Human Resources Specialist,1.2748045620377087e-05
+Job Title_Senior Marketing Specialist,1.2729359079066077e-05
+Job Title_Operations Director,1.2477527790420668e-05
+Job Title_Junior Business Development Associate,1.2419539803924613e-05
+Job Title_Senior Manager,1.2390959217322965e-05
+Job Title_Junior Web Developer,1.2290904007790217e-05
+Job Title_Junior Accountant,1.1531486406820825e-05
+Job Title_Junior Account Manager,1.1351928689086536e-05
+Job Title_Junior Sales Representative,1.1273918642407561e-05
+Job Title_Junior Copywriter,1.0331098228907022e-05
+Job Title_Junior Advertising Coordinator,1.0328819941065641e-05
+Job Title_Senior Operations Coordinator,1.0286351107587084e-05
+Job Title_Junior Product Manager,9.985308590996684e-06
+Job Title_Senior Consultant,9.824761080161905e-06
+Job Title_Junior Web Designer,9.64346827241577e-06
+Job Title_Junior Marketing Analyst,8.86483373980115e-06
+Job Title_Senior HR Specialist,8.36635489072673e-06
+Job Title_Junior Marketing Specialist,7.357459030300332e-06
+Job Title_Director of Engineering,7.124801972942515e-06
+Job Title_Social Media Manager,6.259288343820805e-06
+Job Title_Junior Business Operations Analyst,6.198289995497441e-06
+Job Title_Junior Recruiter,4.7545190752493985e-06
+Job Title_Social Media Specialist,4.752937218124911e-06
+Job Title_Graphic Designer,4.003693687091139e-06
+Job Title_Junior Marketing Coordinator,3.78908288596097e-06
+Job Title_Junior Financial Advisor,3.57407514570881e-06
+Job Title_Junior Social Media Manager,3.389866747221601e-06
+Job Title_Juniour HR Generalist,3.376555226530067e-06
+Job Title_Delivery Driver,3.076145631412716e-06
+Job Title_Help Desk Analyst,3.0663164099502823e-06
+Job Title_Data Entry Clerk,3.0657463053367577e-06
+Job Title_Director of Human Resources,2.746455758902057e-06
+Job Title_Account Manager,2.681704334039398e-06
+Job Title_Junior Project Manager,2.4891041036784045e-06
+Job Title_Product Marketing Manager,2.3582958136076507e-06
+Job Title_Junior Research Scientist,2.2940011938592065e-06
+Job Title_Technical Support Specialist,2.2719257564791408e-06
+Job Title_Customer Success Manager,2.271217068818896e-06
+Job Title_Copywriter,2.2708674696535035e-06
+Job Title_Junior Business Analyst,2.198045718244492e-06
+Job Title_Network Engineer,2.1586832192413684e-06
+Job Title_Director of Sales and Marketing,2.0830358220780896e-06
+Job Title_Junior Operations Coordinator,1.986540933255618e-06
+Job Title_Digital Content Producer,1.835176847238206e-06
+Job Title_Customer Service Rep,1.746116618320478e-06
+Job Title_Social Media Man,1.4318201027904415e-06
+Job Title_Senior IT Consultant,1.4281781672068698e-06
+Job Title_Junior Social Media Specialist,1.371041244317557e-06
+Job Title_IT Support,1.346080144840612e-06
+Job Title_Junior Designer,1.1066177147667582e-06
+Job Title_Director of Sales,1.045942335309973e-06
+Job Title_Director of Finance,1.0016801721927412e-06
+Job Title_Director of Business Development,9.597315149631634e-07
+Job Title_Digital Marketing Specialist,8.953403123614293e-07
+Job Title_UX Designer,8.403331934874929e-07
+Job Title_Junior Operations Manager,5.841806344256631e-07
+Job Title_Accountant,5.15325419789239e-07
+Job Title_Senior Product Development Manager,4.5369200778977655e-07
+Job Title_Customer Success Rep,4.3478408960545665e-07
+Job Title_Technical Writer,3.939156547152975e-07
+Job Title_Senior IT Project Manager,3.4232252020957844e-07
+Job Title_Junior Developer,3.089709344707786e-07
+Job Title_Strategy Consultant,2.4970057512719247e-07
+Job Title_Director of Product Management,2.4925845006615003e-07
+Job Title_Juniour HR Coordinator,1.2685969904802606e-07
+Job Title_Receptionist,1.1236718898368195e-07
+Job Title_Senior Software Architect,8.752958268406771e-08
+Job Title_Junior Data Scientist,7.603539219894605e-08
+Job Title_Director of Human Capital,5.8181941755416324e-08
+Job Title_Junior UX Designer,3.223205851399122e-08
+Job Title_Human Resources Director,1.2824586047691832e-08
