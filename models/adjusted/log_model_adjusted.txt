@@ -298,3 +298,14 @@ RMSE in relation to average income: 0.024335238918172186
 
 2024-03-17 12:02:48,086 - INFO - Metrics saved to models/adjusted/prognosis/model/evaluation_metrics.txt.
 2024-03-17 12:02:48,087 - INFO - Model evaluation completed
+2024-03-18 08:04:51,935 - INFO - Preparation of training data started
+2024-03-18 08:04:51,935 - INFO - Starting the advanced preparation of the training data.
+2024-03-18 08:04:51,949 - INFO - Unprepared training data loaded successfully.
+2024-03-18 08:04:51,954 - INFO - Removing rows due to missing data. Rows affected: 6
+2024-03-18 08:04:52,043 - INFO - Education level strings formatted.
+2024-03-18 08:04:52,046 - INFO - Numerical fields formatted and rows with missing values removed.
+2024-03-18 08:04:55,392 - INFO - Dataset adjusted with synthetic data to ensure every gender is represented in each job equally.
+2024-03-18 08:04:55,403 - INFO - Salaries adjusted for fairness across genders.
+2024-03-18 08:04:55,404 - INFO - Data split into training and evaluation datasets.
+2024-03-18 08:04:55,435 - INFO - Training and evaluation datasets saved.
+2024-03-18 08:04:55,435 - INFO - Preparation of training data completed
