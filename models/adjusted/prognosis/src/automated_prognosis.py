@@ -7,6 +7,8 @@ from config import paths
 # Set up logging
 logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Add exact logging, prognosis data inputs, outputs etc.
+
 def prognose_automated():
     logging.info('Starting the automated prognose process.')
 

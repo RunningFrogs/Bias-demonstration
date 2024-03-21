@@ -6,6 +6,8 @@ import logging
 
 logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# TODO: Add exact logging, which Data is removed, generated etc.
+
 def balance_genders(df):
     # Identify unique genders present in the dataset.
     unique_genders = df['Gender'].unique()

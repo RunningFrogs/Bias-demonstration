@@ -97,7 +97,6 @@ def train_model():
     aggregate_importances_df.to_csv(paths.path_feature_importances_category, index=False)
     logging.info('Aggregate feature importances extracted and saved.')
 
-    # Continue with evaluation and model saving...
     # Evaluate and save model metrics
     y_pred = best_model.predict(x_test)
     y_pred = np.clip(y_pred, a_min=0, a_max=None)  # Ensure predictions are not negative
