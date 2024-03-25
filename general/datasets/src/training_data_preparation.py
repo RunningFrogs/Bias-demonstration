@@ -2,7 +2,6 @@ import os
 import pandas as pd
 from config import paths
 
-
 def prepare_training_data_basic():
     if not os.path.exists(paths.path_unprepared_training_data):
         print(f'{paths.path_unprepared_training_data} does not exist.')
