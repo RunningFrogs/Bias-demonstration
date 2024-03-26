@@ -83,5 +83,3 @@ def prepare_training_data():
 
     print(f'Training data saved at {paths.path_prepared_training_data_adjusted}.')
     print(f'Evaluation data saved at {paths.path_evaluation_data_adjusted}.')
-
-# Stellen Sie sicher, dass die `config` und `paths` entsprechend Ihrer Umgebung definiert sind.
