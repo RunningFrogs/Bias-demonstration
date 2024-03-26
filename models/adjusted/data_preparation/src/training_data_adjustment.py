@@ -6,6 +6,8 @@ import logging
 
 logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# TODO: Add logging and comments
+
 def balance_genders(df):
     unique_genders = df['Gender'].unique()
     unique_jobs = df.groupby(['Education Level', 'Job Title', 'Years of Experience']).size().reset_index().drop(0, axis=1)

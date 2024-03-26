@@ -5,7 +5,7 @@ from time import time
 from config import paths
 from general.datasets.src.job_titles import job_titles
 
-
+# TODO: Check if all three types of datasets are needed
 def generate_basic_test_data(num_rows):
 
     if not os.path.exists(paths.path_prepared_training_data_original):
