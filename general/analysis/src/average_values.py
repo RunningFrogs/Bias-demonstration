@@ -7,11 +7,16 @@ def generate_average_values(input_path, result_path):
         return
 
     data = pd.read_csv(input_path)
+
+    # Define genders
     genders = ['Gesamt', 'Male', 'Female', 'Other']
+
+    # Define columns on which average values are calculated
     columns = ['Age', 'Years of Experience', 'Salary']
     output = ""
 
     for column in columns:
+        # Check if column exists in data
         if column in data.columns:
             output += f"{column}:\n"
             # Statistics for current category
@@ -55,19 +60,23 @@ def generate_average_salaries(input_path, result_path):
         return
 
     data = pd.read_csv(input_path)
-    genders = ['Male', 'Female', 'Other']  # Assuming Gender column exists and has these values
+    genders = ['Male', 'Female', 'Other']
 
+    # Check if required columns exist
     if 'Salary' not in data.columns or 'Job Title' not in data.columns or 'Gender' not in data.columns:
         print("Required columns 'Salary', 'Job Title', or 'Gender' missing.")
         return
 
+    # Initialize dictionary for job statistics
     job_statistics = {}
+    # Iterate over jobs
     for job in data['Job Title'].unique():
         job_data = data[data['Job Title'] == job]
         if not job_data.empty:
             avg_salary = job_data['Salary'].mean()
             median_salary = job_data['Salary'].median()
             gender_stats = {}
+            # Calculate gender-specific salary statistics
             for gender in genders:
                 gender_data = job_data[job_data['Gender'] == gender]
                 if not gender_data.empty:
@@ -79,6 +88,7 @@ def generate_average_salaries(input_path, result_path):
     # Sort jobs on average income
     sorted_job_statistics = dict(sorted(job_statistics.items(), key=lambda item: item[1][0], reverse=True))
 
+    # Create output string
     output = "Average and median salaries by job (descending order of average salary), including gender breakdown:\n"
     for job, (avg_salary, median_salary, gender_stats) in sorted_job_statistics.items():
         output += f"  {job}:\n"
@@ -105,14 +115,17 @@ def analyze_gender_pay_gap(input_path, result_path):
         return
 
     data = pd.read_csv(input_path)
+    # Check if all columns exist
     required_columns = ['Salary', 'Job Title', 'Gender']
     if not all(column in data.columns for column in required_columns):
         print("Required columns 'Salary', 'Job Title', or 'Gender' missing.")
         return
 
+    # Initialize dictionary for pay gap
     job_gender_gaps = {}
     overall_gaps = {'Female': [], 'Other': []}
 
+    # Iterate over all jobs to calculate pay gaps
     for job in data['Job Title'].unique():
         job_data = data[data['Job Title'] == job]
         male_median_salary = job_data[job_data['Gender'] == 'Male']['Salary'].median()
@@ -121,21 +134,21 @@ def analyze_gender_pay_gap(input_path, result_path):
             gender_data = job_data[job_data['Gender'] == gender]
             if not gender_data.empty:
                 gender_median_salary = gender_data['Salary'].median()
-                if male_median_salary > 0:  # Vermeidung einer Division durch Null
+                if male_median_salary > 0:
                     gap_percentage = ((gender_median_salary - male_median_salary) / male_median_salary) * 100
                     job_gender_gaps[f"{job} {gender}"] = gap_percentage
                     overall_gaps[gender].append(gap_percentage)
 
-    # Berechnung der durchschnittlichen Gehaltslücke über alle Berufe
+    # Calculate pay gaps over all jobs
     overall_gap_averages = {gender: sum(gaps) / len(gaps) for gender, gaps in overall_gaps.items() if gaps}
 
-    # Ausgabe formatieren
+    # Generate output
     output = "Gender pay gap analysis (percentage difference):\n"
     current_job = None
     for job_gender, gap_percentage in job_gender_gaps.items():
-        job, gender = job_gender.rsplit(' ', 1)  # Trennen des Strings in Jobtitel und Geschlecht
+        job, gender = job_gender.rsplit(' ', 1)
         if job != current_job:
-            if current_job is not None:  # Fügt eine Leerzeile hinzu, außer vor dem ersten Eintrag
+            if current_job is not None:
                 output += "\n"
             current_job = job
         output += f"{job_gender}: {gap_percentage:.2f}%\n"
@@ -146,7 +159,7 @@ def analyze_gender_pay_gap(input_path, result_path):
 
     print(output)
 
-    # Sicherstellen, dass der Ausgabepfad existiert und die Ausgabe speichern
+    # Save data
     os.makedirs(os.path.dirname(result_path), exist_ok=True)
     gap_analysis_filepath = os.path.join(result_path, 'average_values/gender_pay_gap.txt')
     with open(gap_analysis_filepath, 'w') as file:

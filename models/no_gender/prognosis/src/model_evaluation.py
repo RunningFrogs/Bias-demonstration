@@ -5,7 +5,6 @@ import numpy as np
 from config import paths
 
 def evaluate_model():
-
     # Load model
     model = load(paths.path_model_no_gender)
 

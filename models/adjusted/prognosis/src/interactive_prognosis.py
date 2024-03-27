@@ -8,7 +8,6 @@ import logging
 logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-
 def prognose_interactive():
     logging.info('Starting interactive prognose.')
 

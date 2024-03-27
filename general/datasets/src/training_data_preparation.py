@@ -7,7 +7,6 @@ def prepare_training_data_basic():
         print(f'{paths.path_unprepared_training_data} does not exist.')
         return
 
-
     # Load the CSV file into a pandas DataFrame
     df = pd.read_csv(paths.path_unprepared_training_data)
 

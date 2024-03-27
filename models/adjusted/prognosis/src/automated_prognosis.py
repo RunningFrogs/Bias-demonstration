@@ -7,11 +7,10 @@ from config import paths
 # Set up logging
 logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# TODO: Add exact logging, prognosis data inputs, outputs etc.
-
 def prognose_automated():
     logging.info('Starting the automated prognose process.')
 
+    # Check if file paths exist
     if not os.path.exists(paths.path_test_data_expanded):
         logging.error(f'{paths.path_test_data_expanded} does not exist.')
         print(f'{paths.path_test_data_expanded} does not exist.')
@@ -32,12 +31,24 @@ def prognose_automated():
 
     # Load input data from CSV
     input_data = pd.read_csv(paths.path_test_data_expanded)
-    logging.info('Input data loaded successfully.')
+    logging.info(f'Input data loaded successfully. {input_data.shape[0]} rows with {input_data.shape[1]} attributes.')
+    print(f'Input data loaded successfully. {input_data.shape[0]} rows with {input_data.shape[1]} attributes.')
+
+    # Check for missing values in input data
+    if input_data.isnull().values.any():
+        missing_values_count = input_data.isnull().sum().sum()
+        logging.warning(f'Input data contains {missing_values_count} missing values. These may affect the predictions.')
 
     # Predict on input data
     predicted_salaries = trained_model.predict(input_data)
     logging.info('Predictions made on input data.')
 
+    # Log summary of predictions
+    avg_salary = predicted_salaries.mean()
+    min_salary = predicted_salaries.min()
+    max_salary = predicted_salaries.max()
+    logging.info(f'Summary of predictions - Avg: {avg_salary:.2f}, Min: {min_salary}, Max: {max_salary}')
+    print(f'Summary of predictions - Avg: {avg_salary:.2f}, Min: {min_salary}, Max: {max_salary}')
     # Add the predictions to the test_data DataFrame
     input_data['Salary'] = predicted_salaries
 

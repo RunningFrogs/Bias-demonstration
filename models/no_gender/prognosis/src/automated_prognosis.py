@@ -3,10 +3,7 @@ import pandas as pd
 from joblib import load
 from config import paths
 
-
-
 def prognose_automated():
-
     if not os.path.exists(paths.path_test_data_without_gender):
         print(f'{paths.path_test_data_without_gender} does not exist.')
         return

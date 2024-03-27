@@ -3,7 +3,6 @@ from joblib import load
 from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 from config import paths
-import logging
 
 def evaluate_model():
     model = load(paths.path_model_original)

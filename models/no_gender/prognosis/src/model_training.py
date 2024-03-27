@@ -11,7 +11,6 @@ from joblib import dump
 from config import paths
 
 def train_model():
-
     if not os.path.exists(paths.path_prepared_training_data_no_gender):
         print(f'{paths.path_prepared_training_data_no_gender} does not exist.')
         return

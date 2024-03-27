@@ -1,6 +1,5 @@
 import os
 import pandas as pd
-from config import paths
 
 def analyze_salary_distribution(input_path, result_path):
     # Check if the input file exists

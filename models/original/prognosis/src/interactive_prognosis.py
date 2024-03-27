@@ -2,10 +2,8 @@ import os
 import pandas as pd
 from joblib import load
 from config import paths
-import logging
 
 def prognose_interactive():
-
     if not os.path.exists(paths.path_model_original):
         print(f'{paths.path_model_original} does not exist.')
         return

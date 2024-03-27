@@ -2,7 +2,6 @@ import os
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from config import paths
 
 def generate_top_paid_jobs(input_path, result_path):
     # Check if the input file exists

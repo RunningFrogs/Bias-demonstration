@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-
 def generate_graphic_frequency_distribution(input_path, result_path):
     if not os.path.exists(input_path):
         print(f'{input_path} does not exist.')

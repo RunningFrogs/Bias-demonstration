@@ -4,7 +4,6 @@ from joblib import load
 from config import paths
 
 def prognose_interactive():
-
     if not os.path.exists(paths.path_model_no_gender):
         print(f'{paths.path_model_no_gender} does not exist.')
         return
