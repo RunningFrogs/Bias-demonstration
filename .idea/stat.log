@@ -959,3 +959,11 @@
 {"ts":1711557242454,"action":"IDE_ACTIVATED"}
 {"ts":1711557269937,"action":"FILE_CLOSED","file":"/general/analysis/src/average_values.py","tags":{"FILE_LINE_OF_CODE":"166"}}
 {"ts":1711557269938,"action":"FILE_OPENED","file":"/general/analysis/src/frequency_distribution.py","tags":{"FILE_LINE_OF_CODE":"100"}}
+{"ts":1711557284495,"action":"IDE_DEACTIVATED"}
+{"ts":1711557284495,"action":"IDE_ACTIVATED"}
+{"ts":1711557288178,"action":"IDE_DEACTIVATED"}
+{"ts":1711557312243,"action":"IDE_ACTIVATED"}
+{"ts":1711557314327,"action":"FILE_CLOSED","file":"/general/analysis/src/frequency_distribution.py","tags":{"FILE_LINE_OF_CODE":"100"}}
+{"ts":1711557314336,"action":"FILE_OPENED","file":"/general/analysis/src/frequency_distribution_gender.py","tags":{"FILE_LINE_OF_CODE":"62"}}
+{"ts":1711557321010,"action":"FILE_CLOSED","file":"/general/analysis/src/frequency_distribution_gender.py","tags":{"FILE_LINE_OF_CODE":"62"}}
+{"ts":1711557324282,"action":"IDE_DEACTIVATED"}
