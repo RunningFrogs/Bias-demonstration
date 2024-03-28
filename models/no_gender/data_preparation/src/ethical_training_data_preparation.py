@@ -12,6 +12,10 @@ def prepare_etical_data():
     # Read the CSV file into a pandas DataFrame
     df = pd.read_csv(paths.path_unprepared_training_data)
 
+    missing_data_info = df[df.isnull().any(axis=1)]
+    if not missing_data_info.empty:
+        print(f'Removing rows due to missing data. Rows affected: {len(missing_data_info)}')
+
     # Remove the 'Gender' and 'Age' columns
     df = df.drop(columns=['Gender', 'Age'])
 
@@ -34,11 +38,12 @@ def prepare_etical_data():
     df['Salary'] = df['Salary'].astype(int)
     df['Years of Experience'] = df['Years of Experience'].astype(int)
 
-    # Split the data into training and evaluation datasets (80% training, 20% evaluation)
+    # Split the data into training and evaluation datasets
     train_data, eval_data = train_test_split(df, test_size=0.2, random_state=42)
 
-    # Write the training data to a new CSV file
+    # Save the datasets
     train_data.to_csv(paths.path_prepared_training_data_no_gender, index=False)
-
-    # Write the evaluation data to a separate CSV file
     eval_data.to_csv(paths.path_evaluation_data_no_gender, index=False)
+
+    print(f'Training data saved at {paths.path_prepared_training_data_no_gender}.')
+    print(f'Evaluation data saved at {paths.path_evaluation_data_no_gemder}.')
