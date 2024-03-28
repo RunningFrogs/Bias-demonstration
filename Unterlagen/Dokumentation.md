@@ -6,12 +6,12 @@ zur Bedienung der Software absolviert werden.
 Diese Dokumentation muss bei Anwendung der Software für alle beteiligten Personen öffentlich zugänglich sein.
 
 ## Zweck der Anwendung
-Die Anwendung [Name der Anwendung] dient dazu, eine Empfehlung zur Einstufung der Höhe des Einkommens von Angestellten Technologieunternehmens zu geben.
+Die Anwendung dient dazu, eine Empfehlung zur Einstufung der Höhe des Einkommens von Angestellten Technologieunternehmens zu geben.
 
 ## Nutzen der Anwendung
 Der Nutzen der Anwendung ergibt sich aus mehreren Faktoren
 
-Die Anwendung vereinfacht den Prozess zum finden einer angemessenen Eingruppierung des Gehalts von Angestellten.
+Die Anwendung vereinfacht den Prozess zum Finden einer angemessenen Eingruppierung des Gehalts von Angestellten.
 Durch die Prognose von Gehältern auf Basis von vorhandenen Einkommen von Angestellten mit gleichen oder
 ähnlichen Qualifikationen wird schnell eine erste Empfehlung zur Gehaltseinstufung gegeben.
 
@@ -23,7 +23,8 @@ im Unternehmen setzt, können diskriminierende Entscheidungen, beispielsweise au
 Dies fördert die Fairness im Unternehmen und minimiert die Risiken von Diskriminierung und Ungleichbehandlung.
 
 ## Funktionsweise der Anwendung
-Zentraler Teil der Anwendung ist das Machine Learning Modell. Dieses wird nachfolgend beschrieben.
+Zentraler Teil der Anwendung ist das Machine Learning Modell, welches in der Programmiersprache Python
+unter Verwendung der Bibliothek Scikit Learn implementiert ist. Dieses wird nachfolgend beschrieben.
 
 ### Gradient Boosting Regressor
 Den zentralen Teil der Anwendung bildet das Machine Learning Modell, welches auf dem Gradient Boosting Verfahren basiert. Dies ist ein Ensemble-Lernferfahren. Das Gradient Boosting Verfahren kombiniert iterativ eine Reihe von schwachen Vorhersagemodellen, um in jedem Durchgang die Fehler des vorhergegangenen Durchgangs zu minimieren.
@@ -160,7 +161,7 @@ Nachdem alle Daten eingegeben wurden, wird sofort eine Gehaltsangabe ausgegeben.
 Der automatische Modus liest eine Datei mit den benötigten Daten ein und speichert die Prognosen für alle Datensätze wiederum ab.
 
 Hierfür muss eine Datei mit der Bezeichnung *test_data_basic.csv* und *general/datasets/test_data`* gespeichert werden, welche alle benötigten Informationen beinhaltet.
-Eine Vorlage zum genauen Format der Datei ist unter *test_data_basic.csv* in diesen Unterlagen zu finden.
+Eine Vorlage mit Beispiel zum genauen Format der Datei ist unter *test_data_basic.csv* in diesen Unterlagen zu finden.
 
 Nach dem Ablegen der Datei kann die Prognose durch ```python3 model-adjusted.py --prognose --interactive``` durchgeführt werden.
 Nach der erfolgreichen Durchführung werden die prognostizierten Daten und *models/adjusted/datasets/prognosed_data* gespeichert.
@@ -169,7 +170,6 @@ Nach der erfolgreichen Durchführung werden die prognostizierten Daten und *mode
 Die generierten Informationen dienen als Anhaltspunkt zur Festlegung von Gehältern für Angestellte.
 
 Diese Informationen sind weder verbindlich, noch sollten die Daten ohne weitere Kontrolle übernommen werden.
-Sie bilden keine 
 
 ## Probleme, Gefahren und Grenzen der Anwendung
 Trotz sorgfältiger Analysen und Tests können bei der Nutzung der Anwendung Probleme auftreten. Deshalb ist die Anwendung stets mit sorgfältiger Überwachung zu bedienen.
@@ -201,15 +201,15 @@ Die Verwendung von personenbezogenen Daten unterliegt strengen Richtlinien. Die 
 ## Veranwortlichkeiten
 Die Verantwortung zur Nutzung der Anwendung, inklusive Weiterverarbeitung der generierten Informationen, liegt ausschließlich in der bedienenden Person.
 
-Die Nutzung der Prognosen hat so zu erfolgen, als ob diese von der bedienenden Person persönlich erstellt worden wären.
+Die Nutzung der Prognosen hat so zu erfolgen, als ob diese vom Anwender selbst oder der für die Gehaltseinstufung zuständigen Person erstellt worden wären.
 
 ## Konktaktinformationen
 Bei weiteren Fragen oder Problemen zur Anwendung steht die entsprechende Meldestelle zur Verfügung:
 
-Name der Firma
-Name des Ansprechpartners
-Straße, Hausnummer
+Name der Firma\
+Name des Ansprechpartners\
+Straße, Hausnummer\
 PLZ, Ort
 
-Telefon: XXX XXX
+Telefon: XXX XXX\
 E-Mail: XXX XXX
