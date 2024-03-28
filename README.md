@@ -13,10 +13,10 @@ Die Unterschiede dieser Modelle werden im Verlauf dieses Dokuments erläutert.
 Das Repository weiß folgende Struktur auf:
 - Bias-demonstration:
   - config
-      - paths.py: hier sind alle Pfade, welche in der Anwendung benötigt werden, definiert.
-  - general: hier sind allgemeine Dateien gespeichert, welche nicht modellspezifisch sind, sondern für alle Modelle gleichermaßen gelten, sowie verschiedene Analysen
-      - analysis: hier werden diverse Auswertungen generiert und gespeichert
-          - results: Ergebnisse der Auswertungen, unterteilt in die verschiedenen Modelle sowie die Art der Daten (Trainingsdaten, Testdaten, prognostizierte Daten)
+      - paths.py: enthält alle Pfade, welche in der Anwendung benötigt werden
+  - general: enthält allgemeine Dateien, welche nicht modellspezifisch sind, sondern für alle Modelle gleichermaßen gelten, sowie verschiedene Analysen
+      - analysis: enthält diverse Daten zur Generierung von Auswertungen und Analysen
+          - results: enthält die Ergebnisse der Auswertungen, unterteilt in die verschiedenen Modelle sowie die Art der Daten (Trainingsdaten, Testdaten, prognostizierte Daten)
           - src: enthält die Python-Scripte zur Analyse der Daten sowie Generierung der Diagramme
       - datasets: enthält diverse Datensätze und Quelldateien
           - src: enthält die Scripte zur Erstellung von Testdaten sowie der initialen Bereinigung der Trainingsdaten
