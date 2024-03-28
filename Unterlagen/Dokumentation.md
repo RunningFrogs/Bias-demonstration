@@ -134,34 +134,56 @@ Einfluss auf das Gehalt haben sollten (Geschlecht, Alter) werden somit verhinder
 ## Nutzung der Anwendung
 Die Prognose der Einkommen kann durch zwei verschiedene Modi erfolgen.
 
-### Interkativer Modus
-Im interaktiven Modus werden sequenziell die für die Prognose benötigten Informationen abgefragt.
+In beiden Modi müssen grundsätzlich die gleichen Daten angegeben werden:
 Dabei sind folgende Informationen anzugeben:
-- Alter
+- Alter in Jahren
 - Geschlecht
 - Bildungsabschluss
-- Berufserfahrung
+- Berufserfahrung in Jahren
+- Berufsbezeichnung
 
 Die Attributwerte müssen in einem festgelegten Wertebereich liegen:
-- Alter
+- Alter: 18 - 70
+- Geschlecht: Male, Female, Other
+- Bildungsabschluss: Bachelor's, Master's, PhD, High School
+- Berufserfahrung: 0 - 50
+- Berufsbezeichnzung: siehe extra Dokument "Verfügbare Berufsbezeichnungen"
 
--     # Define data ranges for test data
-    age_range = (18, 70)
-    genders = ['Male', 'Female', 'Other']
-    education_levels = ["Bachelor's", "Master's", "PhD", "High School"]
-    years_of_experience_range = (0, 50)
-    
+### Interkativer Modus
+Im interaktiven Modus werden sequenziell die für die Prognose benötigten Informationen abgefragt.
 
-Interaktiv: hierbei werden sequenziell die benötigten Informationen abgefragt. Am Ende wird eine Prognose ausgegeben.
-Automatisch: unter general/datasets/test_data kann eine CSV-Datei mit den entsprechenden Attributen gespeichert werden. Wie vorher beschrieben, werden für diese Demonstration Testdaten generiert. Alle Datensätze in dieser Datei werden dann durchlaufen und die entsprechende Prognose unter *models//datasets/prognosed_data' gespeichert.
-Der interaktive Modus wird gestartet durch: python3 <Modellbezeichnung> --prognose --interactive
+Die Anwendung wird gestartet durch den Befehl ```python3 model-adjusted.py --prognose --interactive```.
+Im Anschluss werden die entsprechenden Informationen abgefragt.
+Nachdem alle Daten eingegeben wurden, wird sofort eine Gehaltsangabe ausgegeben.
 
-Der automatische Modus wird gestartet durch: python3 <Modellbezeichnung> --prognose --automated
+### Automatischer Modus
+Der automatische Modus liest eine Datei mit den benötigten Daten ein und speichert die Prognosen für alle Datensätze wiederum ab.
 
+Hierfür muss eine Datei mit der Bezeichnung *test_data_basic.csv* und *general/datasets/test_data`* gespeichert werden, welche alle benötigten Informationen beinhaltet.
+Eine Vorlage zum genauen Format der Datei ist unter *test_data_basic.csv* in diesen Unterlagen zu finden.
+
+Nach dem Ablegen der Datei kann die Prognose durch ```python3 model-adjusted.py --prognose --interactive``` durchgeführt werden.
+Nach der erfolgreichen Durchführung werden die prognostizierten Daten und *models/adjusted/datasets/prognosed_data* gespeichert.
 
 ## Nutzung der generierten Informationen
+Die generierten Informationen dienen als Anhaltspunkt zur Festlegung von Gehältern für Angestellte.
+
+Diese Informationen sind weder verbindlich, noch sollten die Daten ohne weitere Kontrolle übernommen werden.
 
 ## Probleme und Gefahren der Anwendung
+Trotz sorgfältiger Analysen und Tests können bei der Nutzung der Anwendung Probleme auftreten. Deshalb ist die Anwendung stets mit sorgfältiger Überwachung zu bedienen.
+Insbesondere sei auf die nachfolgenden Gefahren hingewiesen.
+
+### Unzuverlässige Prognosen
+Es kann nicht sichergestellt werden, dass alle Prognosen eine ausreichende Zuverlässigkeit besitzen.
+Dies kann insbesondere der Fall sein, wenn Daten aus unzulässigen Wertebereichen eingegeben werden.
+
+Jede Prognose muss werden und im Zweifel die angegebenen Werte kritisch hinterfragt werden.
+
+### Unzureichende Erklärbarkeit
+Zwar ist beispielsweise durch die Einsicht der Feature Importances eine begrenzte Nachvollziehbarkeit gegeben.
+Insgesamt kann eine genaue Erkärbarkeit der Anwendung allerdings nicht gewährleistet werden.
+Dies kann wiederum zu unklaren Ausgaben führen, deren Ursache nicht nachvollzogen werden kann.
 
 ## Grenzen der Anwendung
 
