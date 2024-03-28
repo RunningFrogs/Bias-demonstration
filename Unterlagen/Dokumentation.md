@@ -131,11 +131,37 @@ Nachdem die Geschlechter ausbalanciert sind, müssen die Gehälter angeglichen w
 Diese Schritte führen dazu, dass für jede Kombination der genannten Merkmale ein einheitliches Gehalt hinterlegt ist. Abweichungen, welche durch Merkmale entstehen, welche keinen
 Einfluss auf das Gehalt haben sollten (Geschlecht, Alter) werden somit verhindert.
 
-## Probleme und Gefahren der Anwendung
-
 ## Nutzung der Anwendung
+Die Prognose der Einkommen kann durch zwei verschiedene Modi erfolgen.
+
+### Interkativer Modus
+Im interaktiven Modus werden sequenziell die für die Prognose benötigten Informationen abgefragt.
+Dabei sind folgende Informationen anzugeben:
+- Alter
+- Geschlecht
+- Bildungsabschluss
+- Berufserfahrung
+
+Die Attributwerte müssen in einem festgelegten Wertebereich liegen:
+- Alter
+
+-     # Define data ranges for test data
+    age_range = (18, 70)
+    genders = ['Male', 'Female', 'Other']
+    education_levels = ["Bachelor's", "Master's", "PhD", "High School"]
+    years_of_experience_range = (0, 50)
+    
+
+Interaktiv: hierbei werden sequenziell die benötigten Informationen abgefragt. Am Ende wird eine Prognose ausgegeben.
+Automatisch: unter general/datasets/test_data kann eine CSV-Datei mit den entsprechenden Attributen gespeichert werden. Wie vorher beschrieben, werden für diese Demonstration Testdaten generiert. Alle Datensätze in dieser Datei werden dann durchlaufen und die entsprechende Prognose unter *models//datasets/prognosed_data' gespeichert.
+Der interaktive Modus wird gestartet durch: python3 <Modellbezeichnung> --prognose --interactive
+
+Der automatische Modus wird gestartet durch: python3 <Modellbezeichnung> --prognose --automated
+
 
 ## Nutzung der generierten Informationen
+
+## Probleme und Gefahren der Anwendung
 
 ## Grenzen der Anwendung
 
