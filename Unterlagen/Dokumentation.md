@@ -169,8 +169,9 @@ Nach der erfolgreichen Durchführung werden die prognostizierten Daten und *mode
 Die generierten Informationen dienen als Anhaltspunkt zur Festlegung von Gehältern für Angestellte.
 
 Diese Informationen sind weder verbindlich, noch sollten die Daten ohne weitere Kontrolle übernommen werden.
+Sie bilden keine 
 
-## Probleme und Gefahren der Anwendung
+## Probleme, Gefahren und Grenzen der Anwendung
 Trotz sorgfältiger Analysen und Tests können bei der Nutzung der Anwendung Probleme auftreten. Deshalb ist die Anwendung stets mit sorgfältiger Überwachung zu bedienen.
 Insbesondere sei auf die nachfolgenden Gefahren hingewiesen.
 
@@ -185,8 +186,30 @@ Zwar ist beispielsweise durch die Einsicht der Feature Importances eine begrenzt
 Insgesamt kann eine genaue Erkärbarkeit der Anwendung allerdings nicht gewährleistet werden.
 Dies kann wiederum zu unklaren Ausgaben führen, deren Ursache nicht nachvollzogen werden kann.
 
-## Grenzen der Anwendung
+### Anpassungsfähigkeit an Marktveränderungen
+Gehaltsstrukturen können sich durch diverse Faktoren schnell ändern. Die Trainingsdatensätze repräsentieren immer nur Daten über einen bestimmten Zeitraum. Desto mehr Zeit zwischen der Nutzung der Anwendung und der Erhebung der Trainingsdaten liegen, desto größer ist die Diskrepanz zwischen den Gehaltsinformationen in den Daten und der Realität.
+
+### Individuelle Eigenschaften
+Indiviuelle Eigenschaften und Einzelfälle, welche nicht in die definierten Wertebereiche passen, können nicht angemessen berücksichtigt werden. Spezielle Fähigkeiten oder Erfahrungen können nicht beachtet werden. Das gleiche Problem ergibt sich mit Faktoren wie unternehmensinternen Leistungsbeurteilungen oder der Qualität von Arbeitsergebnissen.
+
+### Berücksichtigung unternehmensspezifischer Faktoren
+Jedes Unternehmen hat eine eigene Kultur, organisatorischen Aufbau und eine andere Gehaltspolitik. Spezielle Strukturen, in welchen spezialisierte Anforderungen gestellt werden, können ebenfalls nicht berücksichtigt werden.
+
+### Rechtliche Beschränkungen
+Die Verwendung von personenbezogenen Daten unterliegt strengen Richtlinien. Die Einhaltung der Vorschriften kann durch die Anwendung selbst nicht allgemein gewährleistet werden und muss somit im Einzelfall betrachtet werden.
 
 ## Veranwortlichkeiten
+Die Verantwortung zur Nutzung der Anwendung, inklusive Weiterverarbeitung der generierten Informationen, liegt ausschließlich in der bedienenden Person.
+
+Die Nutzung der Prognosen hat so zu erfolgen, als ob diese von der bedienenden Person persönlich erstellt worden wären.
 
 ## Konktaktinformationen
+Bei weiteren Fragen oder Problemen zur Anwendung steht die entsprechende Meldestelle zur Verfügung:
+
+Name der Firma
+Name des Ansprechpartners
+Straße, Hausnummer
+PLZ, Ort
+
+Telefon: XXX XXX
+E-Mail: XXX XXX
