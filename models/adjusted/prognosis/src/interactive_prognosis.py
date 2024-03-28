@@ -57,4 +57,4 @@ def prognose_interactive():
     # Print predicted income
     predicted_income_msg = f'Predicted Income: ₹{predicted_salary[0]:,.0f}'
     print(predicted_income_msg)
-    logging.info(f'Prognosed income: {predicted_income_msg})
+    logging.info(f'Prognosed income: {predicted_income_msg}')

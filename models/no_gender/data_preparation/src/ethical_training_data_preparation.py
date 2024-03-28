@@ -46,4 +46,4 @@ def prepare_etical_data():
     eval_data.to_csv(paths.path_evaluation_data_no_gender, index=False)
 
     print(f'Training data saved at {paths.path_prepared_training_data_no_gender}.')
-    print(f'Evaluation data saved at {paths.path_evaluation_data_no_gemder}.')
+    print(f'Evaluation data saved at {paths.path_evaluation_data_no_gender}.')

@@ -6,8 +6,8 @@ from config import paths
 from general.datasets.src.job_titles import job_titles
 
 def generate_basic_test_data(num_rows):
-    if not os.path.exists(paths.path_prepared_training_data_original):
-        print(f'{paths.path_prepared_training_data_original} does not exist.')
+    if not os.path.exists(paths.path_training_data_complete_prepared_basic):
+        print(f'{paths.path_training_data_complete_prepared_basic} does not exist.')
         return
 
     seed(time())

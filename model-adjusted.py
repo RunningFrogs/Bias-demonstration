@@ -18,7 +18,7 @@ def evaluate_model():
     logging.info('Model evaluation completed')
 
 def prognose(args):
-    logging.info(f'Prognosis process started with args: {args})
+    logging.info(f'Prognosis process started with args: {args}')
     if args.interactive:
         logging.info('Interactive prognosis started')
         interactive_prognosis.prognose_interactive()
