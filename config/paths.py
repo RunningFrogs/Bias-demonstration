@@ -27,7 +27,7 @@ path_training_metrics_original = 'models/original/prognosis/model/training_metri
 path_evaluation_metrics_original = 'models/original/prognosis/model/evaluation_metrics.txt'
 
 
-## Model no gender paths
+## Model 'no_gender' paths
 # Datasets
 path_evaluation_data_no_gender = 'models/no_gender/datasets/training_data/evaluation_data_no_gender.csv'
 path_prognosed_data_no_gender = 'models/no_gender/datasets/prognosed_data/prognosed_data.csv'
@@ -40,7 +40,7 @@ path_evaluation_metrics_no_gender = 'models/no_gender/prognosis/model/evaluation
 
 
 
-## Model adjusted
+## Model 'adjusted'
 # Datasets
 path_evaluation_data_adjusted = 'models/adjusted/datasets/training_data/evaluation_data_adjusted.csv'
 path_prognosed_data_adjusted = 'models/no_gender/datasets/prognosed_data/prognosed_data.csv'
