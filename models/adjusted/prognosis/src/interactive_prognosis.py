@@ -9,7 +9,7 @@ logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 def prognose_interactive():
-    logging.info('Starting interactive prognose.')
+    logging.info('Starting interactive prognosis.')
 
     if not os.path.exists(paths.path_model_adjusted):
         logging.error(f'Model file {paths.path_model_adjusted} does not exist.')
@@ -53,10 +53,8 @@ def prognose_interactive():
 
     # Predict on input data
     predicted_salary = trained_model.predict(input_data)
-    logging.info('Prediction made on input data.')
 
     # Print predicted income
     predicted_income_msg = f'Predicted Income: ₹{predicted_salary[0]:,.0f}'
     print(predicted_income_msg)
-    logging.info(predicted_income_msg)
-
+    logging.info(f'Prognosed income: {predicted_income_msg})
