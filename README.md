@@ -109,11 +109,11 @@ Alle Trainings-, Test- und Prognosedatensätze (außer *no_gender*) können ausf
 Dies geschieht durch ```python3 analysis.py <Parameter 1> <Parameter 2>```.
 
 Dabei sind folgende Parameter und Parameterkombinaionen möglich:
-- --test: Analysiert die Testdaten
-- --original --training: Analysiert die Trainingsdaten des Originalmodells, also die Trainingsdaten nach der initialen Bereinigung
-- --original --prognosis: Analysiert die prognostizierten Daten des originalen Modells
-- --adjusted --training: Analysiert die ausbalancierten Trainingsdaten des *adjusted*-Nodells
-- --adjusted --prognosis: Analysiert die prognostizierten Daten des *adjusted*-Modells
+- ```--test```: Analysiert die Testdaten
+- ```--original --training```: Analysiert die Trainingsdaten des Originalmodells, also die Trainingsdaten nach der initialen Bereinigung
+- ```--original --prognosis```: Analysiert die prognostizierten Daten des originalen Modells
+- ```--adjusted --training```: Analysiert die ausbalancierten Trainingsdaten des *adjusted*-Nodells
+- ```--adjusted --prognosis:``` Analysiert die prognostizierten Daten des *adjusted*-Modells
 
 Alle Analysen sind unter *general/analysis/results* zu finden.
 
