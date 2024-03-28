@@ -1,5 +1,4 @@
 import argparse
-
 from models.original.prognosis.src import interactive_prognosis, model_training, model_evaluation, \
     automated_prognosis
 from models.original.data_preparation.src import training_data_preparation
@@ -29,16 +28,16 @@ def call_prepare_training_data():
 
 
 # Initialize the parser
-parser = argparse.ArgumentParser(description="Script to call specific functions based on arguments")
+parser = argparse.ArgumentParser(description="Call specific functions based on arguments")
 
 # Train model arguments
-parser.add_argument('--train', action='store_true', help='Train model flag')
-parser.add_argument('--evaluate', action='store_true', help='Evaluation flag')
+parser.add_argument('--train', action='store_true', help='Train model')
+parser.add_argument('--evaluate', action='store_true', help='Evaluate model')
 
 # Prognosis arguments
-parser.add_argument('--prognose', action='store_true', help='Prognose flag')
-parser.add_argument('--interactive', action='store_true', help='Interactive flag')
-parser.add_argument('--automated', action='store_true', help='Automated data flag')
+parser.add_argument('--prognose', action='store_true', help='Prognose salaries')
+parser.add_argument('--interactive', action='store_true', help='Interactive prognosis')
+parser.add_argument('--automated', action='store_true', help='Automated prognosis')
 
 parser.add_argument('--prepare', action='store_true', help='Prepare training data')
 
