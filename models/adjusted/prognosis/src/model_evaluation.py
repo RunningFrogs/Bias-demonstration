@@ -17,6 +17,7 @@ def evaluate_model():
         logging.info('Model loaded successfully.')
     except FileNotFoundError:
         logging.error(f'Model file {paths.path_model_adjusted} not found.')
+        print(f'Model file {paths.path_model_adjusted} not found.')
         return
 
     # Load evaluation data
