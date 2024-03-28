@@ -1,5 +1,4 @@
 import argparse
-
 from general.datasets.src import test_data_generation, training_data_preparation
 
 
@@ -13,7 +12,7 @@ def call_prepare_training_data():
 
 
 # Initialize the parser
-parser = argparse.ArgumentParser(description="Script to call specific functions based on arguments")
+parser = argparse.ArgumentParser(description="Call specific functions based on arguments")
 
 # Prepare data argument
 parser.add_argument('--generate', type=int, help='Generate test data')
