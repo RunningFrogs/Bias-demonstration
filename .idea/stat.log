@@ -1083,3 +1083,23 @@
 {"ts":1711630734352,"action":"FILE_OPENED","file":"/Unterlagen/Verfügbare Berufsbezeichnungen.md","tags":{"FILE_LINE_OF_CODE":"194"}}
 {"ts":1711630735298,"action":"FILE_CLOSED","file":"/Unterlagen/Verfügbare Berufsbezeichnungen.md","tags":{"FILE_LINE_OF_CODE":"194"}}
 {"ts":1711630735298,"action":"FILE_OPENED","file":"/Unterlagen/test_data_basic.csv","tags":{"FILE_LINE_OF_CODE":"4"}}
+{"ts":1711630745929,"action":"IDE_DEACTIVATED"}
+{"ts":1711630745929,"action":"IDE_ACTIVATED"}
+{"ts":1711630749819,"action":"IDE_DEACTIVATED"}
+{"ts":1711630749821,"action":"IDE_ACTIVATED"}
+{"ts":1711630753269,"action":"IDE_DEACTIVATED"}
+{"ts":1711630754875,"action":"IDE_ACTIVATED"}
+{"ts":1711630754922,"action":"IDE_DEACTIVATED"}
+{"ts":1711642659421,"action":"IDE_ACTIVATED"}
+{"ts":1711642663361,"action":"FILE_CLOSED","file":"/Unterlagen/test_data_basic.csv","tags":{"FILE_LINE_OF_CODE":"4"}}
+{"ts":1711642663370,"action":"FILE_OPENED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
+{"ts":1711642674400,"action":"FILE_CLOSED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
+{"ts":1711642674400,"action":"FILE_OPENED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"121"}}
+{"ts":1711642680927,"action":"FILE_CLOSED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"121"}}
+{"ts":1711642680927,"action":"FILE_OPENED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
+{"ts":1711642690964,"action":"FILE_CLOSED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
+{"ts":1711642690964,"action":"FILE_OPENED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"121"}}
+{"ts":1711642718550,"action":"FILE_CLOSED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"121"}}
+{"ts":1711642718550,"action":"FILE_OPENED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
+{"ts":1711642725186,"action":"FILE_CLOSED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
+{"ts":1711642725186,"action":"FILE_OPENED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"121"}}

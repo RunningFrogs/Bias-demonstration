@@ -60,7 +60,16 @@ Neben der initialen Bereinigung der Trainingsdaten werden diese noch einmal mode
 
 - original: die Bereinigung für das originale Modell funktioniert genau so, wie schon bei der initialen Bereinigung.
 - no_gender: bei den Datensätzen für *no_gender* werden die Attribute *Gender* sowie *Age* entfernt.
-- adjust: <span style="color:red">TODO</span>.
+- adjust: die Geschlechter werden durch Resampling und der Generierung synthetischer Daten ausbalanciert und die Gehälter ausgeglichen.
+
+#### Anpassen der Gehälter
+Nachdem die Geschlechter ausbalanciert sind, müssen die Gehälter angeglichen werden:
+- Gruppieren der Jobkategorien: Wie im Schritt zuvor, werden die Jobs anhand der Merkmale Job Title, Years of Experience und Education Level gruppiert.
+- Berechnung des Median-Gehalts: Für jede Gruppe wird das Median-Gehalt berechnet.
+- Zuordnung des Median-Gehalts zu jedem Datensatz: Jedem Datensatz wird das Median-Gehalt seiner jeweiligen Gruppe zugewiesen. Das ursprüngliche Gehalt wird ersetzt.
+
+Diese Schritte führen dazu, dass für jede Kombination der genannten Merkmale ein einheitliches Gehalt hinterlegt ist. Abweichungen, welche durch Merkmale entstehen, welche keinen
+Einfluss auf das Gehalt haben sollten (Geschlecht, Alter) werden somit verhindert.
 
 Die modellspezifische Bereinigung der Trainingsdaten geschieht durch den Aufruf der Modelle mit den entsprechenden Parametern:
 - original: ```python3 original-model.py --prepare```
