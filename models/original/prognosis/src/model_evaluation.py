@@ -8,7 +8,6 @@ def evaluate_model():
     model = load(paths.path_model_original)
     data = pd.read_csv(paths.path_evaluation_data_original)
 
-
     X_test = data.drop(columns=['Salary'])
     y_true = data['Salary']
 
