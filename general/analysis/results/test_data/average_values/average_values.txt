@@ -1,0 +1,44 @@
+Age:
+  Summary:
+      Average: 43.35
+      Median: 42.50
+      Standard deviation: 15.11
+      Range: from 18.0 to 70.0
+  Male:
+      Average: 43.35
+      Median: 42.50
+      Standard deviation: 15.12
+      Range: from 18.0 to 70.0
+  Female:
+      Average: 43.35
+      Median: 42.50
+      Standard deviation: 15.12
+      Range: from 18.0 to 70.0
+  Other:
+      Average: 43.35
+      Median: 42.50
+      Standard deviation: 15.12
+      Range: from 18.0 to 70.0
+
+Years of Experience:
+  Summary:
+      Average: 25.16
+      Median: 25.00
+      Standard deviation: 14.85
+      Range: from 0.0 to 50.0
+  Male:
+      Average: 25.16
+      Median: 25.00
+      Standard deviation: 14.86
+      Range: from 0.0 to 50.0
+  Female:
+      Average: 25.16
+      Median: 25.00
+      Standard deviation: 14.86
+      Range: from 0.0 to 50.0
+  Other:
+      Average: 25.16
+      Median: 25.00
+      Standard deviation: 14.86
+      Range: from 0.0 to 50.0
+

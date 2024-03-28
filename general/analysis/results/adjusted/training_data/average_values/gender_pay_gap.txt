@@ -1,0 +1,502 @@
+Gender pay gap analysis (percentage difference):
+Account Manager Female: 0.00%
+Account Manager Other: 0.00%
+
+Administrative Assistant Female: 0.00%
+Administrative Assistant Other: 0.00%
+
+Back end Developer Female: 0.00%
+Back end Developer Other: 0.00%
+
+Business Analyst Female: 0.00%
+Business Analyst Other: 0.00%
+
+CEO Female: 0.00%
+CEO Other: 0.00%
+
+Content Marketing Manager Female: 0.00%
+Content Marketing Manager Other: 0.00%
+
+Customer Service Manager Female: 0.00%
+Customer Service Manager Other: 0.00%
+
+Customer Service Representative Female: 0.00%
+Customer Service Representative Other: 0.00%
+
+Customer Success Manager Female: 0.00%
+Customer Success Manager Other: 0.00%
+
+Customer Success Rep Female: 0.00%
+Customer Success Rep Other: 0.00%
+
+Data Analyst Female: 0.00%
+Data Analyst Other: 0.00%
+
+Data Entry Clerk Female: 0.00%
+Data Entry Clerk Other: 0.00%
+
+Data Scientist Female: 0.00%
+Data Scientist Other: 0.00%
+
+Digital Content Producer Female: 0.00%
+Digital Content Producer Other: 0.00%
+
+Digital Marketing Manager Female: 0.00%
+Digital Marketing Manager Other: 0.00%
+
+Digital Marketing Specialist Female: 0.00%
+Digital Marketing Specialist Other: 0.00%
+
+Director of Marketing Female: 0.00%
+Director of Marketing Other: 0.00%
+
+Event Coordinator Female: 0.00%
+Event Coordinator Other: 0.00%
+
+Financial Analyst Female: 0.00%
+Financial Analyst Other: 0.00%
+
+Financial Manager Female: 0.00%
+Financial Manager Other: 0.00%
+
+Front End Developer Female: 0.00%
+Front End Developer Other: 0.00%
+
+Front end Developer Female: 0.00%
+Front end Developer Other: 0.00%
+
+Full Stack Engineer Female: 0.00%
+Full Stack Engineer Other: 0.00%
+
+Graphic Designer Female: 0.00%
+Graphic Designer Other: 0.00%
+
+HR Generalist Female: 0.00%
+HR Generalist Other: 0.00%
+
+HR Manager Female: 0.00%
+HR Manager Other: 0.00%
+
+Help Desk Analyst Female: 0.00%
+Help Desk Analyst Other: 0.00%
+
+Human Resources Coordinator Female: 0.00%
+Human Resources Coordinator Other: 0.00%
+
+Human Resources Manager Female: 0.00%
+Human Resources Manager Other: 0.00%
+
+IT Manager Female: 0.00%
+IT Manager Other: 0.00%
+
+IT Support Female: 0.00%
+IT Support Other: 0.00%
+
+IT Support Specialist Female: 0.00%
+IT Support Specialist Other: 0.00%
+
+Junior Account Manager Female: 0.00%
+Junior Account Manager Other: 0.00%
+
+Junior Accountant Female: 0.00%
+Junior Accountant Other: 0.00%
+
+Junior Advertising Coordinator Female: 0.00%
+Junior Advertising Coordinator Other: 0.00%
+
+Junior Business Analyst Female: 0.00%
+Junior Business Analyst Other: 0.00%
+
+Junior Business Development Associate Female: 0.00%
+Junior Business Development Associate Other: 0.00%
+
+Junior Business Operations Analyst Female: 0.00%
+Junior Business Operations Analyst Other: 0.00%
+
+Junior Copywriter Female: 0.00%
+Junior Copywriter Other: 0.00%
+
+Junior Customer Support Specialist Female: 0.00%
+Junior Customer Support Specialist Other: 0.00%
+
+Junior Data Analyst Female: 0.00%
+Junior Data Analyst Other: 0.00%
+
+Junior Developer Female: 0.00%
+Junior Developer Other: 0.00%
+
+Junior Financial Analyst Female: 0.00%
+Junior Financial Analyst Other: 0.00%
+
+Junior HR Coordinator Female: 0.00%
+Junior HR Coordinator Other: 0.00%
+
+Junior HR Generalist Female: 0.00%
+Junior HR Generalist Other: 0.00%
+
+Junior Marketing Analyst Female: 0.00%
+Junior Marketing Analyst Other: 0.00%
+
+Junior Marketing Coordinator Female: 0.00%
+Junior Marketing Coordinator Other: 0.00%
+
+Junior Marketing Manager Female: 0.00%
+Junior Marketing Manager Other: 0.00%
+
+Junior Marketing Specialist Female: 0.00%
+Junior Marketing Specialist Other: 0.00%
+
+Junior Operations Analyst Female: 0.00%
+Junior Operations Analyst Other: 0.00%
+
+Junior Operations Manager Female: 0.00%
+Junior Operations Manager Other: 0.00%
+
+Junior Product Manager Female: 0.00%
+Junior Product Manager Other: 0.00%
+
+Junior Project Manager Female: 0.00%
+Junior Project Manager Other: 0.00%
+
+Junior Recruiter Female: 0.00%
+Junior Recruiter Other: 0.00%
+
+Junior Sales Representative Female: 0.00%
+Junior Sales Representative Other: 0.00%
+
+Junior Social Media Manager Female: 0.00%
+Junior Social Media Manager Other: 0.00%
+
+Junior Social Media Specialist Female: 0.00%
+Junior Social Media Specialist Other: 0.00%
+
+Junior Software Developer Female: 0.00%
+Junior Software Developer Other: 0.00%
+
+Junior Software Engineer Female: 0.00%
+Junior Software Engineer Other: 0.00%
+
+Junior Web Designer Female: 0.00%
+Junior Web Designer Other: 0.00%
+
+Junior Web Developer Female: 0.00%
+Junior Web Developer Other: 0.00%
+
+Marketing Analyst Female: 0.00%
+Marketing Analyst Other: 0.00%
+
+Marketing Coordinator Female: 0.00%
+Marketing Coordinator Other: 0.00%
+
+Marketing Manager Female: 0.00%
+Marketing Manager Other: 0.00%
+
+Network Engineer Female: 0.00%
+Network Engineer Other: 0.00%
+
+Office Manager Female: 0.00%
+Office Manager Other: 0.00%
+
+Operations Analyst Female: 0.00%
+Operations Analyst Other: 0.00%
+
+Operations Manager Female: 0.00%
+Operations Manager Other: 0.00%
+
+Product Designer Female: 0.00%
+Product Designer Other: 0.00%
+
+Product Manager Female: 0.00%
+Product Manager Other: 0.00%
+
+Project Manager Female: 0.00%
+Project Manager Other: 0.00%
+
+Recruiter Female: 0.00%
+Recruiter Other: 0.00%
+
+Sales Associate Female: 0.00%
+Sales Associate Other: 0.00%
+
+Sales Director Female: 0.00%
+Sales Director Other: 0.00%
+
+Sales Executive Female: 0.00%
+Sales Executive Other: 0.00%
+
+Sales Manager Female: 0.00%
+Sales Manager Other: 0.00%
+
+Sales Operations Manager Female: 0.00%
+Sales Operations Manager Other: 0.00%
+
+Sales Representative Female: 0.00%
+Sales Representative Other: 0.00%
+
+Senior Account Executive Female: 0.00%
+Senior Account Executive Other: 0.00%
+
+Senior Account Manager Female: 0.00%
+Senior Account Manager Other: 0.00%
+
+Senior Accountant Female: 0.00%
+Senior Accountant Other: 0.00%
+
+Senior Business Analyst Female: 0.00%
+Senior Business Analyst Other: 0.00%
+
+Senior Business Development Manager Female: 0.00%
+Senior Business Development Manager Other: 0.00%
+
+Senior Financial Analyst Female: 0.00%
+Senior Financial Analyst Other: 0.00%
+
+Senior Financial Manager Female: 0.00%
+Senior Financial Manager Other: 0.00%
+
+Senior HR Generalist Female: 0.00%
+Senior HR Generalist Other: 0.00%
+
+Senior IT Project Manager Female: 0.00%
+Senior IT Project Manager Other: 0.00%
+
+Senior IT Support Specialist Female: 0.00%
+Senior IT Support Specialist Other: 0.00%
+
+Senior Marketing Analyst Female: 0.00%
+Senior Marketing Analyst Other: 0.00%
+
+Senior Marketing Coordinator Female: 0.00%
+Senior Marketing Coordinator Other: 0.00%
+
+Senior Marketing Manager Female: 0.00%
+Senior Marketing Manager Other: 0.00%
+
+Senior Marketing Specialist Female: 0.00%
+Senior Marketing Specialist Other: 0.00%
+
+Senior Operations Analyst Female: 0.00%
+Senior Operations Analyst Other: 0.00%
+
+Senior Operations Coordinator Female: 0.00%
+Senior Operations Coordinator Other: 0.00%
+
+Senior Operations Manager Female: 0.00%
+Senior Operations Manager Other: 0.00%
+
+Senior Product Manager Female: 0.00%
+Senior Product Manager Other: 0.00%
+
+Senior Product Marketing Manager Female: 0.00%
+Senior Product Marketing Manager Other: 0.00%
+
+Senior Project Coordinator Female: 0.00%
+Senior Project Coordinator Other: 0.00%
+
+Senior Project Engineer Female: 0.00%
+Senior Project Engineer Other: 0.00%
+
+Senior Project Manager Female: 0.00%
+Senior Project Manager Other: 0.00%
+
+Senior Quality Assurance Analyst Female: 0.00%
+Senior Quality Assurance Analyst Other: 0.00%
+
+Senior Sales Manager Female: 0.00%
+Senior Sales Manager Other: 0.00%
+
+Senior Sales Representative Female: 0.00%
+Senior Sales Representative Other: 0.00%
+
+Senior Software Engineer Female: 0.00%
+Senior Software Engineer Other: 0.00%
+
+Social Media Manager Female: 0.00%
+Social Media Manager Other: 0.00%
+
+Social Media Specialist Female: 0.00%
+Social Media Specialist Other: 0.00%
+
+Software Developer Female: 0.00%
+Software Developer Other: 0.00%
+
+Software Engineer Female: 0.00%
+Software Engineer Other: 0.00%
+
+Software Engineer Manager Female: 0.00%
+Software Engineer Manager Other: 0.00%
+
+Software Project Manager Female: 0.00%
+Software Project Manager Other: 0.00%
+
+Supply Chain Analyst Female: 0.00%
+Supply Chain Analyst Other: 0.00%
+
+Supply Chain Manager Female: 0.00%
+Supply Chain Manager Other: 0.00%
+
+Technical Writer Female: 0.00%
+Technical Writer Other: 0.00%
+
+Training Specialist Female: 0.00%
+Training Specialist Other: 0.00%
+
+Web Developer Female: 0.00%
+Web Developer Other: 0.00%
+
+Delivery Driver Female: 0.00%
+Delivery Driver Other: 0.00%
+
+Junior Sales Associate Female: 0.00%
+Junior Sales Associate Other: 0.00%
+
+Juniour HR Coordinator Female: 0.00%
+Juniour HR Coordinator Other: 0.00%
+
+Juniour HR Generalist Female: 0.00%
+Juniour HR Generalist Other: 0.00%
+
+Receptionist Female: 0.00%
+Receptionist Other: 0.00%
+
+Business Development Manager Female: 0.00%
+Business Development Manager Other: 0.00%
+
+Creative Director Female: 0.00%
+Creative Director Other: 0.00%
+
+Director Female: 0.00%
+Director Other: 0.00%
+
+Director of Business Development Female: 0.00%
+Director of Business Development Other: 0.00%
+
+Director of Engineering Female: 0.00%
+Director of Engineering Other: 0.00%
+
+Director of Finance Female: 0.00%
+Director of Finance Other: 0.00%
+
+Director of HR Female: 0.00%
+Director of HR Other: 0.00%
+
+Director of Operations Female: 0.00%
+Director of Operations Other: 0.00%
+
+Director of Product Management Female: 0.00%
+Director of Product Management Other: 0.00%
+
+Financial Advisor Female: 0.00%
+Financial Advisor Other: 0.00%
+
+Human Resources Director Female: 0.00%
+Human Resources Director Other: 0.00%
+
+Junior Data Scientist Female: 0.00%
+Junior Data Scientist Other: 0.00%
+
+Junior UX Designer Female: 0.00%
+Junior UX Designer Other: 0.00%
+
+Marketing Director Female: 0.00%
+Marketing Director Other: 0.00%
+
+Public Relations Manager Female: 0.00%
+Public Relations Manager Other: 0.00%
+
+Senior Data Scientist Female: 0.00%
+Senior Data Scientist Other: 0.00%
+
+Senior Financial Advisor Female: 0.00%
+Senior Financial Advisor Other: 0.00%
+
+Senior Graphic Designer Female: 0.00%
+Senior Graphic Designer Other: 0.00%
+
+Senior HR Manager Female: 0.00%
+Senior HR Manager Other: 0.00%
+
+Senior Human Resources Manager Female: 0.00%
+Senior Human Resources Manager Other: 0.00%
+
+Senior Human Resources Specialist Female: 0.00%
+Senior Human Resources Specialist Other: 0.00%
+
+Senior IT Consultant Female: 0.00%
+Senior IT Consultant Other: 0.00%
+
+Senior Software Developer Female: 0.00%
+Senior Software Developer Other: 0.00%
+
+UX Designer Female: 0.00%
+UX Designer Other: 0.00%
+
+UX Researcher Female: 0.00%
+UX Researcher Other: 0.00%
+
+VP of Finance Female: 0.00%
+VP of Finance Other: 0.00%
+
+VP of Operations Female: 0.00%
+VP of Operations Other: 0.00%
+
+Chief Data Officer Female: 0.00%
+Chief Data Officer Other: 0.00%
+
+Chief Technology Officer Female: 0.00%
+Chief Technology Officer Other: 0.00%
+
+Director of Data Science Female: 0.00%
+Director of Data Science Other: 0.00%
+
+Director of Human Resources Female: 0.00%
+Director of Human Resources Other: 0.00%
+
+Director of Sales and Marketing Female: 0.00%
+Director of Sales and Marketing Other: 0.00%
+
+Principal Engineer Female: 0.00%
+Principal Engineer Other: 0.00%
+
+Principal Scientist Female: 0.00%
+Principal Scientist Other: 0.00%
+
+Research Director Female: 0.00%
+Research Director Other: 0.00%
+
+Research Scientist Female: 0.00%
+Research Scientist Other: 0.00%
+
+Senior Consultant Female: 0.00%
+Senior Consultant Other: 0.00%
+
+Senior Data Analyst Female: 0.00%
+Senior Data Analyst Other: 0.00%
+
+Senior Data Engineer Female: 0.00%
+Senior Data Engineer Other: 0.00%
+
+Senior Engineer Female: 0.00%
+Senior Engineer Other: 0.00%
+
+Senior Manager Female: 0.00%
+Senior Manager Other: 0.00%
+
+Senior Marketing Director Female: 0.00%
+Senior Marketing Director Other: 0.00%
+
+Senior Product Designer Female: 0.00%
+Senior Product Designer Other: 0.00%
+
+Senior Research Scientist Female: 0.00%
+Senior Research Scientist Other: 0.00%
+
+Senior Scientist Female: 0.00%
+Senior Scientist Other: 0.00%
+
+Senior UX Designer Female: 0.00%
+Senior UX Designer Other: 0.00%
+
+Overall average gender pay gap across all jobs:
+Female: 0.00%
+Other: 0.00%

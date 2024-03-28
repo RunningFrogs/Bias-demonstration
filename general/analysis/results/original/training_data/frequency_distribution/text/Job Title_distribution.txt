@@ -1,0 +1,409 @@
+Value distribution for Job Title:
+
+Software Engineer: 423 (7.89%)
+  Female: 37.12%
+  Male: 62.88%
+Data Scientist: 359 (6.70%)
+  Female: 44.57%
+  Male: 55.43%
+Software Engineer Manager: 309 (5.77%)
+  Female: 26.86%
+  Male: 73.14%
+Data Analyst: 287 (5.36%)
+  Female: 33.10%
+  Male: 66.90%
+Senior Project Engineer: 261 (4.87%)
+  Female: 32.95%
+  Male: 66.67%
+  Other: 0.38%
+Product Manager: 255 (4.76%)
+  Female: 34.90%
+  Male: 65.10%
+Full Stack Engineer: 233 (4.35%)
+  Female: 53.65%
+  Male: 45.06%
+  Other: 1.29%
+Marketing Manager: 218 (4.07%)
+  Female: 72.48%
+  Male: 27.52%
+Senior Software Engineer: 198 (3.70%)
+  Female: 44.95%
+  Male: 53.03%
+  Other: 2.02%
+Back end Developer: 196 (3.66%)
+  Female: 26.02%
+  Male: 72.96%
+  Other: 1.02%
+Front end Developer: 189 (3.53%)
+  Female: 45.50%
+  Male: 53.44%
+  Other: 1.06%
+Marketing Coordinator: 126 (2.35%)
+  Female: 99.21%
+  Male: 0.79%
+Junior Sales Associate: 119 (2.22%)
+  Female: 44.54%
+  Male: 55.46%
+Financial Manager: 110 (2.05%)
+  Female: 76.36%
+  Male: 23.64%
+Marketing Analyst: 104 (1.94%)
+  Female: 37.50%
+  Male: 62.50%
+Software Developer: 101 (1.89%)
+  Female: 35.64%
+  Male: 64.36%
+Operations Manager: 93 (1.74%)
+  Female: 2.15%
+  Male: 97.85%
+Human Resources Manager: 87 (1.62%)
+  Female: 100.00%
+Director of Marketing: 74 (1.38%)
+  Female: 54.05%
+  Male: 45.95%
+Web Developer: 69 (1.29%)
+  Female: 40.58%
+  Male: 59.42%
+Research Director: 67 (1.25%)
+  Female: 38.81%
+  Male: 61.19%
+Research Scientist: 58 (1.08%)
+  Female: 77.59%
+  Male: 22.41%
+Director of HR: 57 (1.06%)
+  Female: 43.86%
+  Male: 56.14%
+Senior Product Marketing Manager: 56 (1.05%)
+  Female: 58.93%
+  Male: 41.07%
+Sales Associate: 56 (1.05%)
+  Female: 67.86%
+  Male: 32.14%
+Product Designer: 56 (1.05%)
+  Male: 100.00%
+Junior HR Generalist: 52 (0.97%)
+  Female: 67.31%
+  Male: 32.69%
+Content Marketing Manager: 50 (0.93%)
+  Female: 60.00%
+  Male: 40.00%
+Sales Director: 50 (0.93%)
+  Female: 10.00%
+  Male: 90.00%
+Receptionist: 48 (0.90%)
+  Female: 100.00%
+Senior Data Scientist: 47 (0.88%)
+  Female: 6.38%
+  Male: 93.62%
+Director of Data Science: 45 (0.84%)
+  Female: 48.89%
+  Male: 51.11%
+Junior Software Developer: 45 (0.84%)
+  Female: 95.56%
+  Male: 4.44%
+Marketing Director: 45 (0.84%)
+  Female: 17.78%
+  Male: 82.22%
+Junior Software Engineer: 44 (0.82%)
+  Female: 50.00%
+  Male: 50.00%
+Sales Manager: 43 (0.80%)
+  Female: 25.58%
+  Male: 74.42%
+Junior Marketing Manager: 42 (0.78%)
+  Female: 59.52%
+  Male: 40.48%
+Senior Research Scientist: 40 (0.75%)
+  Female: 50.00%
+  Male: 50.00%
+Human Resources Coordinator: 38 (0.71%)
+  Female: 100.00%
+Senior Human Resources Manager: 38 (0.71%)
+  Female: 57.89%
+  Male: 42.11%
+Digital Marketing Manager: 37 (0.69%)
+  Female: 32.43%
+  Male: 67.57%
+Senior HR Generalist: 35 (0.65%)
+  Female: 34.29%
+  Male: 65.71%
+Junior Web Developer: 31 (0.58%)
+  Female: 35.48%
+  Male: 64.52%
+Financial Analyst: 30 (0.56%)
+  Female: 10.00%
+  Male: 90.00%
+Sales Representative: 30 (0.56%)
+  Female: 16.67%
+  Male: 83.33%
+Sales Executive: 30 (0.56%)
+  Female: 73.33%
+  Male: 26.67%
+Junior Sales Representative: 28 (0.52%)
+  Female: 57.14%
+  Male: 42.86%
+Front End Developer: 26 (0.49%)
+  Male: 100.00%
+Junior HR Coordinator: 22 (0.41%)
+  Female: 59.09%
+  Male: 40.91%
+Graphic Designer: 17 (0.32%)
+  Female: 82.35%
+  Male: 17.65%
+Junior Data Analyst: 15 (0.28%)
+  Male: 100.00%
+Project Manager: 15 (0.28%)
+  Female: 6.67%
+  Male: 93.33%
+Social Media Manager: 14 (0.26%)
+  Female: 100.00%
+Digital Marketing Specialist: 11 (0.21%)
+  Female: 100.00%
+Senior Business Analyst: 9 (0.17%)
+  Female: 66.67%
+  Male: 33.33%
+Senior Marketing Analyst: 8 (0.15%)
+  Female: 100.00%
+Director of Operations: 7 (0.13%)
+  Female: 42.86%
+  Male: 57.14%
+Junior Business Analyst: 7 (0.13%)
+  Male: 100.00%
+Senior Product Manager: 6 (0.11%)
+  Female: 16.67%
+  Male: 83.33%
+Customer Service Representative: 6 (0.11%)
+  Female: 100.00%
+Junior Financial Analyst: 6 (0.11%)
+  Female: 50.00%
+  Male: 50.00%
+Senior Financial Analyst: 6 (0.11%)
+  Female: 33.33%
+  Male: 66.67%
+Senior Marketing Manager: 5 (0.09%)
+  Female: 100.00%
+Junior Business Development Associate: 5 (0.09%)
+  Female: 60.00%
+  Male: 40.00%
+Junior Operations Analyst: 4 (0.07%)
+  Female: 25.00%
+  Male: 75.00%
+Junior Project Manager: 4 (0.07%)
+  Female: 50.00%
+  Male: 50.00%
+Senior Financial Manager: 4 (0.07%)
+  Female: 50.00%
+  Male: 50.00%
+Senior Product Designer: 4 (0.07%)
+  Female: 100.00%
+Junior Product Manager: 4 (0.07%)
+  Male: 100.00%
+Senior Project Manager: 4 (0.07%)
+  Female: 75.00%
+  Male: 25.00%
+Junior Marketing Specialist: 4 (0.07%)
+  Female: 25.00%
+  Male: 75.00%
+Senior Data Engineer: 4 (0.07%)
+  Female: 50.00%
+  Male: 50.00%
+Senior Project Coordinator: 3 (0.06%)
+  Female: 33.33%
+  Male: 66.67%
+Senior Marketing Coordinator: 3 (0.06%)
+  Female: 66.67%
+  Male: 33.33%
+Juniour HR Coordinator: 3 (0.06%)
+  Female: 100.00%
+Senior Operations Manager: 3 (0.06%)
+  Female: 33.33%
+  Male: 66.67%
+Junior Accountant: 3 (0.06%)
+  Male: 100.00%
+Senior Financial Advisor: 3 (0.06%)
+  Female: 100.00%
+Junior Marketing Coordinator: 3 (0.06%)
+  Female: 66.67%
+  Male: 33.33%
+Senior Operations Coordinator: 3 (0.06%)
+  Female: 33.33%
+  Male: 66.67%
+Senior Marketing Specialist: 3 (0.06%)
+  Female: 33.33%
+  Male: 66.67%
+Senior Operations Analyst: 2 (0.04%)
+  Male: 100.00%
+Delivery Driver: 2 (0.04%)
+  Male: 100.00%
+Junior Operations Manager: 2 (0.04%)
+  Female: 50.00%
+  Male: 50.00%
+Director of Finance: 2 (0.04%)
+  Female: 50.00%
+  Male: 50.00%
+Senior Scientist: 2 (0.04%)
+  Male: 100.00%
+Senior Sales Manager: 2 (0.04%)
+  Male: 100.00%
+Senior IT Consultant: 2 (0.04%)
+  Male: 100.00%
+Junior Marketing Analyst: 2 (0.04%)
+  Female: 100.00%
+Senior Sales Representative: 2 (0.04%)
+  Female: 100.00%
+Business Analyst: 2 (0.04%)
+  Female: 50.00%
+  Male: 50.00%
+Senior Software Developer: 2 (0.04%)
+  Male: 100.00%
+Senior Manager: 2 (0.04%)
+  Male: 100.00%
+Junior Account Manager: 2 (0.04%)
+  Female: 50.00%
+  Male: 50.00%
+Event Coordinator: 2 (0.04%)
+  Female: 100.00%
+Senior Business Development Manager: 2 (0.04%)
+  Male: 100.00%
+Senior Data Analyst: 2 (0.04%)
+  Male: 100.00%
+HR Manager: 2 (0.04%)
+  Female: 100.00%
+HR Generalist: 2 (0.04%)
+  Female: 100.00%
+Senior Accountant: 2 (0.04%)
+  Female: 50.00%
+  Male: 50.00%
+Senior UX Designer: 2 (0.04%)
+  Female: 100.00%
+Operations Analyst: 1 (0.02%)
+  Male: 100.00%
+IT Support Specialist: 1 (0.02%)
+  Male: 100.00%
+Junior Customer Support Specialist: 1 (0.02%)
+  Male: 100.00%
+Account Manager: 1 (0.02%)
+  Male: 100.00%
+Customer Success Rep: 1 (0.02%)
+  Female: 100.00%
+Principal Scientist: 1 (0.02%)
+  Male: 100.00%
+VP of Finance: 1 (0.02%)
+  Male: 100.00%
+UX Designer: 1 (0.02%)
+  Female: 100.00%
+VP of Operations: 1 (0.02%)
+  Male: 100.00%
+Senior Consultant: 1 (0.02%)
+  Female: 100.00%
+Chief Data Officer: 1 (0.02%)
+  Male: 100.00%
+Director of Human Resources: 1 (0.02%)
+  Female: 100.00%
+Senior Engineer: 1 (0.02%)
+  Male: 100.00%
+Junior Developer: 1 (0.02%)
+  Male: 100.00%
+Senior Quality Assurance Analyst: 1 (0.02%)
+  Male: 100.00%
+Juniour HR Generalist: 1 (0.02%)
+  Male: 100.00%
+Creative Director: 1 (0.02%)
+  Female: 100.00%
+Senior HR Manager: 1 (0.02%)
+  Female: 100.00%
+Senior Graphic Designer: 1 (0.02%)
+  Female: 100.00%
+Director of Engineering: 1 (0.02%)
+  Male: 100.00%
+Principal Engineer: 1 (0.02%)
+  Male: 100.00%
+IT Manager: 1 (0.02%)
+  Male: 100.00%
+Office Manager: 1 (0.02%)
+  Female: 100.00%
+Director: 1 (0.02%)
+  Male: 100.00%
+Sales Operations Manager: 1 (0.02%)
+  Male: 100.00%
+Director of Business Development: 1 (0.02%)
+  Male: 100.00%
+Public Relations Manager: 1 (0.02%)
+  Female: 100.00%
+Junior UX Designer: 1 (0.02%)
+  Female: 100.00%
+Junior Advertising Coordinator: 1 (0.02%)
+  Male: 100.00%
+Director of Product Management: 1 (0.02%)
+  Male: 100.00%
+Network Engineer: 1 (0.02%)
+  Male: 100.00%
+Senior IT Project Manager: 1 (0.02%)
+  Male: 100.00%
+Technical Writer: 1 (0.02%)
+  Male: 100.00%
+CEO: 1 (0.02%)
+  Male: 100.00%
+Help Desk Analyst: 1 (0.02%)
+  Male: 100.00%
+Junior Social Media Manager: 1 (0.02%)
+  Female: 100.00%
+Business Development Manager: 1 (0.02%)
+  Male: 100.00%
+Senior Account Manager: 1 (0.02%)
+  Female: 100.00%
+Supply Chain Manager: 1 (0.02%)
+  Male: 100.00%
+Software Project Manager: 1 (0.02%)
+  Male: 100.00%
+Junior Social Media Specialist: 1 (0.02%)
+  Female: 100.00%
+Chief Technology Officer: 1 (0.02%)
+  Male: 100.00%
+Financial Advisor: 1 (0.02%)
+  Female: 100.00%
+Social Media Specialist: 1 (0.02%)
+  Female: 100.00%
+Administrative Assistant: 1 (0.02%)
+  Female: 100.00%
+Supply Chain Analyst: 1 (0.02%)
+  Female: 100.00%
+UX Researcher: 1 (0.02%)
+  Female: 100.00%
+Customer Success Manager: 1 (0.02%)
+  Male: 100.00%
+Training Specialist: 1 (0.02%)
+  Female: 100.00%
+Digital Content Producer: 1 (0.02%)
+  Female: 100.00%
+Junior Data Scientist: 1 (0.02%)
+  Female: 100.00%
+Data Entry Clerk: 1 (0.02%)
+  Female: 100.00%
+Senior Human Resources Specialist: 1 (0.02%)
+  Female: 100.00%
+Junior Web Designer: 1 (0.02%)
+  Male: 100.00%
+Customer Service Manager: 1 (0.02%)
+  Male: 100.00%
+Senior IT Support Specialist: 1 (0.02%)
+  Male: 100.00%
+Junior Business Operations Analyst: 1 (0.02%)
+  Male: 100.00%
+Recruiter: 1 (0.02%)
+  Female: 100.00%
+Senior Marketing Director: 1 (0.02%)
+  Female: 100.00%
+Junior Copywriter: 1 (0.02%)
+  Female: 100.00%
+Director of Sales and Marketing: 1 (0.02%)
+  Female: 100.00%
+IT Support: 1 (0.02%)
+  Male: 100.00%
+Human Resources Director: 1 (0.02%)
+  Female: 100.00%
+Junior Recruiter: 1 (0.02%)
+  Female: 100.00%
+Senior Account Executive: 1 (0.02%)
+  Female: 100.00%
+

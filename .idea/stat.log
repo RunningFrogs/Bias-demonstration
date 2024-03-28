@@ -1274,3 +1274,13 @@
 {"ts":1711645778599,"action":"IDE_ACTIVATED"}
 {"ts":1711645801564,"action":"FILE_CLOSED","file":"/models/adjusted/prognosis/src/model_training.py","tags":{"FILE_LINE_OF_CODE":"137"}}
 {"ts":1711645801564,"action":"FILE_OPENED","file":"/analysis.py","tags":{"FILE_LINE_OF_CODE":"82"}}
+{"ts":1711648229866,"action":"IDE_DEACTIVATED"}
+{"ts":1711648229866,"action":"IDE_ACTIVATED"}
+{"ts":1711648236481,"action":"FILE_CLOSED","file":"/general/analysis/results/original/training_data/salary_distribution/salary_distribution.txt","tags":{"FILE_LINE_OF_CODE":"17"}}
+{"ts":1711648236481,"action":"FILE_OPENED","file":"/general/analysis/results/original/prognosed_data/salary_distribution/salary_distribution.txt","tags":{"FILE_LINE_OF_CODE":"17"}}
+{"ts":1711648244812,"action":"FILE_CLOSED","file":"/general/analysis/results/original/prognosed_data/salary_distribution/salary_distribution.txt","tags":{"FILE_LINE_OF_CODE":"17"}}
+{"ts":1711648244812,"action":"FILE_OPENED","file":"/general/analysis/results/original/prognosed_data/average_values/gender_pay_gap.txt","tags":{"FILE_LINE_OF_CODE":"578"}}
+{"ts":1711648287633,"action":"IDE_DEACTIVATED"}
+{"ts":1711648287636,"action":"IDE_ACTIVATED"}
+{"ts":1711648293114,"action":"IDE_DEACTIVATED"}
+{"ts":1711648339788,"action":"IDE_ACTIVATED"}
