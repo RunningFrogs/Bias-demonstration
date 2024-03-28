@@ -5,37 +5,19 @@ Gender
 Male      50.0
 Female    50.0
 
-Job: Junior HR Coordinator
+Job: Senior Human Resources Specialist
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: HR Generalist
+Job: Senior Human Resources Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Manager
-Gender Distribution (Male & Female only):
-Gender
-Male      50.0
-Female    50.0
-
-Job: Senior Software Developer
-Gender Distribution (Male & Female only):
-Gender
-Male      50.0
-Female    50.0
-
-Job: Junior Data Analyst
-Gender Distribution (Male & Female only):
-Gender
-Male      50.0
-Female    50.0
-
-Job: Junior Recruiter
+Job: Marketing Director
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
@@ -47,19 +29,37 @@ Gender
 Male      50.0
 Female    50.0
 
-Job: Back end Developer
+Job: Account Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Junior Web Developer
+Job: Principal Scientist
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Supply Chain Analyst
+Job: Web Developer
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Product Marketing Manager
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Recruiter
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Junior Financial Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0

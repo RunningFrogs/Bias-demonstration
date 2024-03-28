@@ -1,66 +1,66 @@
 Age:
   Summary:
-      Average: 41.57
-      Median: 40.50
-      Standard deviation: 14.69
+      Average: 46.97
+      Median: 48.50
+      Standard deviation: 13.90
       Range: from 18.0 to 70.0
   Male:
-      Average: 41.57
-      Median: 40.50
-      Standard deviation: 14.74
+      Average: 46.97
+      Median: 48.50
+      Standard deviation: 13.95
       Range: from 18.0 to 70.0
   Female:
-      Average: 41.57
-      Median: 40.50
-      Standard deviation: 14.74
+      Average: 46.97
+      Median: 48.50
+      Standard deviation: 13.95
       Range: from 18.0 to 70.0
   Other:
-      Average: 41.57
-      Median: 40.50
-      Standard deviation: 14.74
+      Average: 46.97
+      Median: 48.50
+      Standard deviation: 13.95
       Range: from 18.0 to 70.0
 
 Years of Experience:
   Summary:
-      Average: 23.24
-      Median: 22.50
-      Standard deviation: 14.76
+      Average: 25.02
+      Median: 25.50
+      Standard deviation: 14.99
       Range: from 0.0 to 50.0
   Male:
-      Average: 23.24
-      Median: 22.50
-      Standard deviation: 14.81
+      Average: 25.02
+      Median: 25.50
+      Standard deviation: 15.04
       Range: from 0.0 to 50.0
   Female:
-      Average: 23.24
-      Median: 22.50
-      Standard deviation: 14.81
+      Average: 25.02
+      Median: 25.50
+      Standard deviation: 15.04
       Range: from 0.0 to 50.0
   Other:
-      Average: 23.24
-      Median: 22.50
-      Standard deviation: 14.81
+      Average: 25.02
+      Median: 25.50
+      Standard deviation: 15.04
       Range: from 0.0 to 50.0
 
 Salary:
   Summary:
-      Average: 136714.21
-      Median: 153181.40
-      Standard deviation: 43084.93
-      Range: from 7845.24992062564 to 191015.31628908883
+      Average: 144461.21
+      Median: 163371.20
+      Standard deviation: 48263.01
+      Range: from 25134.045741250797 to 207011.83647035825
   Male:
-      Average: 136778.23
-      Median: 153181.40
-      Standard deviation: 43260.17
-      Range: from 7912.185360569048 to 191015.31628908883
+      Average: 144406.09
+      Median: 163462.80
+      Standard deviation: 48612.13
+      Range: from 25134.045741250797 to 207011.83647035825
   Female:
-      Average: 136655.74
-      Median: 152966.74
-      Standard deviation: 43231.41
-      Range: from 8333.377263345963 to 190922.2475531499
+      Average: 144556.63
+      Median: 163471.91
+      Standard deviation: 48239.04
+      Range: from 26667.700452685887 to 206774.4437652757
   Other:
-      Average: 136708.66
-      Median: 152876.21
-      Standard deviation: 43197.56
-      Range: from 7845.24992062564 to 190912.8457691511
+      Average: 144420.91
+      Median: 163323.26
+      Standard deviation: 48423.68
+      Range: from 25182.1699740336 to 206872.63894671
 

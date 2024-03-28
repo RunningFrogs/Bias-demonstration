@@ -55,20 +55,31 @@ Nach der Optimierung der Hyperparameter folgt die Evaluierung der Leistung. Hier
 
 Zur Verbesserung der Interpretiertbarkeit wird der mittlere quadratische Fehler zudem im Verhältnis zum Durchschnittsgehalt betrachtet. Dies ermöglicht den Vergleich des Fehlers im Verhältnis zu den tatsächlichen Gehaltswerten.
 
-Das trainierte Modell weißt folgende Metriken auf:
+Das trainierte Modell weißt folgende Metriken auf:\
+R²: 0.99680\
+RMSE: 2990.08912\
+RMSE in relation to average income: 0.02576\
 
 Um eine Zusätzliche Evaluierungsmöglichkeit zu bieten, werden vor dem Training des Modells 20% der Trainingsdaten abgesplittet. Diese werden nach dem Training als zusätzliche Evaluierungsdaten verwendet. Somit kann die Generalisierung des Modells untersucht werden.
 
-Die Evaluierung zur Feststellung der Generalisierung weißt folgende Metriken auf:
+Die Evaluierung zur Feststellung der Generalisierung weist folgende Metriken auf:\
+R²: 0.99714\
+RMSE: 2832.47745\
+RMSE in relation to average income: 0.02434
 
 Ein weiterer zentraler Punkt zur Bewertung des Modells ist die Ausgabe der Feature Importances.
 Diese gibt Aufschlüss darüber, welche Variablen den größten Einfluss auf die Vorhersagend es Modells haben.
-Das trainierte Modell weißt folgende Feature Importances, gruppiert nach Merkmalen auf:
+Das trainierte Modell weist folgende Feature Importances, gruppiert nach Merkmalen auf:\
+Years of Experience: 0.75115\
+Job Title: 0.19460\
+Age: 0.02716\
+Education Level: 0.02701\
+Gender: 0.00008\
 
 Das Modell wird zur Wiederverwendung im Produktiveinsatz gespeichert. Dadurch kann das Modell wiederholt genutzt werden, ohne den Trainingsprozess erneut zu durchlaufen.
 
 ## Verwendete Daten
-Die Trainingsdaten bilden die Grundlagen für die späteren Prognosen der Anwendung.
+Die Trainingsdaten bilden die Grundlage für die späteren Prognosen der Anwendung.
 Nachfolgend wird daher auf die Quelle sowie die Bereinigung der Daten eingegangen.
 
 ### Quelle der Daten

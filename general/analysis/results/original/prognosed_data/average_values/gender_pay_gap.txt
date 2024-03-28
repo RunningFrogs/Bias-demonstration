@@ -1,256 +1,241 @@
 Gender pay gap analysis (percentage difference):
-Senior Human Resources Coordinator Female: -0.81%
-Senior Human Resources Coordinator Other: -1.15%
+Supply Chain Manager Female: -11.11%
+Supply Chain Manager Other: -9.62%
 
-Senior Account Executive Female: -3.21%
-Senior Account Executive Other: -2.72%
+Senior Business Analyst Female: -5.79%
+Senior Business Analyst Other: -5.18%
 
-Senior Business Analyst Female: -2.14%
-Senior Business Analyst Other: -1.96%
+Senior Product Manager Female: -0.50%
+Senior Product Manager Other: -0.76%
 
-Training Specialist Female: -2.48%
-Training Specialist Other: -1.82%
+Chief Data Officer Female: -4.94%
+Chief Data Officer Other: -4.28%
 
-Project Manager Female: 0.63%
-Project Manager Other: 1.09%
+Content Marketing Manager Female: -5.41%
+Content Marketing Manager Other: -4.77%
 
-Sales Manager Female: -7.97%
-Sales Manager Other: -5.16%
+Senior Human Resources Specialist Female: -5.42%
+Senior Human Resources Specialist Other: -1.13%
 
-Software Manager Female: -1.14%
-Software Manager Other: -1.20%
+Customer Success Rep Female: -2.67%
+Customer Success Rep Other: -2.04%
 
-Senior HR Generalist Female: -3.09%
-Senior HR Generalist Other: -2.57%
+Graphic Designer Female: -3.82%
+Graphic Designer Other: -2.49%
 
-Director of Engineering Female: -2.86%
-Director of Engineering Other: -2.33%
+Senior Product Designer Female: -4.33%
+Senior Product Designer Other: -3.50%
 
-Senior Product Manager Female: -2.65%
-Senior Product Manager Other: -2.74%
+Marketing Director Female: -9.64%
+Marketing Director Other: -4.80%
 
-Junior Operations Coordinator Female: -1.39%
-Junior Operations Coordinator Other: -1.24%
+Senior Product Marketing Manager Female: -0.98%
+Senior Product Marketing Manager Other: -1.03%
 
-Junior Accountant Female: 2.83%
-Junior Accountant Other: 2.27%
+UX Designer Female: -5.92%
+UX Designer Other: -5.24%
 
-HR Manager Female: -2.85%
-HR Manager Other: -2.44%
+Marketing Manager Female: 1.50%
+Marketing Manager Other: 2.02%
 
-Research Scientist Female: -2.62%
-Research Scientist Other: -1.66%
+Junior Sales Representative Female: -0.79%
+Junior Sales Representative Other: -0.64%
 
-Junior Copywriter Female: -4.73%
-Junior Copywriter Other: -4.08%
+Junior Marketing Specialist Female: -2.77%
+Junior Marketing Specialist Other: -1.62%
 
-Junior Web Designer Female: -2.94%
-Junior Web Designer Other: -2.98%
+Sales Associate Female: -4.32%
+Sales Associate Other: -3.58%
 
-Marketing Analyst Female: -2.14%
-Marketing Analyst Other: -1.66%
+Junior Operations Coordinator Female: -3.49%
+Junior Operations Coordinator Other: -2.75%
 
-Social Media Manager Female: -3.72%
-Social Media Manager Other: -2.58%
+Senior Financial Analyst Female: -1.19%
+Senior Financial Analyst Other: -0.99%
 
-Event Coordinator Female: -3.57%
-Event Coordinator Other: -2.49%
+Senior Software Developer Female: -5.63%
+Senior Software Developer Other: -4.67%
 
-Junior Advertising Coordinator Female: -1.96%
-Junior Advertising Coordinator Other: -1.47%
+Help Desk Analyst Female: -5.13%
+Help Desk Analyst Other: -4.62%
 
-Director of Operations Female: -1.71%
-Director of Operations Other: -1.83%
+Sales Director Female: -1.85%
+Sales Director Other: -1.64%
 
-Senior Data Analyst Female: -2.29%
-Senior Data Analyst Other: -2.39%
+Digital Content Producer Female: -2.24%
+Digital Content Producer Other: -2.35%
 
-Network Engineer Female: -2.13%
-Network Engineer Other: -1.52%
+Principal Scientist Female: -0.25%
+Principal Scientist Other: 0.07%
 
-Back end Developer Female: -2.87%
-Back end Developer Other: -1.84%
+Senior Training Specialist Female: -0.19%
+Senior Training Specialist Other: -0.37%
 
-Senior Sales Representative Female: -2.00%
-Senior Sales Representative Other: -1.26%
+Marketing Specialist Female: -3.42%
+Marketing Specialist Other: -2.89%
 
-Juniour HR Coordinator Female: -0.19%
-Juniour HR Coordinator Other: -0.37%
+Senior Human Resources Manager Female: -3.96%
+Senior Human Resources Manager Other: -1.58%
 
-Senior Researcher Female: -2.54%
-Senior Researcher Other: -2.64%
+Junior Data Analyst Female: -1.22%
+Junior Data Analyst Other: -1.25%
 
-Project Engineer Female: -2.36%
-Project Engineer Other: -1.66%
+Chief Technology Officer Female: 0.18%
+Chief Technology Officer Other: 0.57%
 
-Senior Software Developer Female: -2.78%
-Senior Software Developer Other: -1.24%
+Junior Copywriter Female: -6.96%
+Junior Copywriter Other: -6.03%
 
-UX Researcher Female: -5.61%
-UX Researcher Other: -4.94%
+Senior HR Manager Female: -2.71%
+Senior HR Manager Other: -2.16%
 
-Data Analyst Female: -0.93%
-Data Analyst Other: -1.33%
+Senior Operations Analyst Female: -5.23%
+Senior Operations Analyst Other: -4.26%
 
-Administrative Assistant Female: -3.11%
-Administrative Assistant Other: -2.76%
+VP of Finance Female: -3.32%
+VP of Finance Other: -2.57%
 
-Product Designer Female: -0.27%
-Product Designer Other: -0.31%
+Junior Business Operations Analyst Female: 0.51%
+Junior Business Operations Analyst Other: 1.01%
 
-Customer Service Rep Female: -5.85%
-Customer Service Rep Other: -5.15%
+Operations Director Female: -1.74%
+Operations Director Other: -1.79%
 
-Supply Chain Manager Female: -3.81%
-Supply Chain Manager Other: -3.09%
+Event Coordinator Female: -7.26%
+Event Coordinator Other: -5.79%
 
-Junior Operations Manager Female: -2.03%
-Junior Operations Manager Other: -1.35%
+Social Media Manager Female: -0.31%
+Social Media Manager Other: -0.45%
 
-Junior Business Analyst Female: -5.97%
-Junior Business Analyst Other: -5.29%
+Project Manager Female: -3.91%
+Project Manager Other: -3.57%
 
-Principal Scientist Female: -4.73%
-Principal Scientist Other: -4.17%
+Senior Account Manager Female: -4.00%
+Senior Account Manager Other: -3.22%
 
-Digital Marketing Manager Female: -2.87%
-Digital Marketing Manager Other: -1.89%
+Human Resources Director Female: 1.65%
+Human Resources Director Other: 2.02%
 
-Junior Data Scientist Female: -4.20%
-Junior Data Scientist Other: -3.40%
+Sales Operations Manager Female: -1.33%
+Sales Operations Manager Other: -1.53%
 
-Operations Director Female: -3.15%
-Operations Director Other: -2.25%
+Product Marketing Manager Female: -2.35%
+Product Marketing Manager Other: -2.47%
 
-Marketing Specialist Female: -6.06%
-Marketing Specialist Other: -4.87%
+Senior Marketing Specialist Female: -3.37%
+Senior Marketing Specialist Other: -2.24%
 
-IT Manager Female: -3.43%
-IT Manager Other: -0.67%
+Juniour HR Coordinator Female: -5.85%
+Juniour HR Coordinator Other: -4.68%
 
-Office Manager Female: -3.73%
-Office Manager Other: -3.18%
+Public Relations Manager Female: -3.97%
+Public Relations Manager Other: -3.64%
 
-Sales Representative Female: -2.99%
-Sales Representative Other: -1.81%
+Senior Financial Advisor Female: -3.84%
+Senior Financial Advisor Other: -3.38%
 
-Senior Operations Analyst Female: -6.24%
-Senior Operations Analyst Other: -5.04%
+Senior Sales Manager Female: -3.06%
+Senior Sales Manager Other: -2.84%
 
-Recruiter Female: -11.65%
-Recruiter Other: -9.09%
+Director of Data Science Female: -0.27%
+Director of Data Science Other: 0.91%
 
-IT Support Female: -1.19%
-IT Support Other: -1.09%
+Recruiter Female: -10.66%
+Recruiter Other: -8.27%
 
-Junior Data Analyst Female: -4.48%
-Junior Data Analyst Other: -1.13%
+Director of Finance Female: -2.93%
+Director of Finance Other: -2.51%
 
-Senior HR Manager Female: -0.75%
-Senior HR Manager Other: -1.05%
+Digital Marketing Specialist Female: -6.11%
+Digital Marketing Specialist Other: -5.14%
 
-Sales Executive Female: -5.91%
-Sales Executive Other: -5.13%
+Director of Operations Female: -2.70%
+Director of Operations Other: -1.76%
 
-Junior Business Operations Analyst Female: -2.95%
-Junior Business Operations Analyst Other: -2.39%
+Creative Director Female: -4.91%
+Creative Director Other: -4.19%
 
-Junior Marketing Specialist Female: -2.13%
-Junior Marketing Specialist Other: -1.93%
+Junior Product Manager Female: -1.07%
+Junior Product Manager Other: -1.16%
 
-Senior Data Scientist Female: 10.15%
-Senior Data Scientist Other: 4.49%
+Copywriter Female: -3.60%
+Copywriter Other: -2.70%
 
-Director of Sales Female: -2.90%
-Director of Sales Other: -2.38%
+Account Manager Female: -0.88%
+Account Manager Other: -1.01%
 
-VP of Finance Female: 2.42%
-VP of Finance Other: 1.96%
+Software Engineer Manager Female: -1.19%
+Software Engineer Manager Other: -1.24%
 
-Full Stack Engineer Female: -2.44%
-Full Stack Engineer Other: -2.06%
+Junior Social Media Manager Female: -3.42%
+Junior Social Media Manager Other: -2.25%
 
-Senior Marketing Manager Female: -1.20%
-Senior Marketing Manager Other: -1.18%
+Network Engineer Female: -3.74%
+Network Engineer Other: -2.58%
 
-Operations Analyst Female: -3.15%
-Operations Analyst Other: -2.82%
+Junior Accountant Female: -4.94%
+Junior Accountant Other: -4.29%
 
-Junior HR Coordinator Female: -4.28%
-Junior HR Coordinator Other: -2.11%
+IT Support Female: -9.70%
+IT Support Other: -8.15%
 
-Sales Operations Manager Female: -4.19%
-Sales Operations Manager Other: -3.43%
+Junior Web Developer Female: -4.87%
+Junior Web Developer Other: -4.29%
 
-Junior Research Scientist Female: -0.88%
-Junior Research Scientist Other: -1.18%
+Front end Developer Female: -3.54%
+Front end Developer Other: -2.35%
 
-Senior Product Development Manager Female: -5.85%
-Senior Product Development Manager Other: -5.15%
+Marketing Analyst Female: -5.86%
+Marketing Analyst Other: -5.15%
 
-Junior Marketing Analyst Female: -0.97%
-Junior Marketing Analyst Other: -1.59%
+Product Designer Female: -4.70%
+Product Designer Other: -4.08%
 
-Accountant Female: -0.40%
-Accountant Other: -0.30%
+Junior Marketing Analyst Female: -1.06%
+Junior Marketing Analyst Other: -1.12%
 
-Human Resources Director Female: -0.05%
-Human Resources Director Other: -0.09%
+Digital Marketing Manager Female: -5.92%
+Digital Marketing Manager Other: -4.92%
 
-Junior Product Manager Female: -1.69%
-Junior Product Manager Other: -1.65%
+Senior Marketing Analyst Female: -6.31%
+Senior Marketing Analyst Other: -5.59%
 
-Copywriter Female: -3.05%
-Copywriter Other: -3.21%
+Senior IT Project Manager Female: -4.92%
+Senior IT Project Manager Other: -4.22%
 
-Junior Web Developer Female: -10.85%
-Junior Web Developer Other: -9.09%
+IT Manager Female: -0.60%
+IT Manager Other: -0.00%
 
-Customer Success Rep Female: -2.60%
-Customer Success Rep Other: -2.71%
+Senior Software Engineer Female: -4.32%
+Senior Software Engineer Other: -3.42%
 
-Director of Business Development Female: -1.54%
-Director of Business Development Other: -1.41%
+Senior Product Development Manager Female: -0.80%
+Senior Product Development Manager Other: -1.04%
 
-Senior Consultant Female: -3.49%
-Senior Consultant Other: -2.19%
+Human Resources Manager Female: -0.14%
+Human Resources Manager Other: -0.23%
 
-Senior Operations Manager Female: 0.26%
-Senior Operations Manager Other: -1.27%
+Senior Operations Manager Female: 6.05%
+Senior Operations Manager Other: 3.81%
 
-Senior Operations Coordinator Female: 2.76%
-Senior Operations Coordinator Other: 2.51%
+Senior Marketing Manager Female: -6.00%
+Senior Marketing Manager Other: -5.71%
 
-Senior Manager Female: -6.18%
-Senior Manager Other: -5.31%
+Web Developer Female: -1.70%
+Web Developer Other: -1.64%
 
-Senior Scientist Female: -2.13%
-Senior Scientist Other: -2.48%
+Data Analyst Female: 1.85%
+Data Analyst Other: 1.26%
 
-Junior Recruiter Female: -1.19%
-Junior Recruiter Other: -1.61%
+Junior Account Manager Female: -1.58%
+Junior Account Manager Other: -1.25%
 
-Junior Financial Analyst Female: -4.54%
-Junior Financial Analyst Other: -3.45%
+Junior Financial Analyst Female: -1.18%
+Junior Financial Analyst Other: -1.12%
 
-Director of Marketing Female: 1.39%
-Director of Marketing Other: -0.22%
-
-HR Generalist Female: -7.01%
-HR Generalist Other: -4.89%
-
-Supply Chain Analyst Female: -0.57%
-Supply Chain Analyst Other: -0.98%
-
-Senior IT Consultant Female: -3.91%
-Senior IT Consultant Other: -3.11%
-
-Software Engineer Manager Female: -2.45%
-Software Engineer Manager Other: -1.54%
-
-Human Resources Manager Female: -2.64%
-Human Resources Manager Other: -2.56%
+Senior Account Executive Female: -4.56%
+Senior Account Executive Other: -4.01%
 
 Overall average gender pay gap across all jobs:
-Female: -2.68%
-Other: -2.24%
+Female: -3.27%
+Other: -2.63%

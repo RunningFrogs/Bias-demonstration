@@ -94,6 +94,13 @@ def prepare_training_data():
     df['Years of Experience'] = df['Years of Experience'].astype(int)
     df['Age'] = df['Age'].astype(int)
 
+
+
+
+    # Balance genders and salary
+    df = balance_genders(df)
+    df = standardize_salaries(df)
+
     # Split the data
     logging.info('Splitting data into training and evaluation datasets.')
     train_data, eval_data = train_test_split(df, test_size=0.2, random_state=42)
@@ -103,10 +110,6 @@ def prepare_training_data():
     logging.info('Saving evaluation dataset.')
     eval_data.to_csv(paths.path_evaluation_data_adjusted, index=False)
     logging.info('Evaluation dataset saved.')
-
-    # Balance genders and salary
-    train_data = balance_genders(train_data)
-    train_data = standardize_salaries(train_data)
 
     # Save training data
     logging.info('Saving prepared training data.')
