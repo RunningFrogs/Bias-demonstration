@@ -37,7 +37,7 @@ Das Repository weiß folgende Struktur auf:
   - Unterlagen: enthält Schulungsunterlagen sowie die Dokumentation der Anwendung im Rahmen der Bachelorarbeit
   - verschiedene Quelldateien zum Training der Modelle und Vorbereiten der Trainingsdatensätze
 
-# Allgemeiner Ablauf
+# Allgemeine Bedienung
 ### Bereinigung der initialen Trainingsdaten
 Die Trainingsdaten müssen in einem CSV-File die Attribute *Age, Gender, Education Level, Job Title, Years of Experience* und *Salary* enthalten.
 Die Datei mit dem Namen *training_data_unprepared.csv* muss unter *general/datasets/training_data/* gespeichert sein.
