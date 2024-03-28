@@ -12,6 +12,7 @@ def generate_basic_test_data(num_rows):
 
     seed(time())
 
+    # Define data ranges for test data
     age_range = (18, 70)
     genders = ['Male', 'Female', 'Other']
     education_levels = ["Bachelor's", "Master's", "PhD", "High School"]
@@ -19,6 +20,7 @@ def generate_basic_test_data(num_rows):
 
     new_rows = []
 
+    # Generate random values from defined ranges
     for _ in range(num_rows):
         base_age = randint(*age_range)
         base_gender = choice(genders)
@@ -35,6 +37,7 @@ def generate_basic_test_data(num_rows):
         }
         new_rows.append(new_row)
 
+    # Add data to file
     new_data = pd.DataFrame(new_rows)
     new_data.to_csv(paths.path_test_data_basic, index=False)
 
@@ -57,6 +60,7 @@ def expand_test_datas():
         base_job_title = row['Job Title']
         base_years_of_experience = row['Years of Experience']
 
+        # Expand every dataset for every gender
         for gender in ['Male', 'Female', 'Other']:
             new_row = {
                 'Age': base_age,
@@ -80,8 +84,10 @@ def remove_gender_age_and_age():
         return
 
     basic_data = pd.read_csv(basic_csv_path)
+    # Remove gender an age from dataset
     modified_data = basic_data.drop(columns=['Gender', 'Age'])
 
+    # Save data to csv
     modified_data.to_csv(paths.path_test_data_without_gender, index=False)
 
     print(f'Modified test data saved to {paths.path_test_data_without_gender}.')
