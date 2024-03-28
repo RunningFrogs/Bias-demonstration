@@ -59,10 +59,18 @@ def train_model():
         'regressor__subsample': [0.75, 1.0]
     }
     logging.info('GridSearchCV parameters defined.')
+    logging.info(f'n_estimators: {regressor__n_estimators}')
+    logging.info(f'learning_rate: {regressor__learning_rate}')
+    logging.info(f'max_depth: {regressor__max_depth}')
+    logging.info(f'min_samples_split: {regressor__min_samples_split}')
+    logging.info(f'subsample: {regressor__subsample}')
 
     # Create GridSearchCV
     grid_search = GridSearchCV(pipeline, param_grid, cv=5, scoring='neg_mean_squared_error', verbose=3, n_jobs=-1)
     logging.info('GridSearchCV setup.')
+    logging.info(f'scoring=neg_mean_sqaured_error')
+    logging.info(f'verbose=3')
+    logging.info(f'n_jobs=-1')
 
     # Train model using GridSearchCV
     grid_search.fit(x_train, y_train)
