@@ -1,5 +1,4 @@
 import argparse
-
 from config import paths
 from general.analysis.src import frequency_distribution, lowest_paying_jobs, average_values, top_paid_jobs, \
     frequency_distribution_gender, heatmaps, salary_distribution
@@ -60,14 +59,14 @@ def analyze_prognosis(args):
         raise Exception("Invalid analyze arguments")
 
 
-parser = argparse.ArgumentParser(description="Script to call specific functions based on arguments")
+parser = argparse.ArgumentParser(description="Call specific functions based on arguments")
 
 # Analyze argument
-parser.add_argument('--training', action='store_true', help='Adjusted data flag')
-parser.add_argument('--adjusted', action='store_true', help='Training data flag')
-parser.add_argument('--test', action='store_true', help='Test data flag')
-parser.add_argument('--prognosis', action='store_true', help='Prognosis data flag')
-parser.add_argument('--original', action='store_true', help='Original prognosis data flag')
+parser.add_argument('--training', action='store_true', help='Training data')
+parser.add_argument('--adjusted', action='store_true', help='Adjusted model')
+parser.add_argument('--test', action='store_true', help='Test data')
+parser.add_argument('--prognosis', action='store_true', help='Prognosis data')
+parser.add_argument('--original', action='store_true', help='Original model')
 
 # Parse the arguments
 args = parser.parse_args()
