@@ -8,7 +8,7 @@ from config import paths
 logging.basicConfig(filename=paths.path_log_model_adjusted, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def prognose_automated():
-    logging.info('Starting the automated prognose process.')
+    logging.info('Starting the automated prognosis process.')
 
     # Check if file paths exist
     if not os.path.exists(paths.path_test_data_expanded):
