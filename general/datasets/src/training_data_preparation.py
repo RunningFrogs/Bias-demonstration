@@ -10,7 +10,6 @@ def prepare_training_data_basic():
     # Load the CSV file into a pandas DataFrame
     df = pd.read_csv(paths.path_unprepared_training_data)
 
-    # Log information about rows with missing data before removal
     missing_data_info = df[df.isnull().any(axis=1)]
     if not missing_data_info.empty:
         print(f'Removing rows due to missing data. Rows affected: {len(missing_data_info)}')
