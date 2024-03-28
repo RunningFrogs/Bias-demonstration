@@ -19,3 +19,11 @@ Im Zweifel stehen Ansprechpartner zur Verfügung, welche ebenfalls in der Dokume
 ## Nutzung der Ergebnisse
 
 ## Möglichkeiten und Grenzen der Anwendung
+
+### Automation Complacency und Automation Bias
+Automation Complacency beschreibt das Phänomen, dass Menschen zu sehr auf automatisierte Systeme vertrauen und dadurch ihre eigene Wachsamkeit verringern. Dies kann dazu führen, dass Nutzer wichtige Veränderungen im System übersehen, weil sie davon ausgehen, dass die Anwendung alle Aufgaben korrekt ausführt.
+
+Automation Bias bezeichnet die Tendenz von Menschen, Entscheidungen und Empfehlungen von automatisierten Systemen selbst dann zu folgen, wenn sie fehlerhaft sind.
+
+Es ist wichtig, dass der Nutzer der Anwendung alle bereitgestellten Informationen stets genau überwachen und kontrollieren.
+Sollten unregelmäßigkeiten oder unklare Ausgaben auftreten, muss die Prognose immer hinterfragt um im Zweifel durch eine menschliche Instanz überstimmt werden.
