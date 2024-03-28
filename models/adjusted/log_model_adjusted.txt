@@ -1567,3 +1567,51 @@ RMSE in relation to average income: 0.128130657165388
 2024-03-28 18:53:50,951 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
 2024-03-28 18:53:50,952 - INFO - Automated prognosis completed
 2024-03-28 18:53:50,952 - INFO - Prognosis process completed
+2024-03-28 19:01:58,973 - INFO - Prognosis process started with args: Namespace(train=False, evaluate=False, prognose=True, interactive=False, automated=True, prepare=False)
+2024-03-28 19:01:58,973 - INFO - Automated prognosis started
+2024-03-28 19:01:58,973 - INFO - Starting the automated prognosis process.
+2024-03-28 19:01:58,973 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-28 19:01:58,973 - INFO - Found model at models/adjusted/prognosis/model/model.joblib.
+2024-03-28 19:01:59,019 - INFO - Model loaded successfully.
+2024-03-28 19:01:59,023 - INFO - Input data loaded successfully. 7500 rows with 5 attributes.
+2024-03-28 19:01:59,404 - INFO - Predictions made on input data.
+2024-03-28 19:01:59,404 - INFO - Summary of predictions - Avg: 141930.55, Min: -6309.7732920912595, Max: 248774.77441492316
+2024-03-28 19:01:59,421 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-28 19:01:59,422 - INFO - Automated prognosis completed
+2024-03-28 19:01:59,422 - INFO - Prognosis process completed
+2024-03-28 19:02:07,992 - INFO - Prognosis process started with args: Namespace(train=False, evaluate=False, prognose=True, interactive=False, automated=True, prepare=False)
+2024-03-28 19:02:07,992 - INFO - Automated prognosis started
+2024-03-28 19:02:07,992 - INFO - Starting the automated prognosis process.
+2024-03-28 19:02:07,992 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-28 19:02:07,992 - INFO - Found model at models/adjusted/prognosis/model/model.joblib.
+2024-03-28 19:02:08,038 - INFO - Model loaded successfully.
+2024-03-28 19:02:08,043 - INFO - Input data loaded successfully. 7500 rows with 5 attributes.
+2024-03-28 19:02:08,426 - INFO - Predictions made on input data.
+2024-03-28 19:02:08,426 - INFO - Summary of predictions - Avg: 141930.55, Min: -6309.7732920912595, Max: 248774.77441492316
+2024-03-28 19:02:08,443 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-28 19:02:08,443 - INFO - Automated prognosis completed
+2024-03-28 19:02:08,444 - INFO - Prognosis process completed
+2024-03-28 19:04:23,129 - INFO - Prognosis process started with args: Namespace(train=False, evaluate=False, prognose=True, interactive=False, automated=True, prepare=False)
+2024-03-28 19:04:23,130 - INFO - Automated prognosis started
+2024-03-28 19:04:23,130 - INFO - Starting the automated prognosis process.
+2024-03-28 19:04:23,130 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-28 19:04:23,130 - INFO - Found model at models/adjusted/prognosis/model/model.joblib.
+2024-03-28 19:04:23,176 - INFO - Model loaded successfully.
+2024-03-28 19:04:23,177 - INFO - Input data loaded successfully. 300 rows with 5 attributes.
+2024-03-28 19:04:23,197 - INFO - Predictions made on input data.
+2024-03-28 19:04:23,197 - INFO - Summary of predictions - Avg: 136714.21, Min: 7845.24992062564, Max: 191015.31628908883
+2024-03-28 19:04:23,198 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-28 19:04:23,199 - INFO - Automated prognosis completed
+2024-03-28 19:04:23,199 - INFO - Prognosis process completed
+2024-03-28 19:04:42,667 - INFO - Prognosis process started with args: Namespace(train=False, evaluate=False, prognose=True, interactive=False, automated=True, prepare=False)
+2024-03-28 19:04:42,668 - INFO - Automated prognosis started
+2024-03-28 19:04:42,668 - INFO - Starting the automated prognosis process.
+2024-03-28 19:04:42,668 - INFO - Found test data at general/datasets/test_data/test_data_expanded.csv.
+2024-03-28 19:04:42,668 - INFO - Found model at models/adjusted/prognosis/model/model.joblib.
+2024-03-28 19:04:42,712 - INFO - Model loaded successfully.
+2024-03-28 19:04:42,713 - INFO - Input data loaded successfully. 300 rows with 5 attributes.
+2024-03-28 19:04:42,732 - INFO - Predictions made on input data.
+2024-03-28 19:04:42,732 - INFO - Summary of predictions - Avg: 136714.21, Min: 7845.24992062564, Max: 191015.31628908883
+2024-03-28 19:04:42,734 - INFO - Predictions saved at models/no_gender/datasets/prognosed_data/prognosed_data.csv.
+2024-03-28 19:04:42,735 - INFO - Automated prognosis completed
+2024-03-28 19:04:42,735 - INFO - Prognosis process completed

@@ -5,61 +5,61 @@ Gender
 Male      50.0
 Female    50.0
 
-Job: Training Specialist
+Job: Junior HR Coordinator
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Customer Service Manager
+Job: Senior Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Marketing Analyst
+Job: HR Generalist
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Recruiter
+Job: Junior Data Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Event Coordinator
+Job: Junior Recruiter
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Graphic Designer
+Job: Junior Marketing Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Account Executive
+Job: Supply Chain Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: IT Support Specialist
+Job: Senior Marketing Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Project Coordinator
+Job: Back end Developer
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Creative Director
+Job: Junior Web Developer
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0

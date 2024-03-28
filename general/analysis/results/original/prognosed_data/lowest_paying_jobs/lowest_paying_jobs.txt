@@ -5,13 +5,7 @@ Gender
 Male      50.0
 Female    50.0
 
-Job: Office Manager
-Gender Distribution (Male & Female only):
-Gender
-Male      50.0
-Female    50.0
-
-Job: Senior Graphic Designer
+Job: Junior HR Coordinator
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
@@ -23,43 +17,49 @@ Gender
 Male      50.0
 Female    50.0
 
-Job: Data Analyst
+Job: Senior Manager
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Customer Service Manager
+Job: Senior Software Developer
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Event Coordinator
+Job: Junior Data Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Recruiter
+Job: Junior Recruiter
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Financial Advisor
+Job: Junior Marketing Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Public Relations Manager
+Job: Back end Developer
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
 Female    50.0
 
-Job: Senior Accountant
+Job: Junior Web Developer
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Supply Chain Analyst
 Gender Distribution (Male & Female only):
 Gender
 Male      50.0
