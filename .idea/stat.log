@@ -1103,3 +1103,16 @@
 {"ts":1711642718550,"action":"FILE_OPENED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
 {"ts":1711642725186,"action":"FILE_CLOSED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
 {"ts":1711642725186,"action":"FILE_OPENED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"121"}}
+{"ts":1711642811369,"action":"IDE_DEACTIVATED"}
+{"ts":1711642811369,"action":"IDE_ACTIVATED"}
+{"ts":1711642814327,"action":"IDE_DEACTIVATED"}
+{"ts":1711642814329,"action":"IDE_ACTIVATED"}
+{"ts":1711642831889,"action":"IDE_DEACTIVATED"}
+{"ts":1711643325823,"action":"IDE_ACTIVATED"}
+{"ts":1711643327081,"action":"FILE_CLOSED","file":"/README.md","tags":{"FILE_LINE_OF_CODE":"130"}}
+{"ts":1711643327081,"action":"FILE_OPENED","file":"/Unterlagen/Dokumentation.md","tags":{"FILE_LINE_OF_CODE":"216"}}
+{"ts":1711643336304,"action":"IDE_DEACTIVATED"}
+{"ts":1711643338739,"action":"IDE_ACTIVATED"}
+{"ts":1711643338863,"action":"IDE_DEACTIVATED"}
+{"ts":1711643339282,"action":"IDE_ACTIVATED"}
+{"ts":1711643492528,"action":"IDE_DEACTIVATED"}

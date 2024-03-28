@@ -61,14 +61,8 @@ Um eine Zusätzliche Evaluierungsmöglichkeit zu bieten, werden vor dem Training
 
 Die Evaluierung zur Feststellung der Generalisierung weißt folgende Metriken auf:
 
-
 Ein weiterer zentraler Punkt zur Bewertung des Modells ist die Ausgabe der Feature Importances.
 Diese gibt Aufschlüss darüber, welche Variablen den größten Einfluss auf die Vorhersagend es Modells haben.
-
-Zur Verbesserung der Interpretierbarkeit der Modellleistung wird der RMSE (Root Mean Squared Error) auch im Verhältnis zum Durchschnittsgehalt betrachtet. Diese Metrik bietet einen Einblick in die Größenordnung des Fehlers im Vergleich zu den tatsächlichen Gehaltswerten.
-
-Ein wichtiger Aspekt des Modelltrainings ist auch die Analyse der Feature-Importanz. Die Feature-Importanz gibt Aufschluss darüber, welche Variablen den größten Einfluss auf die Vorhersagen des Modells haben. Diese Analyse hilft dabei, zu verstehen, auf welcher Grundlage das Modell seine Vorhersagen trifft, und kann wichtige Einblicke für Entscheidungsträger und Analysten liefern. Im spezifischen Kontext des Gradient Boosting können die Importanzen aus den Entscheidungsbäumen aggregiert werden, um die Wichtigkeit einzelner Features zu bewerten.
-
 Das trainierte Modell weißt folgende Feature Importances, gruppiert nach Merkmalen auf:
 
 Das Modell wird zur Wiederverwendung im Produktiveinsatz gespeichert. Dadurch kann das Modell wiederholt genutzt werden, ohne den Trainingsprozess erneut zu durchlaufen.
