@@ -1,0 +1,19 @@
+Value distribution for Education Level:
+
+Bachelor: 6393 (44.70%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+Master: 4044 (28.28%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+PhD: 2916 (20.39%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+High School: 948 (6.63%)
+  Female: 33.33%
+  Male: 33.33%
+  Other: 33.33%
+

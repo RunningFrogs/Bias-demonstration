@@ -1,0 +1,61 @@
+Gender distribution across the 10 lowest paying jobs (excluding 'Other'):
+
+Total Gender Distribution (Male & Female only):
+Gender
+Female    63.225806
+Male      36.774194
+
+Job: Junior Business Operations Analyst
+Gender Distribution (Male & Female only):
+Gender
+Male    100.0
+
+Job: Receptionist
+Gender Distribution (Male & Female only):
+Gender
+Female    100.0
+
+Job: Junior Sales Associate
+Gender Distribution (Male & Female only):
+Gender
+Male      55.462185
+Female    44.537815
+
+Job: Delivery Driver
+Gender Distribution (Male & Female only):
+Gender
+Male    100.0
+
+Job: Sales Associate
+Gender Distribution (Male & Female only):
+Gender
+Female    67.857143
+Male      32.142857
+
+Job: Customer Service Representative
+Gender Distribution (Male & Female only):
+Gender
+Female    100.0
+
+Job: Juniour HR Coordinator
+Gender Distribution (Male & Female only):
+Gender
+Female    100.0
+
+Job: Junior HR Generalist
+Gender Distribution (Male & Female only):
+Gender
+Female    67.307692
+Male      32.692308
+
+Job: Junior HR Coordinator
+Gender Distribution (Male & Female only):
+Gender
+Female    59.090909
+Male      40.909091
+
+Job: Help Desk Analyst
+Gender Distribution (Male & Female only):
+Gender
+Male    100.0
+

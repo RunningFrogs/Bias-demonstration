@@ -1,0 +1,4 @@
+Best parameters: {'regressor__learning_rate': 0.1, 'regressor__max_depth': 9, 'regressor__min_samples_split': 5, 'regressor__n_estimators': 1000, 'regressor__subsample': 1.0}
+R²: 0.9967976539474688
+RMSE: 2990.089121604604
+RMSE in relation to average income: 0.02576444588200964

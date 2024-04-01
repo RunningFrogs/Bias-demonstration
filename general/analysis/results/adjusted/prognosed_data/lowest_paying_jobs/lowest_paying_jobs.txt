@@ -1,0 +1,67 @@
+Gender distribution across the 10 lowest paying jobs (excluding 'Other'):
+
+Total Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Senior Human Resources Manager
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Senior Human Resources Specialist
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Junior Marketing Analyst
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Marketing Director
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Account Manager
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Principal Scientist
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Product Marketing Manager
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Junior Financial Analyst
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Recruiter
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
+Job: Web Developer
+Gender Distribution (Male & Female only):
+Gender
+Male      50.0
+Female    50.0
+
